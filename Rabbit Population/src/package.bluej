@@ -1,6 +1,6 @@
 #BlueJ package file
-dependency1.from=Main
-dependency1.to=RabbitPopulation
+dependency1.from=src.Main
+dependency1.to=src.RabbitPopulation
 dependency1.type=UsesDependency
 editor.fx.0.height=0
 editor.fx.0.width=0
@@ -27,14 +27,14 @@ readme.width=48
 readme.x=10
 readme.y=10
 target1.height=70
-target1.name=RabbitPopulation
+target1.name=src.RabbitPopulation
 target1.showInterface=false
 target1.type=ClassTarget
 target1.width=120
 target1.x=70
 target1.y=10
 target2.height=70
-target2.name=Main
+target2.name=src.Main
 target2.showInterface=false
 target2.type=ClassTarget
 target2.width=120

@@ -1,5 +1,7 @@
+package src;
+
 /**
- * Main class
+ * src.Main class
  * 
  * @author Ari Camhi
  * @version 10/29/21

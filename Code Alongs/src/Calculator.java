@@ -18,7 +18,7 @@ public class Calculator{
     /**
      * Method that returns the sign of the number given
      * 
-     * @param  Number to find sign of 
+     * @param  n to find sign of
      * @return 1 if positive, 0 if 0, -1 if negative
      */
     public int sign(int n){
@@ -36,7 +36,7 @@ public class Calculator{
     /**
      * Method that checks if the int is even
      * 
-     * @param the int to check if even
+     * @param n the int to check if even
      * @return boolean; true if Even; False otherwise
      */
     public boolean isEven(int n){
@@ -51,7 +51,7 @@ public class Calculator{
     /**
      * Method that returns the absolute value of int
      * 
-     * @param the int to check for abs value
+     * @param n the int to check for abs value
      * @return the absolute value of int
      */
     public int absValue(int n){
@@ -67,7 +67,7 @@ public class Calculator{
      * Method that takes two ints as params
      * and returns true if first variable is divisble by second
      * 
-     * @param two ints 
+     * @param n two ints
      * @return boolean of the divisibility of both variables
      */
     public boolean divisibleVariables(int n, int x){
@@ -84,7 +84,7 @@ public class Calculator{
      * and returns true if the first is divisible by 
      * the 2nd or 3rd variable
      * 
-     * @param three ints
+     * @param n three ints
      * @return boolean of the divisibility of variables
      */
     public boolean threeVariableDivision(int n, int x, int y){
@@ -100,7 +100,7 @@ public class Calculator{
      * Method that takes three doubles and calculates the 
      * value of b^2 - 4ac and returns a String 
      * 
-     * @param 3 double variables
+     * @param a 3 double variables
      * @return String 
      */
     public String weirdEquation(int a, int b, int c){
@@ -119,7 +119,7 @@ public class Calculator{
      * Method to determine if an int
      * is a perfect square
      * 
-     * @param 1 int 
+     * @param a 1 int
      * @return boolean 
      */
     public boolean perfectSquare(int a){

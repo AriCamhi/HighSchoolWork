@@ -1,6 +1,7 @@
 import java.util.*;
 import java.util.stream.*;
 import java.util.function.*;
+
 /**
  * Class that haves the ability to
  * Add a song, print out all songs,
@@ -58,7 +59,7 @@ public class SpotifyPlaylist{
      * just the title of it, no other details besides the parameter
      * of the given genre
      * 
-     * @param genre you want to see with songs in it
+     * @param genreParam genre you want to see with songs in it
      * @return titles of the songs in the given genre
      */
     public String printByGenre(String genreParam){
@@ -108,7 +109,7 @@ public class SpotifyPlaylist{
      * Method to play a song (not actully play music) just add 1 to the 
      * times played count 
      * 
-     * @param the position of the song chosen to play (will be 0 based)
+     * @param position the position of the song chosen to play (will be 0 based)
      */
     public void playSong(int position){
         for(int i = 0; i < playlist.length; i++){
@@ -126,7 +127,7 @@ public class SpotifyPlaylist{
      * 
      * Thought process: scan for title, once found, set to null... Then move each other object until null to the left
      * 
-     * @param the songs title 
+     * @param titleParam the songs title
      */
     public void removeSong(String titleParam){
         //Outer loop will find the song desired to be removed 

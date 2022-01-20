@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Advanced String/Advanced String.iml" filepath="$PROJECT_DIR$/Advanced String/Advanced String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Code Alongs/Code Alongs.iml" filepath="$PROJECT_DIR$/Code Alongs/Code Alongs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab09-SpotifyPlaylist/Lab09-SpotifyPlaylist.iml" filepath="$PROJECT_DIR$/Lab09-SpotifyPlaylist/Lab09-SpotifyPlaylist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Rabbit Population/Rabbit Population.iml" filepath="$PROJECT_DIR$/Rabbit Population/Rabbit Population.iml" />
+    </modules>
+  </component>
+</project>

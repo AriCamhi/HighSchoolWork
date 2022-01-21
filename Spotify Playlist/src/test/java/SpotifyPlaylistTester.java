@@ -1,3 +1,6 @@
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
+
 import java.util.Random;
 /**
  * Showcase the behavior of the Spotify Playlist
@@ -8,14 +11,23 @@ import java.util.Random;
 public class SpotifyPlaylistTester
 {
     public static final String SPACER = "\n---------------------------------------------------------------------------------\n";
-    
-    public static void main( String[] args ) {
-        SpotifyPlaylist awesomeMix = createAwesomeMix();
-        
 
-        System.out.println(SPACER);
+    public static SpotifyPlaylist playlist;
 
 
+    @Test
+    public void testFoo() {
+        playlist.top10();
+
+    }
+
+    @Test
+    public void testRemove(){
+        int currentSongs = playlist.getNumSongs();
+
+        playlist.removeSong("Father and Son");
+        int afterDeletion = playlist.getNumSongs();
+        assert(currentSongs - afterDeletion == 1);
     }
     
     /**
@@ -23,7 +35,8 @@ public class SpotifyPlaylistTester
      * 
      * @return  an Awesome playlist
      */
-    public static SpotifyPlaylist createAwesomeMix() {
+    @BeforeAll
+    public static void createAwesomeMix() {
         Random rng = new Random();
         SpotifyPlaylist awesomeMix = new SpotifyPlaylist();
         
@@ -139,6 +152,6 @@ public class SpotifyPlaylistTester
                                         "Southern Rock",
                                         rng.nextInt(300)));
                                         
-        return awesomeMix;
+        playlist = awesomeMix;
     }
 }

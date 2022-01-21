@@ -7,6 +7,13 @@ import java.util.Scanner;
  * @version 12-3-21
  */
 public class AdvancedStringUI{
+
+    public static void main(String[] args){
+
+        AdvancedStringUI ui = new AdvancedStringUI();
+        ui.runUI();
+
+    }
     /**
      * User interface that prompts a string first,
      * asks what they would like to do with the string 
@@ -24,7 +31,7 @@ public class AdvancedStringUI{
             response = sc.nextLine();
             AdvancedString aString = new AdvancedString(response);
             System.out.println("Would you like to check for palindrome, change into genome format or"
-            + "translate into pig latin (p/g/pl) ");
+            + " translate into pig latin (p/g/pl) ");
             response = sc.nextLine();
             if (response.equalsIgnoreCase("p")){
                 System.out.println("Your result is: " + aString.isPalindrome());

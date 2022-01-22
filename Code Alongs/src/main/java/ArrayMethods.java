@@ -1,3 +1,5 @@
+import org.jetbrains.annotations.NotNull;
+
 /**
  * Introduction to arrays and
  * different methods you can do with
@@ -247,6 +249,37 @@ public class ArrayMethods {
         return status;
 
     }
-}
 
+    /**
+     * Method that will sort an array from smallest to largest
+     *
+     * @return the sorted array
+     */
+    public int sortArray(int[] arr) {
+        int valid = 0;
+        int temp = 0;
+        int n = arr.length;
+        //Outer loop will run through each element
+        for(int i = 0; i < n - 1; i++)
+            //Nested loop is doing each pass through
+            for(int j = 0; j < n - i - 1; j++)
+            //If current is greater than the one ahead, move it to the right
+                if(arr[j] > arr[j + 1]){
+                temp = arr[j];
+                arr[j] = arr[j + 1];
+                //Set j + 1 to temp because we are working with it next loop
+                arr[j + 1] = temp;
+            }
+        //Checker
+        for (int k = 0; k < n - 1; ++k) {
+            if (arr[k] < arr[k + 1]) {
+                valid = 69;
+            }
+        }
+        return valid;
+    }
+
+
+    
+}
 

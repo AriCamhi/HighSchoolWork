@@ -33,4 +33,10 @@ public class Tester {
 
     }
 
+    @Test
+    public void testArraySort(){
+        ArrayMethods a = new ArrayMethods();
+        assert(a.sortArray(new int[] {7, 2, 3, 5, 9, 4}) == 69);
+    }
+
 }

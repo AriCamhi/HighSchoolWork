@@ -88,7 +88,7 @@ public class SpotifyPlaylist {
      */
     public void top10() {
         int n = numSongs;
-        //Outerloop is just going through each of the songs in array
+        //Outer loop is just going through each of the songs in array
         for (int i = 0; i < n - 1; i++) {
             //Nested loop is doing each pass through
             for (int j = 0; j < n - i - 1; j++) {

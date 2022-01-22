@@ -33,7 +33,7 @@ public class AdvancedStringTester {
     }
 
     @Test
-    public void testPalindrome5() {
+    public void testGenomeFormat1() {
         AdvancedString genomeString = new AdvancedString("john");
         assert genomeString.genomeFormat().
 
@@ -41,7 +41,7 @@ public class AdvancedStringTester {
     }
 
     @Test
-    public void testPalindrome6() {
+    public void testGenomeFormat2() {
         AdvancedString genomeString2 = new AdvancedString("ACTGCTAGA");
         assert genomeString2.genomeFormat().
 
@@ -50,7 +50,7 @@ public class AdvancedStringTester {
 
 
     @Test
-    public void testPalindrome7() {
+    public void testPigLatin1() {
         AdvancedString pigLat = new AdvancedString("");
         assert pigLat.toPigLatin().
 
@@ -58,15 +58,15 @@ public class AdvancedStringTester {
     }
 
     @Test
-    public void testPalindrome8() {
-        AdvancedString pigLat2 = new AdvancedString("");
+    public void testPigLatin2() {
+        AdvancedString pigLat2= new AdvancedString("");
         assert pigLat2.toPigLatin().
 
                 equals("");
     }
 
     @Test
-    public void testPalindrome9() {
+    public void testPigLatin3() {
         AdvancedString pigLat3 = new AdvancedString("");
         assert pigLat3.toPigLatin().
 

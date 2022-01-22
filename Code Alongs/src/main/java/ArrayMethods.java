@@ -3,22 +3,22 @@
  * different methods you can do with
  * the utilization of arrays
  *
- * @version 1-3-21
  * @author Ari Camhi
+ * @version 1-3-21
  */
-public class ArrayMethods{
+public class ArrayMethods {
     /**
      * Make an array of study group names; print one
      */
-    public void family(){
-        String[] familyNames = new String [4];
+    public void family() {
+        String[] familyNames = new String[4];
 
         familyNames[0] = "Ari";
         familyNames[1] = "Olivia";
         familyNames[2] = "Alissa";
         familyNames[3] = "Steven";
 
-        double[] heightInFeet = new double [4];
+        double[] heightInFeet = new double[4];
 
         heightInFeet[0] = 5.9;
         heightInFeet[1] = 5.8;
@@ -31,13 +31,13 @@ public class ArrayMethods{
     /**
      * Testing to see the max number of elements I can
      * make in an array
-     *
+     * <p>
      * FAIL... COMPUTER TOO SLOW...
      */
-    public void doNow(){
+    public void doNow() {
         double y = 999999999;
         double k;
-        for(k = 0; k <= y; k++){
+        for (k = 0; k <= y; k++) {
             double[] thing = new double[100000000];
 
         }
@@ -47,29 +47,29 @@ public class ArrayMethods{
     /**
      * Playing with arrays.
      */
-    public void playAroundWithArrays(){
+    public void playAroundWithArrays() {
         // Initialize an array and assign values after
-        double latLong [] = new double[2];
+        double latLong[] = new double[2];
         latLong[0] = 41.175942;
         latLong[1] = -73.758270;
         System.out.println("(" + latLong[0] + "," + latLong[1] + ")");
 
         // Initialize values immediately using curly braces!!
-        int[] fibo = new int[] {1, 1, 2, 3, 5, 8, 13, 21};
+        int[] fibo = new int[]{1, 1, 2, 3, 5, 8, 13, 21};
         int i = 0;
-        while(i < fibo.length){
+        while (i < fibo.length) {
             System.out.println(fibo[i]);
             i++;
         }
 
         //Fill an array depending on the index
-        double [] arc = new double [20];
-        for(int t = 0; t < arc.length; t++){
-            arc[t] = 7 * t  - 9.8 * t * t;
+        double[] arc = new double[20];
+        for (int t = 0; t < arc.length; t++) {
+            arc[t] = 7 * t - 9.8 * t * t;
         }
 
         // "For each loop"
-        for (double height : arc){
+        for (double height : arc) {
             System.out.println(height);
         }
     }
@@ -81,14 +81,14 @@ public class ArrayMethods{
      * Describe: Is the same as my prediction
      */
     public void prediction() {
-        int[] myArray = new int[] {1, 3, 5, 7, 9};
+        int[] myArray = new int[]{1, 3, 5, 7, 9};
         System.out.println(myArray[2] + myArray.length);
 
-        String[] family = new String[] {"Mike", "Carol", "Alice",
+        String[] family = new String[]{"Mike", "Carol", "Alice",
                 "Marcia", "Jan", "Cindy",
                 "Greg", "Peter", "Bobby"};
 
-        for(int index = 0; index < family.length; index++){
+        for (int index = 0; index < family.length; index++) {
             family[index] = family[index] + " Brady";
             System.out.println(family[index]);
         }
@@ -100,10 +100,10 @@ public class ArrayMethods{
      *
      * @return the sum of numbers
      */
-    public void sumOfArray(){
-        int[] arr = new int[] {123498, 213894, 582, 10238, 999};
+    public void sumOfArray() {
+        int[] arr = new int[]{123498, 213894, 582, 10238, 999};
         int sum = 0;
-        for(int i : arr){
+        for (int i : arr) {
             sum += i;
         }
         System.out.println("The sum is: " + sum);
@@ -115,15 +115,15 @@ public class ArrayMethods{
      *
      * @return the average of numbers
      */
-    public void averageOfArray(){
-        double[] arr = new double[] {8, 5, 6, 9};
+    public void averageOfArray() {
+        double[] arr = new double[]{8, 5, 6, 9};
         double average = 0;
         double amountOfElements = 0;
-        for(double i : arr){
+        for (double i : arr) {
             average += i;
         }
         //Find the length of the array without using length method
-        for (double k : arr){
+        for (double k : arr) {
             amountOfElements++;
         }
         average = average / amountOfElements;
@@ -136,23 +136,22 @@ public class ArrayMethods{
      *
      * @return true or false if the value is present
      */
-    public void scanForValue(double checker){
-        double[] arr = new double[] {4, 12, 193, 38.9};
+    public boolean scanForValue(double[] inputArray, double checker) {
         //Make boolean set to false until proven true
         boolean present = false;
         //For each element in array, i obtains that value for one loop
-        for(double i : arr){
-            if (i == checker){
+        for (double i : inputArray) {
+            if (i == checker) {
                 present = true;
                 //System.out.println("The status of presence in array is: " + present);
                 break;
-            }
-            else{
+            } else {
                 present = false;
                 //System.out.println("The status of presence in array is: " + present);
             }
         }
         System.out.println("The status of presence in array is: " + present);
+        return present;
     }
 
     /**
@@ -161,12 +160,12 @@ public class ArrayMethods{
      *
      * @return the max and min value within the array
      */
-    public void minAndMaxValue(){
-        int[] arr = new int[] {4345, 23453, 245, 777, 98};
+    public void minAndMaxValue() {
+        int[] arr = new int[]{4345, 23453, 245, 777, 98};
         //Just maximum value first...
         int maxValue = 0;
-        for (int k : arr){
-            if (k > maxValue){
+        for (int k : arr) {
+            if (k > maxValue) {
                 maxValue = k;
             }
         }
@@ -174,8 +173,8 @@ public class ArrayMethods{
 
         //Minimum value next...
         int minValue = 999999999;
-        for(int j : arr){
-            if(j < minValue){
+        for (int j : arr) {
+            if (j < minValue) {
                 minValue = j;
             }
         }
@@ -185,7 +184,7 @@ public class ArrayMethods{
     /**
      * Play around with 2d arrays
      */
-    public void twoDimensional(){
+    public void twoDimensional() {
         String[][] names = new String[3][2];
 
         // Number of rows in the 2d array
@@ -204,9 +203,9 @@ public class ArrayMethods{
 
         //Loop over a 2d array with a nested loop
         //Outer loop (in this example) reads row-by-row
-        for(int row = 0; row < names.length; row++){
+        for (int row = 0; row < names.length; row++) {
             //Inner loop goes column to column within the row
-            for(int col = 0; col < names[0].length; col++){
+            for (int col = 0; col < names[0].length; col++) {
                 System.out.print(names[row][col] + " ");
             }
             System.out.println();
@@ -216,10 +215,10 @@ public class ArrayMethods{
     /**
      * Paper activity
      */
-    public void paperActivity(){
+    public void paperActivity() {
         int[][] arr = new int[6][4];
-        for(int row = 0; row < arr.length; row++){
-            for(int col = 0; col < arr[0].length; col++){
+        for (int row = 0; row < arr.length; row++) {
+            for (int col = 0; col < arr[0].length; col++) {
                 System.out.println("Coordinates: (" + row + "," + col + ")" + " Value is: " + (row + col));
             }
             System.out.println();
@@ -229,10 +228,25 @@ public class ArrayMethods{
     /**
      * Find if there is duplicate values in an array of ints
      *
-     * @return if there is a duplicate and what the number is
+     * @return duplicate boolean status
      */
-    public void duplicateValues(){
-        int[] arr = new int[] {2, 443, 843, 343, 2900, 343};
+    public boolean duplicateValues(int[] arr) {
+        //Inner loop is running through each value in array
+        int previous;
+        boolean status = false;
+        for (int i = 0; i < arr.length; i++) {
+            //Nested loop is doing a pass through for the value of i at each element
+            for (int j = i + 1; j < arr.length; ++j) {
+                if (arr[j] == arr[i]) {
+                    status = true;
+                }
+
+            }
+
+        }
+        return status;
 
     }
 }
+
+

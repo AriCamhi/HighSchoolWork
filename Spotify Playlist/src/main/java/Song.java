@@ -7,7 +7,7 @@
  * @author Ari Camhi, Lucas Duran, Christian Macchetto
  * @version 1-13-22
  */
-public class Song{
+public class Song extends Object{
     // Fields
     private String title;
     private String artist;

@@ -1,8 +1,9 @@
 import java.util.Arrays;
 
 /**
- * Class for all things to be learned before AP
- * class in Greeley
+ * Class for all random methods that I want to make.
+ * Could relate to any new topics learned and will most likely
+ * be tested in the "RandomTester" class
  *
  * @author Ari Camhi
  * @version 1-22-22
@@ -10,9 +11,9 @@ import java.util.Arrays;
 public class FreelanceStuff {
 
     /**
-     * first method ever... ALONE!!!!!
-     * sorting an array using Arrays.Sort()
-     *
+     * Sorting an array using Arrays.Sort()
+     * Just wanted to use it to see how much easier it is
+     * than making my own sorting method for arrays
      * @param arr
      */
     public String arraySortCheat(int[] arr) {

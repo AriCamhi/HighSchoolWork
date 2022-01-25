@@ -26,8 +26,8 @@ public class ArrayListBasics {
         arrli.remove(3);
         System.out.println(arrli);
 
-        for (int k = 0; k < arrli.size(); k++) {
-            System.out.println(arrli.get(k) + " ");
+        for (Integer integer : arrli) {
+            System.out.println(integer + " ");
         }
 
 

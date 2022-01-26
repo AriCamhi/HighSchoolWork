@@ -31,7 +31,7 @@ public class SpotifyPlaylistTester
     }
     
     /**
-     * Create a a playlist with 20 Songs from the Awesome Mix playlist
+     * Create a playlist with 20 Songs from the Awesome Mix playlist
      * 
      * @return  an Awesome playlist
      */

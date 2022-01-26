@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Advanced String/Advanced String.iml" filepath="$PROJECT_DIR$/Advanced String/Advanced String.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Advanced String/Bank Simulation.iml" filepath="$PROJECT_DIR$/Advanced String/Bank Simulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BankSimulation/BankSimulation.iml" filepath="$PROJECT_DIR$/BankSimulation/BankSimulation.iml" />
       <module fileurl="file://$PROJECT_DIR$/Code Alongs/Code Alongs.iml" filepath="$PROJECT_DIR$/Code Alongs/Code Alongs.iml" />
       <module fileurl="file://$PROJECT_DIR$/Rabbit Population/Rabbit Population.iml" filepath="$PROJECT_DIR$/Rabbit Population/Rabbit Population.iml" />
       <module fileurl="file://$PROJECT_DIR$/RandomStuff/RandomStuff.iml" filepath="$PROJECT_DIR$/RandomStuff/RandomStuff.iml" />

@@ -26,7 +26,7 @@ public class SpotifyPlaylist {
     /**
      * Will add an object (song) to the spotify playlist array
      * but will not return anything, just take up a slot inside
-     * of the playlist array after making a new song through
+     * the playlist array after making a new song through
      * the song class
      */
     public void addSong(Song song) {

@@ -1,4 +1,5 @@
 import org.junit.Test;
+
 /**
  * Class to test our random methods
  * through unit tests for the majority of the time
@@ -9,8 +10,24 @@ import org.junit.Test;
 public class RandomTester {
 
     @Test
-    public void testArraySortCheat(){
-    FreelanceStuff f = new FreelanceStuff();
-    assert(f.arraySortCheat(new int[] {3, 2, 1}).equals("yeah it works"));
+    public void testArraySortCheat() {
+        FreelanceStuff f = new FreelanceStuff();
+        assert (f.arraySortCheat(new int[]{3, 2, 1}).equals("yeah it works"));
+    }
+
+    @Test
+    public void testFactorial() {
+        FreelanceStuff f = new FreelanceStuff();
+        assert (f.factorial(3) == 6);
+    }
+
+    @Test
+    public void testingFibo() {
+        FreelanceStuff f = new FreelanceStuff();
+        //assert(f.fibo(0) == 0);
+        //assert(f.fibo(1) == 1);
+        //assert(f.fibo(2) == 1);
+        //assert(f.fibo(5) == 5);
+        f.fibo(30);
     }
 }

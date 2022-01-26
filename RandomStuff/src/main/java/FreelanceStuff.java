@@ -14,6 +14,7 @@ public class FreelanceStuff {
      * Sorting an array using Arrays.Sort()
      * Just wanted to use it to see how much easier it is
      * than making my own sorting method for arrays
+     *
      * @param arr
      */
     public String arraySortCheat(int[] arr) {
@@ -31,8 +32,32 @@ public class FreelanceStuff {
         return outputForTester;
     }
 
+    /**
+     * Factorial, not knowing anything about recursion yet
+     */
+    public int factorial(int n) {
+        if (n == 0) {
+            return 1;
+        } else {
+            return n * factorial(n - 1);
+        }
+    }
 
-
+    /**
+     * Fibonacci sequence recursion
+     */
+    public int fibo(int n) {
+        System.out.println("Calling fibo at the value of " + n);
+        int output = 0;
+        if (n == 0 || n == 1) {
+            output = n;
+            return output;
+        } else {
+            output = fibo(n - 1) + fibo(n - 2);
+            return output;
+        }
+    }
 
 
 }
+

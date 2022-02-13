@@ -58,6 +58,20 @@ public class FreelanceStuff {
         }
     }
 
+    /**
+     * Check to see if number is prime so I can solve some trig problem
+     * on deltaMath and I don't want to see if rad 97 can be factored
+     */
+    public boolean isPrime(int n){
+        boolean checkPrime = true;
+        for(int i = 2; i < n; i++){
+            if(n % i == 0){
+                checkPrime = false;
+            }
+            break;
+        }
+        return checkPrime ;
+    }
 
 }
 

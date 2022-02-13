@@ -30,4 +30,10 @@ public class RandomTester {
         //assert(f.fibo(5) == 5);
         f.fibo(30);
     }
+
+    @Test
+    public void testingIsPrime(){
+        FreelanceStuff f = new FreelanceStuff();
+        assert(f.isPrime(61) == true);
+    }
 }

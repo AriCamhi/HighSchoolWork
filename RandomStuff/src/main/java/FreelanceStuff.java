@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.lang.Math;
 
 /**
  * Class for all random methods that I want to make.
@@ -71,6 +72,35 @@ public class FreelanceStuff {
             break;
         }
         return checkPrime ;
+    }
+
+    /**
+     * Method that will return a number (n) and factor it for a radical. Ex:
+     * n = 50... return 5 sqrt2
+     *
+     * Now when I open up a math assignment and have to simplify some radical
+     * I will use the simplifier I made myself.
+     * @param n
+     * @return simplifiedRad
+     */
+    public RadResult simplifyRadical(double n){
+        RadResult simplifiedRad;
+        int integerPart = -1;
+        int radicalPart = 1;
+        for(int i = (int) (n / 2); i > 0; i--){
+            if (i * i == n){
+                //simplifiedRad = "perfect square: " + i;
+                integerPart = (int) i;
+                break;
+            }
+            else if (n % (i * i) == 0){
+                //simplifiedRad = i + " sqrt(" + n/ (i * i) + ")";
+                integerPart = i;
+                radicalPart = (int) (n / (i * i));
+                break;
+            }
+        }
+        return new RadResult(integerPart, radicalPart);
     }
 
 }

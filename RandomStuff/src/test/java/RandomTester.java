@@ -49,4 +49,10 @@ public class RandomTester {
         assertEquals(8, result.getIntegerPart());
         assertEquals(7, result.getRadPart());
     }
+
+    @Test
+    public void testingReverseString(){
+        assert(f.reverseString("hello").equalsIgnoreCase("olleh"));
+        assert(f.reverseString("HeLLooo").equalsIgnoreCase("ooollEH"));
+    }
 }

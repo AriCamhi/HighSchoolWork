@@ -119,7 +119,7 @@ public class FreelanceStuff {
         return reversedS.toString();
     }
 
-}
+
 ///**
 // * Reverse a String using Recursion...
 // *
@@ -133,3 +133,17 @@ public class FreelanceStuff {
 //}
 //
 //}
+
+/**
+ * Get back into coding
+ * add 5 to inputted number and return
+ * 5 greater than original
+ * @return num
+ */
+public int bringBackNumber(int k){
+    k += 5;
+    return k;
+}
+
+
+}

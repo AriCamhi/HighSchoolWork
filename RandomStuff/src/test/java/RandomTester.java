@@ -33,7 +33,7 @@ public class RandomTester {
 
     @Test
     public void testingIsPrime(){
-        assert(f.isPrime(89) == true);
+        assert(f.isPrime(73) == true);
     }
 
     @Test
@@ -45,14 +45,19 @@ public class RandomTester {
 
     @Test
     public void testingSimplifyRadical2(){
-        RadResult result = f.simplifyRadical(448);
-        assertEquals(8, result.getIntegerPart());
-        assertEquals(7, result.getRadPart());
+        RadResult result = f.simplifyRadical(72);
+        assertEquals(6, result.getIntegerPart());
+        assertEquals(2, result.getRadPart());
     }
 
     @Test
     public void testingReverseString(){
         assert(f.reverseString("hello").equalsIgnoreCase("olleh"));
         assert(f.reverseString("HeLLooo").equalsIgnoreCase("ooollEH"));
+    }
+
+    @Test
+    public void testingBringBackNumber(){
+        assert(f.bringBackNumber(5)==10);
     }
 }

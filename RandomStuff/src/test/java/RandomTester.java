@@ -1,6 +1,6 @@
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
  * Class to test our random methods
@@ -11,7 +11,7 @@ import static org.junit.Assert.assertEquals;
  */
 public class RandomTester {
 
-    FreelanceStuff f = new FreelanceStuff();
+    RandomMethods f = new RandomMethods();
     @Test
     public void testArraySortCheat() {
         assert (f.arraySortCheat(new int[]{3, 2, 1}).equals("yeah it works"));
@@ -57,7 +57,7 @@ public class RandomTester {
     }
 
     @Test
-    public void testingBringBackNumber(){
-        assert(f.bringBackNumber(5)==10);
+    public void testingReverseStringAgain(){
+        assert(f.reverseStringAgain("Hello").equalsIgnoreCase("olleh"));
     }
 }

@@ -1,8 +1,4 @@
-import org.jetbrains.annotations.NotNull;
-
 import java.util.Arrays;
-import java.lang.Math;
-import java.util.Locale;
 
 /**
  * Class for all random methods that I want to make.
@@ -12,7 +8,7 @@ import java.util.Locale;
  * @author Ari Camhi
  * @version 1-22-22
  */
-public class FreelanceStuff {
+public class RandomMethods {
 
     /**
      * Sorting an array using Arrays.Sort()
@@ -108,10 +104,11 @@ public class FreelanceStuff {
 
     /**
      * Reverse a String...
-     *
+     * Using string builder, isntead of += it builds string together
+     * with the append command
      * @return reversedS
      */
-    public String reverseString(@NotNull String s) {
+    public String reverseString(String s) {
         StringBuilder reversedS = new StringBuilder();
         for (int i = s.length(); i > 0; i--) {
             reversedS.append(s.charAt(i - 1));
@@ -135,15 +132,19 @@ public class FreelanceStuff {
 //}
 
 /**
- * Get back into coding
- * add 5 to inputted number and return
- * 5 greater than original
- * @return num
+ * Reverse a string again
+ * First true code back from break
+ * @return reversedString
  */
-public int bringBackNumber(int k){
-    k += 5;
-    return k;
+public String reverseStringAgain(String s){
+    String reversedString = "";
+    for (int i = s.length(); i > 0; i--){
+        reversedString += s.charAt(i - 1);
+    }
+    return reversedString;
 }
+
+
 
 
 }

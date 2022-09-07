@@ -60,4 +60,15 @@ public class RandomTester {
     public void testingReverseStringAgain(){
         assert(f.reverseStringAgain("Hello").equalsIgnoreCase("olleh"));
     }
+
+    @Test
+    public void testingFactorialForLoop(){
+        assert(f.factorialForLoop(5) == 120);
+    }
+
+    @Test
+    public void testingPrintStars(){
+        assert(f.printStars(2).equals("* \n **"));
+    }
 }
+

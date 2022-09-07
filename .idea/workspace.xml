@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/RandomStuff/RandomStuff.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/RandomStuff.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/FreelanceStuff.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/FreelanceStuff.java" afterDir="false" />
+    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Some changes">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code Alongs/Code Alongs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Code Alongs/Code Alongs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code Alongs/src/main/java/ArrayMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code Alongs/src/main/java/ArrayMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code Alongs/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code Alongs/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/RandomMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/RandomMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RandomStuff/src/test/java/RandomTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/test/java/RandomTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,18 +34,45 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="true" />
+    <property name="Repository.Attach.Sources" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
-  <component name="RunManager" selected="Application.ArrayListBasics">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ArrayListBasics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayListBasics" />
       <module name="RandomStuff" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Code Alongs" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomTester.testingFactorialForLoop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RandomStuff" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RandomTester" />
+      <option name="METHOD_NAME" value="testingFactorialForLoop" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomTester.testingPrintStars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RandomStuff" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RandomTester" />
+      <option name="METHOD_NAME" value="testingPrintStars" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -59,6 +89,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.RandomTester.testingPrintStars" />
+        <item itemvalue="JUnit.RandomTester.testingFactorialForLoop" />
         <item itemvalue="Application.ArrayListBasics" />
         <item itemvalue="JUnit.RandomTester.testingReverseStringAgain" />
       </list>
@@ -73,17 +106,29 @@
       <option name="presentableId" value="Default" />
       <updated>1662406045278</updated>
     </task>
+    <task id="LOCAL-00001" summary="Some changes">
+      <created>1662407926038</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1662407926038</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/RandomStuff/src/main/java/FreelanceStuff.java</url>
-          <line>139</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Some changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some changes" />
   </component>
 </project>

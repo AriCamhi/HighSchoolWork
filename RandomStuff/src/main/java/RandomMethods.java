@@ -144,7 +144,38 @@ public String reverseStringAgain(String s){
     return reversedString;
 }
 
+    /**
+     * factorial with a for loop instead of recursion
+     *
+     * @param n
+     * @return n
+     */
+    public int factorialForLoop(int n){
+    int i = n -1;
+    do {
+        n = n * i;
+        i--;
+    }while(i >= 1);
+    return n;
+    }
 
-
-
+    /**
+     * print
+     * *
+     * **
+     * ***
+     * ****
+     *  and so on given the parameter
+     * @param n
+     */
+    public String printStars(int n) {
+        String stars = null;
+        for (int i = 1; i <= n; i++) {
+            stars = "";
+            stars += "*";
+            System.out.println(stars);
+        }
+        return stars;
+    }
 }
+

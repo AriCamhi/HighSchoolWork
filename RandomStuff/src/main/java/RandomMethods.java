@@ -177,5 +177,41 @@ public String reverseStringAgain(String s){
         }
         return stars;
     }
+
+
+    /**
+     * Exercises for hw
+     *
+     * exercise 3
+     */
+    public int addOdds(int n){
+        int total = 0;
+        for(int i = 0; i < n; i++){
+            i++;
+            total += i;
+        }
+        return total;
+    }
+
+    /**
+     * Exercises for hw
+     *
+     * exercise 5
+     */
+    public int basicAdditionMethod(int n){
+        int total = 0;
+        if( n > 10 || n < 0 ){
+            return 0;
+        }
+        else {
+        for(int i = 0; i <= n; i++){
+            total += i;
+        }
+        return total;
+        }
+    }
+
+
+
 }
 

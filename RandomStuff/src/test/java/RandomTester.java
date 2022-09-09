@@ -70,5 +70,11 @@ public class RandomTester {
     public void testingPrintStars(){
         assert(f.printStars(2).equals("* \n **"));
     }
+
+    @Test
+    public void testingAddOdds(){assert(f.addOdds(5 ) == 9);}
+
+    @Test
+    public void testingBasicMathAddition(){assert(f.basicAdditionMethod(6) == 21);}
 }
 

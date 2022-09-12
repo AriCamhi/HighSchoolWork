@@ -15,7 +15,6 @@ public class RandomMethods {
      * Just wanted to use it to see how much easier it is
      * than making my own sorting method for arrays
      *
-     * @param arr
      */
     public String arraySortCheat(int[] arr) {
         String outputForTester = "";
@@ -209,9 +208,88 @@ public String reverseStringAgain(String s){
         }
         return total;
         }
+
     }
 
+    /**
+     * Activity from class
+     * Long version without switch cases
+     */
+    String oneTwo = "One, two buckle my shoe";
+    String threeFour = "Three, four, shut the door";
+    String fiveSix = "Five, six, pick up sticks";
+    String sevenEight = "Seven, eight lay them straight";
+    String nineTen = "Nine ten lets count again";
+    public String nurseryRhyme(int input){
+        if(input == 1){
+            return oneTwo;
+        }
+        else if(input == 2){
+            return oneTwo;
+        }
+        else if(input == 3){
+            return threeFour;
+        }
+        else if(input == 4) {
+            return threeFour;
+        }
+        else if(input == 5) {
+            return fiveSix;
+        }
+        else if(input == 6) {
+            return fiveSix;
+        }
+        else if(input == 7) {
+            return sevenEight;
+        }
+        else if(input == 8) {
+            return sevenEight;
+        }
+        else if(input == 9) {
+            return nineTen;
+        }
+        else if(input == 10) {
+            return nineTen;
+        }
+        else{
+            return "out of range";
+        }
+    }
 
+    /**
+     * Nursery rhyme with switch cases
+     */
+    public String nurseryRhymeSwitch(int input){
+       String y = "out of range";
+        switch (input) {
+            case 1, 2 -> {
+                return oneTwo;
+            }
+            case 3, 4 -> {
+                return threeFour;
+            }
+            case 5, 6 -> {
+                return fiveSix;
+            }
+            case 7, 8 -> {
+                return sevenEight;
+            }
+            case 9, 10 -> {
+                return nineTen;
+            }
+            //default: return y;
+        }
+        return null;
+    }
 
+    /**
+     * Combination method calling factorial
+     * @param n
+     * @param r
+     * @return nCr
+     */
+    public int combinations(int n, int r){
+        return factorial(n) / (factorial(r) * factorial( n - r));
+    }
 }
 

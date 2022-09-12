@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Some changes">
-      <change afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code Alongs/Code Alongs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Code Alongs/Code Alongs.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/RandomMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/RandomMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RandomStuff/src/test/java/RandomTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/test/java/RandomTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spotify Playlist/Spotify Playlist.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Spotify Playlist/Spotify Playlist.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spotify Playlist/src/main/java/SpotifyPlaylist.java" beforeDir="false" afterPath="$PROJECT_DIR$/Spotify Playlist/src/main/java/SpotifyPlaylist.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,24 +46,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="true" />
-    <property name="Repository.Attach.Annotations" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="true" />
     <property name="Repository.Attach.Sources" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="JUnit.RandomTester.testingCombination">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="RandomStuff" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="Code Alongs" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -75,21 +71,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomTester.testingBasicMathAddition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RandomTester.testingCombination" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RandomStuff" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RandomTester" />
-      <option name="METHOD_NAME" value="testingBasicMathAddition" />
+      <option name="METHOD_NAME" value="testingCombination" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomTester.testingPrintStars" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RandomTester.testingNurseryRhyme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RandomStuff" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RandomTester" />
-      <option name="METHOD_NAME" value="testingPrintStars" />
+      <option name="METHOD_NAME" value="testingNurseryRhyme" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomTester.testingSwitchCases" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RandomStuff" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RandomTester" />
+      <option name="METHOD_NAME" value="testingSwitchCases" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,11 +103,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RandomTester.testingCombination" />
+        <item itemvalue="JUnit.RandomTester.testingSwitchCases" />
+        <item itemvalue="JUnit.RandomTester.testingNurseryRhyme" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="JUnit.RandomTester.testingAddOdds" />
-        <item itemvalue="JUnit.RandomTester.testingBasicMathAddition" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.RandomTester.testingPrintStars" />
       </list>
     </recent_temporary>
   </component>

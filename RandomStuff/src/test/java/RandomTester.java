@@ -72,9 +72,28 @@ public class RandomTester {
     }
 
     @Test
-    public void testingAddOdds(){assert(f.addOdds(5 ) == 9);}
+    public void testingAddOdds(){
+        assert(f.addOdds(5 ) == 9);}
 
     @Test
-    public void testingBasicMathAddition(){assert(f.basicAdditionMethod(6) == 21);}
+    public void testingBasicMathAddition(){
+        assert(f.basicAdditionMethod(6) == 21);}
+
+    @Test
+    public void testingNurseryRhyme(){
+        assert(f.nurseryRhyme(2).equalsIgnoreCase("One, two buckle my shoe"));
+    }
+
+    @Test
+    public void testingSwitchCases(){
+        assert(f.nurseryRhymeSwitch(3).equalsIgnoreCase("Three, four, shut the door"));
+    }
+
+    @Test
+    public void testingCombination(){
+        assert(f.combinations(6, 3) == 20);
+    }
+    
+    
 }
 

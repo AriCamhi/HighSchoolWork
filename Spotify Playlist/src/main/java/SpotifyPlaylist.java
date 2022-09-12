@@ -111,7 +111,7 @@ public class SpotifyPlaylist {
     }
 
     /**
-     * Method to play a song (not actully play music) just add 1 to the
+     * Method to play a song (not actually play music) just add 1 to the
      * times played count
      *
      * @param position the position of the song chosen to play (will be 0 based)
@@ -159,7 +159,6 @@ public class SpotifyPlaylist {
         }
     }
 
-    //Don't grade please!!! Just have for learning purposes
     //Advanced... Predicates, mapping, streams, filters, collects
     //Turning my toString method into a more general one that could be used anywhere in printByCriteria()
     public void printByCriteria(Predicate<Song> p) {

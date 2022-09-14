@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Some changes">
-      <change afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/FirstLab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RandomStuff/src/test/java/FirstLabTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/RandomMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/RandomMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/FirstLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/FirstLab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/test/java/FirstLabTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/test/java/FirstLabTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,9 +47,12 @@
     <property name="Repository.Attach.Sources" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
-  <component name="RunManager" selected="JUnit.FirstLabTester.testingCostDistanceMethod">
+  <component name="RunManager" selected="JUnit.FirstLabTester.testingLeapYear">
     <configuration name="FirstLabTester.testingCostDistanceMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RandomStuff" />
       <option name="PACKAGE_NAME" value="" />
@@ -71,21 +73,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomTester.testingCombination" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstLabTester.testingMultiplesOf3or5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RandomStuff" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RandomTester" />
-      <option name="METHOD_NAME" value="testingCombination" />
+      <option name="MAIN_CLASS_NAME" value="FirstLabTester" />
+      <option name="METHOD_NAME" value="testingMultiplesOf3or5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomTester.testingNurseryRhyme" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RandomTester.testingCombination" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RandomStuff" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RandomTester" />
-      <option name="METHOD_NAME" value="testingNurseryRhyme" />
+      <option name="METHOD_NAME" value="testingCombination" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FirstLabTester.testingCostDistanceMethod" />
         <item itemvalue="JUnit.FirstLabTester.testingLeapYear" />
+        <item itemvalue="JUnit.FirstLabTester.testingCostDistanceMethod" />
+        <item itemvalue="JUnit.FirstLabTester.testingMultiplesOf3or5" />
         <item itemvalue="JUnit.RandomTester.testingCombination" />
         <item itemvalue="JUnit.RandomTester.testingSwitchCases" />
-        <item itemvalue="JUnit.RandomTester.testingNurseryRhyme" />
       </list>
     </recent_temporary>
   </component>

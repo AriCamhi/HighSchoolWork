@@ -56,22 +56,35 @@ public class FirstLab {
         return cost;
     }
 
+    /**
+     * Method to add up the sum of multiples of either 3 or 5
+     * if the input is something other than 3 or 5 the
+     * method will return "out of range"
+     *
+     * @param input
+     * @return total
+     */
     public int multiplesOf3or5(int input){
         int total = 0;
         if (input == 3){
             int i = 3;
-            while (i >= 200){
+            while (i <= 200){
                 total += i;
                 i += 3;
             }
+            System.out.println("Sum of the multiples for 3 is: " + total);
             }
         else if(input == 5){
             int j = 5;
-            while (j >= 200){
+            while (j <= 200){
                 total += j;
                 j += 5;
             }
-            return total;
+            System.out.println("Sum of the multiples for 5 is: " + total);
+        }
+        else {
+            String printer = "Input: " + input + " is out of range";
+            System.out.println(printer);
         }
         return total;
     }

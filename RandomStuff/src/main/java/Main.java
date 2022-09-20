@@ -30,6 +30,14 @@ public class Main {
                 System.out.println(printer);
             }
 
+        String s1 = "A";
+        String s2 = "A";
+        String s3 = "A";
+        String s4 = new String("A");
 
+        System.out.println(s1 + " .compareTo " + s2 + ": " + (s1.compareTo(s2)));
+
+        SecondLab s = new SecondLab();
+        System.out.println(s.coinCombinations(50));
     }
 }

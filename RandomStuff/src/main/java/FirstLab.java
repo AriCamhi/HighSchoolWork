@@ -89,6 +89,28 @@ public class FirstLab {
         return total;
     }
 
+    public int realMultiples(){
+        int total = 0;
+        int i = 3;
+        int n = 5;
+        while(i <= 200){
+            if(n != i){
+           total += i;
+           total += n;
+            i += 3;
+            n += 5;
+            }
+            else{
+                int both = i;
+                total += both;
+                i += 3;
+                n += 5;
+            }
+
+        }
+        return total;
+    }
+
 
 
 }

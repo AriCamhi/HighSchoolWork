@@ -12,8 +12,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class SecondLabTester {
     SecondLab s = new SecondLab();
 
-//    @Test
-//    public void testingCoinCombinations(){
-//        assert(s.coinCombinations(50)== );
-//    }
+    @Test
+    public void testingStarPyramid(){
+        assert(s.newStars(3).equals("****** \n **** \n  **  "));
+    }
 }

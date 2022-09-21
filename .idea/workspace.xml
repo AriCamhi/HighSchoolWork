@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Some changes">
-      <change afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/SecondLab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RandomStuff/src/test/java/SecondLabTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/FirstLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/FirstLab.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/RandomMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/RandomMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/SecondLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/SecondLab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/test/java/FirstLabTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/test/java/FirstLabTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/test/java/SecondLabTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/test/java/SecondLabTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,11 +93,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomTester.testingCombination" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SecondLabTester.testingStarPyramid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RandomStuff" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RandomTester" />
-      <option name="METHOD_NAME" value="testingCombination" />
+      <option name="MAIN_CLASS_NAME" value="SecondLabTester" />
+      <option name="METHOD_NAME" value="testingStarPyramid" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,10 +106,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.SecondLabTester.testingStarPyramid" />
         <item itemvalue="JUnit.FirstLabTester.testingLeapYear" />
         <item itemvalue="JUnit.FirstLabTester.testingCostDistanceMethod" />
         <item itemvalue="JUnit.FirstLabTester.testingMultiplesOf3or5" />
-        <item itemvalue="JUnit.RandomTester.testingCombination" />
       </list>
     </recent_temporary>
   </component>
@@ -135,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662990657053</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Some changes">
+      <created>1663636579885</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663636579885</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

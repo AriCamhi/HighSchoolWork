@@ -25,19 +25,23 @@ public class Main {
         StringBuilder printer = new StringBuilder();
         printer.append("____");
         System.out.println(printer);
-            for(int n = 0; n < 4; n++){
-                printer.replace(n,n + 1,"*");
-                System.out.println(printer);
+        for (int n = 0; n < 4; n++) {
+            printer.replace(n, n + 1, "*");
+            System.out.println(printer);
+        }
+
+        int total = 0;
+        int i = 3;
+        int n = 5;
+        while (i <= 200) {
+            if (i % 5 != 0) {
+                total += i;
+                total += n;
+                i += 3;
+                n += 5;
             }
-
-        String s1 = "A";
-        String s2 = "A";
-        String s3 = "A";
-        String s4 = new String("A");
-
-        System.out.println(s1 + " .compareTo " + s2 + ": " + (s1.compareTo(s2)));
-
-        SecondLab s = new SecondLab();
-        System.out.println(s.coinCombinations(50));
+            n += 5;
+        }
+        System.out.println("Total: " + total);
     }
 }

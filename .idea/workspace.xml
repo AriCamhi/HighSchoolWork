@@ -8,7 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/FirstLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/FirstLab.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/SecondLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/SecondLab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/RandomMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/RandomMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RandomStuff/src/test/java/FirstLabTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/test/java/FirstLabTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RandomStuff/src/test/java/SecondLabTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/test/java/SecondLabTester.java" afterDir="false" />
     </list>
@@ -55,7 +55,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.SecondLabTester.testingStarPyramid">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="RandomStuff" />
@@ -63,31 +63,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstLabTester.testingCostDistanceMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstLabTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RandomStuff" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FirstLabTester" />
-      <option name="METHOD_NAME" value="testingCostDistanceMethod" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstLabTester.testingAnotherTry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RandomStuff" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstLabTester" />
+      <option name="METHOD_NAME" value="testingAnotherTry" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstLabTester.testingLeapYear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FirstLabTester.testingRealMultiples" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RandomStuff" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FirstLabTester" />
-      <option name="METHOD_NAME" value="testingLeapYear" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstLabTester.testingMultiplesOf3or5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RandomStuff" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstLabTester" />
-      <option name="METHOD_NAME" value="testingMultiplesOf3or5" />
+      <option name="METHOD_NAME" value="testingRealMultiples" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -105,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.SecondLabTester.testingStarPyramid" />
-        <item itemvalue="JUnit.FirstLabTester.testingLeapYear" />
-        <item itemvalue="JUnit.FirstLabTester.testingCostDistanceMethod" />
-        <item itemvalue="JUnit.FirstLabTester.testingMultiplesOf3or5" />
+        <item itemvalue="JUnit.FirstLabTester" />
+        <item itemvalue="JUnit.FirstLabTester.testingRealMultiples" />
+        <item itemvalue="JUnit.FirstLabTester.testingAnotherTry" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>

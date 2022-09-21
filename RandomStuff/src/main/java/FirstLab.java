@@ -56,61 +56,36 @@ public class FirstLab {
         return cost;
     }
 
-    /**
-     * Method to add up the sum of multiples of either 3 or 5
-     * if the input is something other than 3 or 5 the
-     * method will return "out of range"
-     *
-     * @param input
-     * @return total
-     */
-    public int multiplesOf3or5(int input){
-        int total = 0;
-        if (input == 3){
-            int i = 3;
-            while (i <= 200){
-                total += i;
-                i += 3;
-            }
-            System.out.println("Sum of the multiples for 3 is: " + total);
-            }
-        else if(input == 5){
-            int j = 5;
-            while (j <= 200){
-                total += j;
-                j += 5;
-            }
-            System.out.println("Sum of the multiples for 5 is: " + total);
-        }
-        else {
-            String printer = "Input: " + input + " is out of range";
-            System.out.println(printer);
-        }
-        return total;
-    }
 
-    public int realMultiples(){
-        int total = 0;
+    /**
+     * Find the multiples of 3 and 5 under 200, accounts for duplicates
+     * and eliminates them from the final total
+     *
+     * @return finalTotal with no duplicates
+     */
+    public int multiplesOf3or5(){
+        int totalI = 0;
+        int totalN = 0;
+        int totalJ = 0;
+        int finalTotal = 0;
         int i = 3;
         int n = 5;
-        while(i <= 200){
-            if(n != i){
-           total += i;
-           total += n;
+        int j = 15;
+        while (i <= 200){
+            totalI += i;
             i += 3;
-            n += 5;
-            }
-            else{
-                int both = i;
-                total += both;
-                i += 3;
-                n += 5;
-            }
-
         }
-        return total;
+        while (n <= 200){
+            totalN += n;
+            n += 5;
+        }
+        while (j <= 200){
+            totalJ += j;
+            j += 15;
+        }
+        finalTotal = (totalI + totalN) - totalJ;
+        System.out.println("Multiples of 3 and 5 below 200, with no duplicates: " + finalTotal);
+        return finalTotal;
     }
-
-
 
 }

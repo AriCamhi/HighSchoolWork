@@ -292,7 +292,37 @@ public String reverseStringAgain(String s){
         return factorial(n) / (factorial(r) * factorial( n - r));
     }
 
-
+    /**
+     * Wrong Method for Lab one but going
+     * to still keep it
+     *
+     * @param input
+     * @return total
+     */
+    public int wrongMethod(int input){
+        int total = 0;
+        if (input == 3){
+            int i = 3;
+            while (i <= 200){
+                total += i;
+                i += 3;
+            }
+            System.out.println("Sum of the multiples for 3 is: " + total);
+        }
+        else if(input == 5){
+            int j = 5;
+            while (j <= 200){
+                total += j;
+                j += 5;
+            }
+            System.out.println("Sum of the multiples for 5 is: " + total);
+        }
+        else {
+            String printer = "Input: " + input + " is out of range";
+            System.out.println(printer);
+        }
+        return total;
+    }
 
 }
 

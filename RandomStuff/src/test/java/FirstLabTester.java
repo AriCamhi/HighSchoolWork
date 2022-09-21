@@ -28,5 +28,10 @@ public class FirstLabTester {
         assert f.costDistanceMethod(1204)==12.00;
     }
 
+    @Test
+    public void testingMultiplesOf3or5(){
+        assert f.multiplesOf3or5()== 9368;
+    }
+
 }
 

@@ -30,18 +30,5 @@ public class Main {
             System.out.println(printer);
         }
 
-        int total = 0;
-        int i = 3;
-        int n = 5;
-        while (i <= 200) {
-            if (i % 5 != 0) {
-                total += i;
-                total += n;
-                i += 3;
-                n += 5;
-            }
-            n += 5;
-        }
-        System.out.println("Total: " + total);
     }
 }

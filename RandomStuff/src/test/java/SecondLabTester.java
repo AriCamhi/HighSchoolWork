@@ -13,7 +13,7 @@ public class SecondLabTester {
     SecondLab s = new SecondLab();
 
     @Test
-    public void testingStarPyramid(){
-        assert(s.newStars(3).equals("****** \n **** \n  **  "));
+    public void testingStarPyramid() {
+        assert(s.newStars(5).equals("*****\n *** \n  *  \n     "));
     }
 }

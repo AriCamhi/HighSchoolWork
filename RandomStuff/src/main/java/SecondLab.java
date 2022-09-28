@@ -18,6 +18,8 @@ public class SecondLab {
      * @return all possible combinations
      */
     public String coinCombinations(int cents) {
+        //Finds the optimal change
+        //The least amount of coins possible
         int quarters = 0;
         int dimes = 0;
         int nickels = 0;
@@ -45,6 +47,21 @@ public class SecondLab {
         String j = "hello";
         return j;
     }
+
+//    public void allCombinations(int cents){
+//        int quarters = 0;
+//        int dimes = 0;
+//        int nickels = 0;
+//        int pennies = cents;
+//        System.out.println("Quarters: " + quarters + " Dimes: " + dimes + " Nickels: " + nickels
+//                + " Pennies: " + pennies);
+//        while(cents > 0){
+//            pennies -=
+//
+//            System.out.println("Quarters: " + quarters + " Dimes: " + dimes + " Nickels: " + nickels
+//                    + " Pennies: " + pennies);
+//        }
+//    }
 
     /**
      * Method 2:

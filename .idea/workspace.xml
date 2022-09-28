@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Some changes">
-      <change afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/Coins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RandomStuff/src/test/java/CoinTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced String/Advanced String.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced String/Advanced String.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Advanced String/src/test/java/AdvancedStringTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced String/src/test/java/AdvancedStringTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/SecondLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/SecondLab.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RandomStuff/src/test/java/SecondLabTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/test/java/SecondLabTester.java" afterDir="false" />
     </list>
@@ -37,9 +32,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-18.0.2.1/Contents/Home/lib/src.zip!/java.base/java/lang/StringBuilder.java" root0="SKIP_INSPECTION" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -60,7 +52,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.SecondLabTester.testingCoinCombos">
+  <component name="RunManager" selected="JUnit.SecondLabTester.testingSeventeen76">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="RandomStuff" />
@@ -68,11 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FirstLabTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SecondLabTester.testingCalculateBookTotal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RandomStuff" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstLabTester" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="SecondLabTester" />
+      <option name="METHOD_NAME" value="testingCalculateBookTotal" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,11 +102,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SecondLabTester.testingSeventeen76" />
+        <item itemvalue="JUnit.SecondLabTester.testingCalculateBookTotal" />
         <item itemvalue="JUnit.SecondLabTester.testingCoinCombos" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.SecondLabTester.testingSeventeen76" />
         <item itemvalue="JUnit.SecondLabTester.testingStarPyramid" />
-        <item itemvalue="JUnit.FirstLabTester" />
       </list>
     </recent_temporary>
   </component>

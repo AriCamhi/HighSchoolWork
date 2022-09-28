@@ -22,22 +22,22 @@ public class SecondLab {
         int dimes = 0;
         int nickels = 0;
         int pennies = 0;
-        while(cents >= 0){
+        while(cents > 0){
             if(cents % 25 != cents){
+                quarters += cents / 25.;
                 cents = cents % 25;
-                quarters += cents / 25;
             }
             else if(cents % 10 != cents){
+                dimes += cents / 10.;
                 cents = cents % 10;
-                dimes += cents / 10;
             }
             else if(cents % 5 != cents){
+                nickels += cents / 5.;
                 cents = cents % 5;
-                nickels += cents / 5;
             }
             else {
-                cents = 0;
                 pennies += cents;
+                cents = 0;
             }
         }
         System.out.println("Quarters: " + quarters + " Dimes: " + dimes + " Nickels: " + nickels

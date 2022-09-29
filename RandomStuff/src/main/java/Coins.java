@@ -30,29 +30,34 @@ public class Coins {
     public Coins() {
     }
 
-    public int optimalChange(int cents){
-        int changeLeft = cents;
-        while(changeLeft >= 0){
+    public String optimalChange(int cents){
+        //Finds the optimal change
+        //The least amount of coins possible
+        int quarters = 0;
+        int dimes = 0;
+        int nickels = 0;
+        int pennies = 0;
+        while(cents > 0){
             if(cents % 25 != cents){
-                changeLeft = cents % 25;
-                quarters = cents / 25;
+                quarters += cents / 25.;
+                cents = cents % 25;
             }
-            else if(changeLeft % 10 != changeLeft){
-                changeLeft = changeLeft % 10;
-                dimes = changeLeft / 10;
+            else if(cents % 10 != cents){
+                dimes += cents / 10.;
+                cents = cents % 10;
             }
-            else if(changeLeft % 5 != changeLeft){
-                changeLeft = changeLeft % 5;
-                nickels = changeLeft / 5;
+            else if(cents % 5 != cents){
+                nickels += cents / 5.;
+                cents = cents % 5;
             }
             else {
-                changeLeft = 0;
-                pennies = changeLeft;
+                pennies += cents;
+                cents = 0;
             }
         }
         System.out.println("Quarters: " + quarters + " Dimes: " + dimes + " Nickels: " + nickels
                 + " Pennies: " + pennies);
-        int j = 5;
+        String j = "hello";
         return j;
     }
 

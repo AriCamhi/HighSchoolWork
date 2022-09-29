@@ -4,14 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Some changes">
+    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Lab 2 Finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Advanced String/src/test/java/AdvancedStringTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/Advanced String/src/test/java/AdvancedStringTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/Coins.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/Coins.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/SecondLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/SecondLab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/test/java/SecondLabTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/test/java/SecondLabTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,15 +52,18 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="JUnit.SecondLabTester.testingCoinCombinations">
+    <configuration name="SecondLabTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RandomStuff" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SecondLabTester" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -69,11 +78,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SecondLabTester.testingCoinCombos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SecondLabTester.testingCoinCombinations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RandomStuff" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SecondLabTester" />
-      <option name="METHOD_NAME" value="testingCoinCombos" />
+      <option name="METHOD_NAME" value="testingCoinCombinations" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,11 +110,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.SecondLabTester.testingCoinCombinations" />
+        <item itemvalue="JUnit.SecondLabTester.testingStarPyramid" />
         <item itemvalue="JUnit.SecondLabTester.testingSeventeen76" />
         <item itemvalue="JUnit.SecondLabTester.testingCalculateBookTotal" />
-        <item itemvalue="JUnit.SecondLabTester.testingCoinCombos" />
-        <item itemvalue="JUnit.SecondLabTester.testingStarPyramid" />
+        <item itemvalue="JUnit.SecondLabTester" />
       </list>
     </recent_temporary>
   </component>
@@ -140,11 +149,11 @@
       <updated>1663636579885</updated>
     </task>
     <task id="LOCAL-00004" summary="Some changes">
-      <created>1664378351680</created>
+      <created>1664330378688</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1664378351680</updated>
+      <updated>1664330378688</updated>
     </task>
     <option name="localTasksCounter" value="5" />
     <servers />
@@ -162,7 +171,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some changes" />
+    <MESSAGE value="Lab 2 Finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 2 Finished" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

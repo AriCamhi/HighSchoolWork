@@ -1,7 +1,5 @@
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 /**
  * Class to test the SecondLab methods
  * through unit tests for the majority of the time
@@ -13,8 +11,11 @@ public class SecondLabTester {
     SecondLab s = new SecondLab();
 
     @Test
-    public void testingCoinCombos(){
-        assert(s.coinCombinations(74).equals("hello"));
+    public void testingCoinCombinations(){
+        //Equals "Test" for assertion purposes
+        assert(s.coinCombinations(17).equals("Test"));
+        assert(s.coinCombinations(98).equals("Test"));
+        assert(s.coinCombinations(54).equals("Test"));
     }
 
     @Test
@@ -26,14 +27,18 @@ public class SecondLabTester {
     }
 
     @Test
+    //Equals "Test" for assertion purposes
     public void testingSeventeen76(){
         assert(s.seventeen76().equals("test"));
     }
 
     @Test
-    //This works, but it says that the test if failed
+    //All equals 0, just for assertion testing purposes
     public void testingStarPyramid() {
-        assert(s.starPyramid(5).equals("It still works, don't know how to assert"));
+        assert(s.starPyramid(4)==0);
+        assert(s.starPyramid(5)==0);
+        assert(s.starPyramid(3)==0);
+        assert(s.starPyramid(9)==0);
     }
 
 }

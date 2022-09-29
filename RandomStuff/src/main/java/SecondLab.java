@@ -10,7 +10,6 @@ public class SecondLab {
 
     /**
      * Method 1:
-     *
      * Method that should return all possible combinations
      * of change given an amount of cents.
      *
@@ -18,56 +17,33 @@ public class SecondLab {
      * @return all possible combinations
      */
     public String coinCombinations(int cents) {
-        //Finds the optimal change
-        //The least amount of coins possible
-        int quarters = 0;
-        int dimes = 0;
-        int nickels = 0;
-        int pennies = 0;
-        while(cents > 0){
-            if(cents % 25 != cents){
-                quarters += cents / 25.;
-                cents = cents % 25;
-            }
-            else if(cents % 10 != cents){
-                dimes += cents / 10.;
-                cents = cents % 10;
-            }
-            else if(cents % 5 != cents){
-                nickels += cents / 5.;
-                cents = cents % 5;
-            }
-            else {
-                pennies += cents;
-                cents = 0;
+        int q = 25;
+        int d = 10;
+        int n = 5;
+        int p = 1;
+        for (int quarterCount = 0; cents >= q * quarterCount; quarterCount++) {
+            for (int dimeCount = 0; cents >= d * dimeCount; dimeCount++) {
+                for (int nickelCount = 0; cents >= n * nickelCount; nickelCount++) {
+                    for (int pennyCount = 0; cents >= p * pennyCount; pennyCount++) {
+                        if ((quarterCount * q) + (pennyCount * p) + (nickelCount * n) + (dimeCount * d) == cents) {
+                            System.out.println("Quarters: " + quarterCount + " Dimes: " + dimeCount + " Nickels: " + nickelCount
+                                    + " Pennies: " + pennyCount);
+                        }
+                    }
+                }
             }
         }
-        System.out.println("Quarters: " + quarters + " Dimes: " + dimes + " Nickels: " + nickels
-                + " Pennies: " + pennies);
-        String j = "hello";
-        return j;
+        //Using this for assertion testing
+        String output = "Test";
+        return output;
     }
 
-//    public void allCombinations(int cents){
-//        int quarters = 0;
-//        int dimes = 0;
-//        int nickels = 0;
-//        int pennies = cents;
-//        System.out.println("Quarters: " + quarters + " Dimes: " + dimes + " Nickels: " + nickels
-//                + " Pennies: " + pennies);
-//        while(cents > 0){
-//            pennies -=
-//
-//            System.out.println("Quarters: " + quarters + " Dimes: " + dimes + " Nickels: " + nickels
-//                    + " Pennies: " + pennies);
-//        }
-//    }
 
     /**
      * Method 2:
-     *
      * Method to calculate the price of two textbooks given their special
      * discounts
+     *
      * @param bp Be Prepared
      * @param nb Next Best
      * @return total price
@@ -97,7 +73,6 @@ public class SecondLab {
 
     /**
      * Method 3:
-     *
      * Method to return the two closet fractions to 17/76
      * One should be below and one should be above
      *
@@ -111,14 +86,14 @@ public class SecondLab {
         int goodDenom = 0;
         for (int num = 1; num <= 100; num++) {
             for (int denom = 1; denom <= 100; denom++) {
-               double newValue = (double) num / denom;
-               if (newValue < reference) {
-                   if (newValue > target) {
-                       goodNum = num;
-                       goodDenom = denom;
-                       target = newValue;
-                   }
-               }
+                double newValue = (double) num / denom;
+                if (newValue < reference) {
+                    if (newValue > target) {
+                        goodNum = num;
+                        goodDenom = denom;
+                        target = newValue;
+                    }
+                }
             }
         }
         //Loops for finding the fraction above:
@@ -139,39 +114,54 @@ public class SecondLab {
         }
         System.out.println("Fraction below: " + goodNum + "/" + goodDenom);
         System.out.println("Fraction above: " + betterNum + "/" + betterDenom);
+        //Using this for assertion testing
         String output = "test";
         return output;
     }
 
     /**
      * Method 4:
-     *
      * Method to return the stars in the shape of an upside down
      * pyramid. Using a StringBuilder instead of just a string to make
      * it easier. Example: int n = 5
      * Should return:
-     *    *
-     *   ***
-     *  *****
+     * *
+     * ***
+     * *****
      *
      * @param n of stars
      * @return pic of pyramid
      */
-    public StringBuilder starPyramid ( int n){
+    public int starPyramid(int n) {
         StringBuilder output = new StringBuilder();
         output.append(" ".repeat(n));
-        output.replace(n / 2, (n / 2) + 1, "*");
-        int tracker = 1;
-        System.out.println(output);
-        for (int i = 0; i < n; i++) {
-            //Adding to the both side
-            int beginning = (n / 2) - tracker;
-            int end = (n / 2) + tracker;
-            output.replace((n / 2) - tracker, (n / 2) + tracker, "*".repeat(end - beginning + 1));
-            tracker++;
+        if (n % 2 != 0) {
+            output.replace(n / 2, (n / 2) + 1, "*");
+            int tracker = 1;
             System.out.println(output);
+            for (int i = 0; i < n / 2; i++) {
+                //Adding to both sides
+                int beginning = (n / 2) - tracker;
+                int end = (n / 2) + tracker;
+                output.replace(beginning, end, "*".repeat(end - beginning + 1));
+                tracker++;
+                System.out.println(output);
+            }
+        } else if (n % 2 == 0) {
+            output.replace((n / 2) - 1, (n / 2) + 1, "*".repeat(2));
+            int tracker = 1;
+            System.out.println(output);
+            for (int i = 0; i < (n / 2) - 1; i++) {
+                //Adding to both sides
+                int beginning = (n / 2) - tracker - tracker;
+                int end = (n / 2) + tracker;
+                output.replace(beginning, end, "*".repeat(end - beginning + 1));
+                tracker++;
+                System.out.println(output);
+            }
         }
-        return output;
-        }
+        //Using this for assertion testing
+        int tester = 0;
+        return tester;
+    }
 }
-

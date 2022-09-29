@@ -14,8 +14,8 @@ public class SecondLabTester {
     public void testingCoinCombinations(){
         //Equals "Test" for assertion purposes
         assert(s.coinCombinations(17).equals("Test"));
-        assert(s.coinCombinations(98).equals("Test"));
-        assert(s.coinCombinations(54).equals("Test"));
+        assert(s.coinCombinations(21).equals("Test"));
+        assert(s.coinCombinations(25).equals("Test"));
     }
 
     @Test

@@ -1,13 +1,12 @@
-import org.junit.jupiter.api.Test;
-
 /**
  * Tester to test the coin method
  */
 public class CoinTester {
-    Coins c = new Coins();
+    public static void main(String[] args) {
+        Coins c1 = new Coins(25);
+        Coins c2 = new Coins(49);
 
-//    @Test
-//    public void testingCoins(){
-//        assert c.optimalChange(74 == 5);
-//    }
+        c1.compareTo(c2);
+        c1.toString();
+    }
 }

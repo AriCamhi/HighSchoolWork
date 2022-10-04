@@ -1,4 +1,4 @@
-import org.junit.jupiter.api.Test;
+import org.testng.annotations.Test;
 
 /**
  * Class to test the methods from

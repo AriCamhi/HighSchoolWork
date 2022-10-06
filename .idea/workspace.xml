@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="GUI stuff">
-      <change afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/Lipogrammer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Small tweaks to tester" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,30 +41,25 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false"
+    "last_opened_file_path": "C:/Users/arijc/IdeaProjects/HighSchoolWork"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Lipogrammer">
-    <configuration name="CoinTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CoinTester" />
+  <component name="RunManager" selected="JUnit.SecondLabTester.testingCoinCombinations">
+    <configuration name="SecondLabTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RandomStuff" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SecondLabTester" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DrawShapes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DrawShapes" />
+    <configuration name="SecondLabTester.testingCalculateBookTotal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RandomStuff" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lipogrammer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lipogrammer" />
-      <module name="RandomStuff" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SecondLabTester" />
+      <option name="METHOD_NAME" value="testingCalculateBookTotal" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -92,13 +84,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SecondLabTester.testingStarPyramid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RandomStuff" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SecondLabTester" />
+      <option name="METHOD_NAME" value="testingStarPyramid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Lipogrammer" />
-        <item itemvalue="Application.DrawShapes" />
-        <item itemvalue="Application.CoinTester" />
-        <item itemvalue="JUnit.SecondLabTester.testingSeventeen76" />
         <item itemvalue="JUnit.SecondLabTester.testingCoinCombinations" />
+        <item itemvalue="JUnit.SecondLabTester.testingStarPyramid" />
+        <item itemvalue="JUnit.SecondLabTester.testingSeventeen76" />
+        <item itemvalue="JUnit.SecondLabTester.testingCalculateBookTotal" />
+        <item itemvalue="JUnit.SecondLabTester" />
       </list>
     </recent_temporary>
   </component>
@@ -139,28 +141,21 @@
       <option name="project" value="LOCAL" />
       <updated>1664330378688</updated>
     </task>
-    <task id="LOCAL-00005" summary="Coin changes">
-      <created>1664489160510</created>
+    <task id="LOCAL-00005" summary="Lab 2 Finished">
+      <created>1664411007258</created>
       <option name="number" value="00005" />
       <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
-      <updated>1664489160511</updated>
+      <updated>1664411007258</updated>
     </task>
-    <task id="LOCAL-00006" summary="Finished Coin Lab">
-      <created>1664581703536</created>
+    <task id="LOCAL-00006" summary="Small tweaks to tester">
+      <created>1664411271757</created>
       <option name="number" value="00006" />
       <option name="presentableId" value="LOCAL-00006" />
       <option name="project" value="LOCAL" />
-      <updated>1664581703536</updated>
+      <updated>1664411271757</updated>
     </task>
-    <task id="LOCAL-00007" summary="GUI stuff">
-      <created>1664847189832</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1664847189832</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,10 +172,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Some changes" />
     <MESSAGE value="Lab 2 Finished" />
-    <MESSAGE value="Coin changes" />
-    <MESSAGE value="Finished Coin Lab" />
-    <MESSAGE value="GUI stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="GUI stuff" />
+    <MESSAGE value="Small tweaks to tester" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small tweaks to tester" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

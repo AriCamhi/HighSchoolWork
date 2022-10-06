@@ -30,4 +30,9 @@ public class DrawShapes extends JFrame {
         g.drawArc(75,190,250,140,180,180);
     }
 
+    public void houseHW(Graphics g){
+        g.setColor(Color.red);
+        g.fillRect(50,50,300,300);
+    }
+
 }

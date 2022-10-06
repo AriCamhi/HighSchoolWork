@@ -1,29 +1,16 @@
-/**
- * Lab 4 for ATCS
- * @author Ari Camhi
- * @version 10-4-22
- */
+import javax.swing.*;
+
 public class Lipogrammer {
-    private String text;
+    private JTextArea original, marked, words;
+    private JButton go;
 
-    public Lipogrammer(String text){
-        this.text = text;
+    // Constructor
+    public Lipogrammer() {
     }
-
-    public String mark(char letter){
-        text.replace(letter, '#');
-        text.replaceAll(String.valueOf(letter), "#");
-        System.out.println(text);
-        return text;
+    public String getText() {
+        return original.getText();
     }
-
-//    public String allWordsWith(char letter){
-//
-//    }
-
-    public static void main(String [] args){
-        Lipogrammer l = new Lipogrammer("Type or paste your text here");
-        l.mark('e');
+    public void setText(String text) {
+        original.setText(text);
     }
-
 }

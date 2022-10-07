@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Small tweaks to tester">
-      <change afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/LipogramAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/PatientZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/LipogrammerMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/DrawShapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/DrawShapes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/LipogramAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/LipogramAnalyzer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/Lipogrammer.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/Lipogrammer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,17 +46,12 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/arijc/IdeaProjects/HighSchoolWork&quot;
   }
 }</component>
   <component name="RunManager" selected="Application.LipogramAnalyzer">
-    <configuration name="DrawShapes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DrawShapes" />
-      <module name="RandomStuff" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LipogramAnalyzer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LipogramAnalyzer" />
       <module name="RandomStuff" />
@@ -67,13 +61,6 @@
     </configuration>
     <configuration name="Lipogrammer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lipogrammer" />
-      <module name="RandomStuff" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PatientZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PatientZero" />
       <module name="RandomStuff" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,13 +76,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SecondLabTester.testingSeventeen76" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RandomStuff" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SecondLabTester" />
+      <option name="METHOD_NAME" value="testingSeventeen76" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SecondLabTester.testingStarPyramid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RandomStuff" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SecondLabTester" />
+      <option name="METHOD_NAME" value="testingStarPyramid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.LipogramAnalyzer" />
         <item itemvalue="Application.Lipogrammer" />
-        <item itemvalue="Application.PatientZero" />
-        <item itemvalue="Application.DrawShapes" />
         <item itemvalue="JUnit.SecondLabTester.testingCoinCombinations" />
+        <item itemvalue="JUnit.SecondLabTester.testingStarPyramid" />
+        <item itemvalue="JUnit.SecondLabTester.testingSeventeen76" />
       </list>
     </recent_temporary>
   </component>

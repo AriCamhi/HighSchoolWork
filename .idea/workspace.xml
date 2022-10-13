@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Small tweaks to tester">
-      <change afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/LipogramAnalyzer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/PatientZero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/DrawShapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/DrawShapes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/Lipogrammer.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/Lipogrammer.java" afterDir="false" />
-    </list>
+    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Finished Lab 5" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -150,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664411271757</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Finished Lab 5">
+      <created>1665625604229</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665625604229</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,7 +170,8 @@
     <MESSAGE value="Some changes" />
     <MESSAGE value="Lab 2 Finished" />
     <MESSAGE value="Small tweaks to tester" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small tweaks to tester" />
+    <MESSAGE value="Finished Lab 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Lab 5" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Finished Lab 5" />
+    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Finished Lab 5">
+      <change afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/Hangman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/ScanPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/RandomStuff.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/RandomStuff.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/Storyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/Storyboard.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,14 +46,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/arijc/IdeaProjects/HighSchoolWork&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "last_opened_file_path": "C:/Users/arijc/IdeaProjects/HighSchoolWork",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
-  <component name="RunManager" selected="Application.LipogramAnalyzer">
+}]]></component>
+  <component name="RunManager" selected="Application.Hangman">
     <configuration name="DrawShapes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DrawShapes" />
+      <module name="RandomStuff" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hangman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hangman" />
       <module name="RandomStuff" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -60,37 +80,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lipogrammer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lipogrammer" />
+    <configuration name="ScanPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ScanPractice" />
       <module name="RandomStuff" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PatientZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PatientZero" />
+    <configuration name="Storyboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Storyboard" />
       <module name="RandomStuff" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SecondLabTester.testingCoinCombinations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RandomStuff" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SecondLabTester" />
-      <option name="METHOD_NAME" value="testingCoinCombinations" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LipogramAnalyzer" />
-        <item itemvalue="Application.Lipogrammer" />
-        <item itemvalue="Application.PatientZero" />
+        <item itemvalue="Application.Hangman" />
         <item itemvalue="Application.DrawShapes" />
-        <item itemvalue="JUnit.SecondLabTester.testingCoinCombinations" />
+        <item itemvalue="Application.LipogramAnalyzer" />
+        <item itemvalue="Application.Storyboard" />
+        <item itemvalue="Application.ScanPractice" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665625604229</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Finished Lab 5">
+      <created>1665625689388</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665625689388</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

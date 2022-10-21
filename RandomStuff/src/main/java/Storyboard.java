@@ -46,6 +46,11 @@ public class Storyboard {
         choice2.addActionListener(new Storyboard.Action2());
     }
 
+    /**
+     * Action method that creates a new frame with panel
+     * and adds the dialogue onto that panel with any buttons
+     * if necessary
+     */
     static class Action1 implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             JFrame frame = new JFrame("Yes");
@@ -53,21 +58,31 @@ public class Storyboard {
             frame.setSize(600, 300);
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
+            //Adds panel to frame
             JPanel panel = new JPanel();
             frame.add(panel);
+            //Creates dialogue and question
             JLabel label = new JLabel("You now have good breath and get complimented");
             JLabel question = new JLabel("Would you like to fist bump or hug the person?");
+            //Adds them to panel
             panel.add(label);
             panel.add(question);
+            //Creates new buttons and adds to panels
             JButton hug = new JButton("Hug");
             JButton fistBump = new JButton("Fist Bump");
             panel.add(hug);
             panel.add(fistBump);
+            //Adds an action to be associated with the new buttons
             hug.addActionListener(new Storyboard.Action3());
             fistBump.addActionListener(new Storyboard.Action3());
         }
     }
 
+    /**
+     * Action method that creates a new frame with panel
+     * and adds the dialogue onto that panel with any buttons
+     * if necessary
+     */
     static class Action2 implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             JFrame frame = new JFrame("No");
@@ -90,6 +105,11 @@ public class Storyboard {
         }
     }
 
+    /**
+     * Action method that creates a new frame with panel
+     * and adds the dialogue onto that panel with any buttons
+     * if necessary
+     */
     static class Action3 implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             JFrame frame = new JFrame("Aliens");
@@ -111,6 +131,11 @@ public class Storyboard {
         }
     }
 
+    /**
+     * Action method that creates a new frame with panel
+     * and adds the dialogue onto that panel with any buttons
+     * if necessary
+     */
     static class Action4 implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             JFrame frame = new JFrame("Aliens");
@@ -133,6 +158,11 @@ public class Storyboard {
         }
     }
 
+    /**
+     * Action method that creates a new frame with panel
+     * and adds the dialogue onto that panel with any buttons
+     * if necessary
+     */
     static class Action5 implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             JFrame frame = new JFrame("Owl Time");
@@ -155,6 +185,11 @@ public class Storyboard {
         }
     }
 
+    /**
+     * Action method that creates a new frame with panel
+     * and adds the dialogue onto that panel with any buttons
+     * if necessary
+     */
     static class Action6 implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             JFrame frame = new JFrame("Owl Time");
@@ -178,6 +213,11 @@ public class Storyboard {
         }
     }
 
+    /**
+     * Action method that creates a new frame with panel
+     * and adds the dialogue onto that panel with any buttons
+     * if necessary
+     */
     static class Action7 implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             JFrame frame = new JFrame("Owl Time");
@@ -200,6 +240,11 @@ public class Storyboard {
         }
     }
 
+    /**
+     * Action method that creates a new frame with panel
+     * and adds the dialogue onto that panel with any buttons
+     * if necessary
+     */
     static class Action8 implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             JFrame frame = new JFrame("Owl Time");
@@ -214,6 +259,11 @@ public class Storyboard {
         }
     }
 
+    /**
+     * Action method that creates a new frame with panel
+     * and adds the dialogue onto that panel with any buttons
+     * if necessary
+     */
     static class Action9 implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             JFrame frame = new JFrame("Owl Time");
@@ -228,6 +278,11 @@ public class Storyboard {
         }
     }
 
+    /**
+     * Action method that creates a new frame with panel
+     * and adds the dialogue onto that panel with any buttons
+     * if necessary
+     */
     static class Action10 implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             JFrame frame = new JFrame("Owl Time");
@@ -250,6 +305,11 @@ public class Storyboard {
         }
     }
 
+    /**
+     * Action method that creates a new frame with panel
+     * and adds the dialogue onto that panel with any buttons
+     * if necessary
+     */
     static class Action11 implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             JFrame frame = new JFrame("Owl Time");
@@ -264,6 +324,11 @@ public class Storyboard {
         }
     }
 
+    /**
+     * Action method that creates a new frame with panel
+     * and adds the dialogue onto that panel with any buttons
+     * if necessary
+     */
     static class Action12 implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             JFrame frame = new JFrame("Owl Time");
@@ -279,6 +344,11 @@ public class Storyboard {
         }
     }
 
+    /**
+     * Action method that creates a new frame with panel
+     * and adds the dialogue onto that panel with any buttons
+     * if necessary
+     */
     static class Action13 implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             JFrame frame = new JFrame("Owl Time");
@@ -302,6 +372,11 @@ public class Storyboard {
         }
     }
 
+    /**
+     * Action method that creates a new frame with panel
+     * and adds the dialogue onto that panel with any buttons
+     * if necessary
+     */
     static class Action14 implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             JFrame frame = new JFrame("Owl Time");

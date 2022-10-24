@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Objects;
 import java.util.Scanner;
 
 /**
@@ -14,6 +15,9 @@ public class Hangman {
         hm.hangmanUI();
     }
 
+    /**
+     * Full code for the hangman game with no GUI representation
+     */
     public void hangmanUI() {
         //New Scanner
         Scanner sc = new Scanner(System.in);
@@ -38,33 +42,31 @@ public class Hangman {
             int attemptCounter = 6;
             //Makes currentStatus just _ repeated n times
             currentStatus.append("_".repeat(hwArrli.size()));
+            StringBuilder wrongGuesses = new StringBuilder();
             while (currentStatus.toString().contains("_") && attemptCounter != 0) {
                 System.out.println("Input letter you would like to guess: ");
                 String guess = sc.next();
                 if (guess.length() >= 1) {
                     guess = String.valueOf(guess.charAt(0));
                 }
-                System.out.println("The letter you guessed is: " + guess);
                 if (hwArrli.contains(guess)) {
                     System.out.println("Congrats, the word contains that letter");
-                    for (int i = 0; i < hwArrli.size(); i++) {
-                        for (int j = i + 1 ; j < hwArrli.size(); j++) {
-                            if (hwArrli.get(i).equals(hwArrli.get(j))) {
-                                //hwArrli
-                            }
+                    for(int i = 0; i < hwArrli.size(); i++){
+                        if(Objects.equals(hwArrli.get(i), guess)){
+                            String c = hwArrli.get(i);
+                            char j = c.charAt(0);
+                            currentStatus.setCharAt(i, j);
                         }
                     }
-                    int n = hwArrli.indexOf(guess);
-                    String c = hwArrli.get(n);
-                    char j = c.charAt(0);
-                    currentStatus.setCharAt(n, j);
                     System.out.println("Here is your current status: " + currentStatus);
                     String s = hwArrli.get(hwArrli.indexOf(guess));
                 }
                 else {
                     System.out.println("Your guess was wrong unfortunately");
+                    wrongGuesses.append(guess).append(" ");
                     attemptCounter--;
                     System.out.println("Here's how many guesses you have left: " + attemptCounter);
+                    System.out.println("Already guessed: " + wrongGuesses);
                 }
             }
             playAgain = false;
@@ -86,4 +88,6 @@ public class Hangman {
         System.out.println("Program has closed :(");
         sc.close();
         }
+
+
     }

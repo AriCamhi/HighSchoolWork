@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Finished Lab 5">
-      <change afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/Hangman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/ScanPractice.java" afterDir="false" />
+    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Hangman Progress">
+      <change afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/HangmanGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RandomStuff/RandomStuff.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/RandomStuff.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/Storyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/Storyboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/Hangman.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,19 +44,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "last_opened_file_path": "C:/Users/arijc/IdeaProjects/HighSchoolWork",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/arijc/IdeaProjects/HighSchoolWork&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Hangman">
+}</component>
+  <component name="RunManager" selected="Application.HangmanGUI">
     <configuration name="DrawShapes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DrawShapes" />
       <module name="RandomStuff" />
@@ -73,15 +71,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LipogramAnalyzer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LipogramAnalyzer" />
+    <configuration name="HangmanGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HangmanGUI" />
       <module name="RandomStuff" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScanPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ScanPractice" />
+    <configuration name="LipogramAnalyzer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LipogramAnalyzer" />
       <module name="RandomStuff" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HangmanGUI" />
         <item itemvalue="Application.Hangman" />
         <item itemvalue="Application.DrawShapes" />
         <item itemvalue="Application.LipogramAnalyzer" />
         <item itemvalue="Application.Storyboard" />
-        <item itemvalue="Application.ScanPractice" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665625689388</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Hangman Progress">
+      <created>1666317910217</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666317910219</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,7 +193,8 @@
     <MESSAGE value="Lab 2 Finished" />
     <MESSAGE value="Small tweaks to tester" />
     <MESSAGE value="Finished Lab 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Lab 5" />
+    <MESSAGE value="Hangman Progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hangman Progress" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

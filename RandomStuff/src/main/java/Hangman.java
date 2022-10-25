@@ -12,13 +12,19 @@ import java.util.Scanner;
 public class Hangman {
     public static void main(String[] args) {
         Hangman hm = new Hangman();
-        hm.hangmanUI();
+        //hm.hangmanUI();
+    }
+
+    private String hangWord;
+
+    public void setEnteredText(String hangWord) {
+        this.hangWord = hangWord;
     }
 
     /**
      * Full code for the hangman game with no GUI representation
      */
-    public void hangmanUI() {
+    public void hangmanUI(HangmanGUI hangmanGUI) {
         //New Scanner
         Scanner sc = new Scanner(System.in);
         boolean playAgain = true;
@@ -43,6 +49,7 @@ public class Hangman {
             //Makes currentStatus just _ repeated n times
             currentStatus.append("_".repeat(hwArrli.size()));
             StringBuilder wrongGuesses = new StringBuilder();
+
             while (currentStatus.toString().contains("_") && attemptCounter != 0) {
                 System.out.println("Input letter you would like to guess: ");
                 String guess = sc.next();
@@ -62,6 +69,7 @@ public class Hangman {
                     String s = hwArrli.get(hwArrli.indexOf(guess));
                 }
                 else {
+                    hangmanGUI.decrementGuess();
                     System.out.println("Your guess was wrong unfortunately");
                     wrongGuesses.append(guess).append(" ");
                     attemptCounter--;
@@ -88,6 +96,4 @@ public class Hangman {
         System.out.println("Program has closed :(");
         sc.close();
         }
-
-
     }

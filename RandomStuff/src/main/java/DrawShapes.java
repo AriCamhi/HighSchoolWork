@@ -18,16 +18,23 @@ public class DrawShapes extends JFrame {
         paint(getGraphics());
     }
     public void paint (Graphics g){
-        g.setColor(Color.green);
-        g.fillRect(50,50,300,300);
-        g.setColor(Color.cyan);
-        g.fillOval(75,75,50,50);
-        g.fillOval(275,75,50,50);
-        g.setColor(Color.white);
-        g.fillOval(100,95,15,15);
-        g.fillOval(300,95,15,15);
-        g.setColor(Color.red);
-        g.drawArc(75,190,250,140,180,180);
+        //Beginning
+        g.setColor(Color.black);
+        g.fillRect(50,50,5,300);
+        g.fillRect(50,50,150,5);
+        g.fillRect(200,50,5,40);
+        //Head
+            g.drawOval(180,90,50,50);
+        //Body
+            g.fillRect(203,140,1,60);
+        //First leg
+            g.drawLine(203,200,243,230);
+        //Second Leg
+            g.drawLine(203,200,163,230);
+        //First Arm
+            g.drawLine(203,175,243,155);
+        //Second Arm
+            g.drawLine(203,175,163,155);
     }
 
     public void houseHW(Graphics g){

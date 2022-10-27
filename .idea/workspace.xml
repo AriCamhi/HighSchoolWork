@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Small tweaks to tester">
-      <change afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/HangmanGUIFANCY.java" afterDir="false" />
+    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Hangman Progress">
+      <change afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/Fraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RandomStuff/src/test/java/FractionTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/DrawShapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/DrawShapes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/Hangman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/HangmanGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/HangmanGUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +27,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -47,9 +47,14 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/arijc/IdeaProjects/HighSchoolWork&quot;
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/arijc/IdeaProjects/HighSchoolWork&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
   <component name="RunManager" selected="Application.HangmanGUI">
@@ -81,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lipogrammer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lipogrammer" />
+    <configuration name="Storyboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Storyboard" />
       <module name="RandomStuff" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,10 +96,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.HangmanGUI" />
-        <item itemvalue="Application.DrawShapes" />
         <item itemvalue="Application.Hangman" />
+        <item itemvalue="Application.DrawShapes" />
         <item itemvalue="Application.LipogramAnalyzer" />
-        <item itemvalue="Application.Lipogrammer" />
+        <item itemvalue="Application.Storyboard" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +154,35 @@
       <option name="project" value="LOCAL" />
       <updated>1664411271757</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Finished Lab 5">
+      <created>1665625604229</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665625604229</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Finished Lab 5">
+      <created>1665625689388</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665625689388</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Hangman Progress">
+      <created>1666317910217</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1666317910219</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Hangman Progress">
+      <created>1666652642261</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1666652642262</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,7 +200,9 @@
     <MESSAGE value="Some changes" />
     <MESSAGE value="Lab 2 Finished" />
     <MESSAGE value="Small tweaks to tester" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small tweaks to tester" />
+    <MESSAGE value="Finished Lab 5" />
+    <MESSAGE value="Hangman Progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hangman Progress" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

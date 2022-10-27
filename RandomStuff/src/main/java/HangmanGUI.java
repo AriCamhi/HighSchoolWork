@@ -5,12 +5,12 @@ public class HangmanGUI extends JFrame {
     Hangman hm = new Hangman();
     int counter = 6;
 
+    /**
+     * Lets the swing graphics run at the same time as the scanner
+     * by using SwingWorker, admittedly found through some google searches
+     * on what this does
+     */
     public HangmanGUI() {
-        /**
-         * Lets the swing graphics run at the same time as the scanner
-         * by using SwingWorker, admittedly found through some google searches
-         * on what this does
-         */
         SwingWorker<Void, String> sw = new SwingWorker<>() {
             @Override
             public Void doInBackground() {

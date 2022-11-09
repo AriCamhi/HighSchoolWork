@@ -261,4 +261,3 @@ public class Fraction {
         return new Fraction(newNum, newDenom);
     }
 }
-

@@ -31,7 +31,5 @@ public class AnnoyingSong{
             System.out.println("Do you want to hear it again?");
         } 
         sc.close();
-    
-    
     }
 }

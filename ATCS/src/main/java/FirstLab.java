@@ -87,5 +87,4 @@ public class FirstLab {
         System.out.println("Multiples of 3 and 5 below 200, with no duplicates: " + finalTotal);
         return finalTotal;
     }
-
 }

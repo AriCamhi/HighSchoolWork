@@ -5,9 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Finished Hangman">
+      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/ArrayLab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/CreateArrayFromFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/Polynomial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/main/java/Fraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RandomStuff/src/test/java/FractionTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/RandomStuff/src/test/java/FractionTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/RandomStuff.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/ATCS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/ArrayListBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/ArrayListBasics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/Coins.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/Coins.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/DrawShapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/DrawShapes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/FirstLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/FirstLab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/Fraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/Hangman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/HangmanGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/HangmanGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/HangmanGUIFANCY.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/HangmanGUIFANCY.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/LipogramAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/LipogramAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/Lipogrammer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/Lipogrammer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/MappingBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/MappingBasics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/PatientZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/PatientZero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/RadResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/RadResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/RandomMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/RandomMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/ScanPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/ScanPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/SecondLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/SecondLab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/main/java/Storyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/Storyboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/test/java/CoinTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/test/java/CoinTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/test/java/FirstLabTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/test/java/FirstLabTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/test/java/FractionTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/test/java/FractionTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/test/java/RandomTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/test/java/RandomTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RandomStuff/src/test/java/SecondLabTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/test/java/SecondLabTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,17 +68,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/arijc/IdeaProjects",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/arijc/IdeaProjects&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.FractionTester">
+}</component>
+  <component name="RunManager" selected="JUnit.FirstLabTester.testingLeapYear">
+    <configuration name="ArrayLab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayLab" />
+      <module name="ATCS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateArrayFromFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CreateArrayFromFile" />
+      <module name="ATCS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FirstLabTester.testingLeapYear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ATCS" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FirstLabTester" />
+      <option name="METHOD_NAME" value="testingLeapYear" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FractionTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RandomStuff" />
+      <module name="ATCS" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FractionTester" />
       <option name="TEST_OBJECT" value="class" />
@@ -61,38 +110,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FractionTester.testNonStaticSubtraction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RandomStuff" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FractionTester" />
-      <option name="METHOD_NAME" value="testNonStaticSubtraction" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FractionTester.testingComparisons" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RandomStuff" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FractionTester" />
-      <option name="METHOD_NAME" value="testingComparisons" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FractionTester.testingFractionPrinter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RandomStuff" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FractionTester" />
-      <option name="METHOD_NAME" value="testingFractionPrinter" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FractionTester.testingGetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RandomStuff" />
+      <module name="ATCS" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FractionTester" />
       <option name="METHOD_NAME" value="testingGetters" />
@@ -101,13 +120,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ATCS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="ATCS" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FirstLabTester.testingLeapYear" />
+        <item itemvalue="Application.CreateArrayFromFile" />
+        <item itemvalue="Application.ArrayLab" />
         <item itemvalue="JUnit.FractionTester" />
         <item itemvalue="JUnit.FractionTester.testingGetters" />
-        <item itemvalue="JUnit.FractionTester.testingFractionPrinter" />
-        <item itemvalue="JUnit.FractionTester.testingComparisons" />
-        <item itemvalue="JUnit.FractionTester.testNonStaticSubtraction" />
       </list>
     </recent_temporary>
   </component>
@@ -189,6 +221,16 @@
     <MESSAGE value="Small tweaks to tester" />
     <MESSAGE value="Finished Hangman" />
     <option name="LAST_COMMIT_MESSAGE" value="Finished Hangman" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

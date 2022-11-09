@@ -58,5 +58,8 @@ public class Main {
         int month = 9, day = 23, yearr = 2022;
         double amount = 2344.8456;
         System.out.printf("Date:%02d/%02d/%d Amount: %7.2f\n", month, day, yearr, amount);
+
+
+
     }
 }

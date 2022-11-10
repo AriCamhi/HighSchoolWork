@@ -63,9 +63,16 @@ public class ArrayLab {
         int[] test2 = new int[] {4,8,9,0};
         int[] test3 = new int[] {2,3,5,7};
         int[] test4 = new int[] {2,1,5,4};
+        a.afterFour(test1);
+        a.afterFour(test2);
+        a.afterFour(test3);
         a.afterFour(test4);
         double[][] tester1= {{3, 2, 5}, {4,6,9}};
+        double[][] tester2= {{7, 1, 1}, {16,9}};
+        double[][] tester3= {{9, -2, -5}, {40, -6, -9}};
         a.positiveMax(tester1);
+        a.positiveMax(tester2);
+        a.positiveMax(tester3);
     }
 
 }

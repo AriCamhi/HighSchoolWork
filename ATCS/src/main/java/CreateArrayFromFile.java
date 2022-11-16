@@ -46,7 +46,7 @@ public class CreateArrayFromFile {
     }
 
     public static void main(String[] args) throws IOException {
-        CreateArrayFromFile c = new CreateArrayFromFile("/Users/aricamhi/IdeaProjects/HighSchoolWork/RandomStuff/src/main/java/testfile.txt");
+        CreateArrayFromFile c = new CreateArrayFromFile("/Users/aricamhi/IdeaProjects/HighSchoolWork/ATCS/src/main/java/testfile.txt");
         c.countLines();
         c.fillArray();
         System.out.println(Arrays.toString(c.getFile()));

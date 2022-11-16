@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Changed to ATCS">
-      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/Word.java" afterDir="false" />
+    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Anagram beginnings">
+      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/AnagramUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/WordList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/ArrayLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/ArrayLab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/CreateArrayFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/CreateArrayFromFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/Fraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/Word.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +54,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArrayLab">
+  <component name="RunManager" selected="Application.Word">
     <configuration name="ArrayLab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArrayLab" />
       <module name="ATCS" />
@@ -66,30 +69,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Word" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Word" />
+      <module name="ATCS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WordList" />
+      <module name="ATCS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FirstLabTester.testingLeapYear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ATCS" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FirstLabTester" />
       <option name="METHOD_NAME" value="testingLeapYear" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FractionTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ATCS" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FractionTester" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FractionTester.testingGetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ATCS" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FractionTester" />
-      <option name="METHOD_NAME" value="testingGetters" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Word" />
+        <item itemvalue="Application.WordList" />
+        <item itemvalue="Application.CreateArrayFromFile" />
         <item itemvalue="Application.ArrayLab" />
         <item itemvalue="JUnit.FirstLabTester.testingLeapYear" />
-        <item itemvalue="Application.CreateArrayFromFile" />
-        <item itemvalue="JUnit.FractionTester" />
-        <item itemvalue="JUnit.FractionTester.testingGetters" />
       </list>
     </recent_temporary>
   </component>
@@ -183,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668001675201</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Anagram beginnings">
+      <created>1668045377161</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668045377161</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -203,7 +208,8 @@
     <MESSAGE value="Small tweaks to tester" />
     <MESSAGE value="Finished Hangman" />
     <MESSAGE value="Changed to ATCS" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed to ATCS" />
+    <MESSAGE value="Anagram beginnings" />
+    <option name="LAST_COMMIT_MESSAGE" value="Anagram beginnings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

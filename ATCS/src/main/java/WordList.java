@@ -1,7 +1,7 @@
-import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Scanner;
+import java.util.Arrays;
+import java.util.Objects;
 
 /**
  * WordList class for ATCS Anagram Lab
@@ -11,11 +11,15 @@ import java.util.Scanner;
  */
 public class WordList {
 
+    private String fileName;
+    private int charLimit;
+    private final ArrayList<String> al = new ArrayList<>();
+
     /**
      * Empty Constructor
      */
-    public WordList(){
-
+    public WordList() throws IOException {
+        this("",0);
     }
 
     /**
@@ -28,57 +32,68 @@ public class WordList {
      * @throws IOException
      */
     public WordList(String fileName, int charLimit) throws IOException {
-        int count = 0;
-        File input = new File(fileName);
-        Scanner words = new Scanner(input);
-        while (words.hasNextLine()) {
-            String line = words.nextLine();
-            count++;
-        }
-        words.close();
-        int count2 = 0;
-        File input2 = new File(fileName);
-        Scanner words2 = new Scanner(input2);
-        String[] file = new String[count];
-        while (words2.hasNextLine()) {
-            file[count2] = words2.nextLine();
-            count2++;
-        }
-        ArrayList<String> arrLi = new ArrayList<>();
-        for (int i = 0; i < file.length; i++) {
-            if (file[i].length() <= charLimit) {
-                arrLi.add(file[i]);
+        this.fileName = fileName;
+        this.charLimit = charLimit;
+        CreateArrayFromFile c = new CreateArrayFromFile(fileName);
+        al.addAll(Arrays.asList(c.getFile()));
+        pruneWords();
+    }
+
+
+    /**
+     * Method to remove words above the charLimit
+     */
+    private void pruneWords(){
+        for(int i = 0; i < al.size(); i++){
+            if(al.get(i).length() > charLimit){
+                al.remove(i);
+                i--;
             }
         }
-        System.out.println(arrLi);
     }
+
 
     /**
      * Method to add a word of choice to the file
+     *
      * @param addedWord
+     * @return
      */
-    public void addWord(Word addedWord){
-
+    public ArrayList<String> addWord(String addedWord){
+        pruneWords();
+        al.add(addedWord);
+        return al;
     }
 
 
-    public void generateAnagrams(Word w) throws IOException {
-        WordList wl = new WordList("/Users/aricamhi/IdeaProjects/HighSchool" +
-                "Work/ATCS/src/main/java/small-words.txt",5);
-        int count = 0;
-        Scanner s = new Scanner((Readable) wl);
-        while(s.hasNextLine()){
-            //if()
+    /**
+     * Generates the anagrams of a given word inputted by the user
+     *
+     * @param w, the word that anagrams will be found for
+     * @return list of anagrams
+     * @throws IOException
+     */
+    public ArrayList<String> generateAnagrams(Word w) throws IOException {
+        String alpha = w.getAlphaWord();
+        ArrayList<String> anagrams = new ArrayList<>();
+        for (String s : al) {
+            Word wTest = new Word(s);
+            if (Objects.equals(alpha, wTest.getAlphaWord().toLowerCase())) {
+                anagrams.add(wTest.getInitialWord());
+            }
         }
+        return anagrams;
     }
 
 
-
-
+    /**
+     * Some testing for the methods
+     */
     public static void main(String[] args) throws IOException{
-        //WordList wl = new WordList("/Users/aricamhi/IdeaProjects/HighSchoolWork/ATCS/src/main/java/small-words.txt", 4);
-        WordList w1 = new WordList();
-        //System.out.println(w1.generateAnagrams("horse", ""));
+        WordList wl = new WordList("src/main/resources/dictionary.txt", 4);
+        Word w = new Word("tar");
+        WordList wl2 = new WordList("src/main/resources/small-words.txt", 4);
+        System.out.println(wl.addWord(w.getInitialWord()));
+        System.out.println(wl2.generateAnagrams(w));
     }
-
 }

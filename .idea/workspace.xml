@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Anagram beginnings">
-      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/AnagramUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/WordList.java" afterDir="false" />
+    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Finished Fractions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/CreateArrayFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/CreateArrayFromFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/Fraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/AnagramUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/AnagramUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/WordList.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/WordList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/small-words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/resources/small-words.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/testfile.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/resources/testfile.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,24 +46,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/arijc/IdeaProjects&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/arijc/IdeaProjects/HighSchoolWork/ATCS/src/main/java",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
-  <component name="RunManager" selected="Application.Word">
-    <configuration name="ArrayLab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayLab" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\arijc\IdeaProjects\HighSchoolWork\ATCS\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AnagramUI">
+    <configuration name="AnagramUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AnagramUI" />
       <module name="ATCS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ATCS/src/main/resources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateArrayFromFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CreateArrayFromFile" />
+    <configuration name="FirstLab" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FirstLab" />
+      <module name="RandomStuff" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LipogramAnalyzer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LipogramAnalyzer" />
       <module name="ATCS" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -79,40 +92,38 @@
     <configuration name="WordList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WordList" />
       <module name="ATCS" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FirstLabTester.testingLeapYear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ATCS" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstLabTester" />
-      <option name="METHOD_NAME" value="testingLeapYear" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ATCS/src/main/resources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
-      <module name="ATCS" />
+      <module name="RandomStuff" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="ATCS" />
+      <module name="RandomStuff" />
       <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.AnagramUI" />
+      <item itemvalue="Application.FirstLab" />
+      <item itemvalue="Application.LipogramAnalyzer" />
+      <item itemvalue="Application.Word" />
+      <item itemvalue="Application.WordList" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Word" />
+        <item itemvalue="Application.AnagramUI" />
         <item itemvalue="Application.WordList" />
-        <item itemvalue="Application.CreateArrayFromFile" />
-        <item itemvalue="Application.ArrayLab" />
-        <item itemvalue="JUnit.FirstLabTester.testingLeapYear" />
+        <item itemvalue="Application.Word" />
+        <item itemvalue="Application.LipogramAnalyzer" />
+        <item itemvalue="Application.FirstLab" />
       </list>
     </recent_temporary>
   </component>
@@ -174,21 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666667893343</updated>
     </task>
-    <task id="LOCAL-00008" summary="Changed to ATCS">
-      <created>1668001675201</created>
+    <task id="LOCAL-00008" summary="Finished Fractions">
+      <created>1666929414364</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1668001675201</updated>
+      <updated>1666929414364</updated>
     </task>
-    <task id="LOCAL-00009" summary="Anagram beginnings">
-      <created>1668045377161</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1668045377161</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,19 +211,8 @@
     <MESSAGE value="Lab 2 Finished" />
     <MESSAGE value="Small tweaks to tester" />
     <MESSAGE value="Finished Hangman" />
-    <MESSAGE value="Changed to ATCS" />
-    <MESSAGE value="Anagram beginnings" />
-    <option name="LAST_COMMIT_MESSAGE" value="Anagram beginnings" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
-          <option name="timeStamp" value="2" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Finished Fractions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Fractions" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -16,6 +16,14 @@ public class Word {
         alphaWord = convertAlpha(initialWord);
     }
 
+    public String getInitialWord() {
+        return initialWord;
+    }
+
+    public String getAlphaWord() {
+        return alphaWord;
+    }
+
     /**
      * Method to sort the initialWord into an alpha word
      * in alphabetical order
@@ -31,21 +39,14 @@ public class Word {
     /**
      * Equals method to see if two words are anagrams of each other
      *
-     * @param w2, the word you are inputting
+     * @param that, the word you are inputting
      * @return true or false
      */
-    public boolean equals(Word w2) {
-        Word w1 = new Word(initialWord);
-        if(w1.alphaWord.equals(w2.alphaWord)){
-            return true;
-        }
-        return false;
+    public boolean equals(Word that) {
+        return alphaWord.equals(that.alphaWord);
     }
 
     @Override
-    /**
-     * toString method for word class
-     */
     public String toString() {
         return "Word{" +
                 "initialWord='" + initialWord + '\'' +
@@ -53,11 +54,14 @@ public class Word {
                 '}';
     }
 
+    /**
+     * Some testing
+     */
     public static void main(String[] args){
         Word w = new Word("cear");
         Word a = new Word("race");
         System.out.println(w.convertAlpha("brain"));
         System.out.println(a.equals(w));
-        System.out.println(a.toString());
+        System.out.println(a);
     }
 }

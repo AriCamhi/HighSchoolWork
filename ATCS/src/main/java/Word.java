@@ -7,19 +7,24 @@ import java.util.Arrays;
  * @version 11-9-22
  */
 public class Word {
-
     private String initialWord;
     private String alphaWord;
 
+    /**
+     * Constructor that takes in the initial word as the parameter
+     * also sets the alpha word by using convertAlpha
+     *
+     * @param initialWord, the word in non-alphabetical order
+     */
     public Word(String initialWord) {
         this.initialWord = initialWord;
         alphaWord = convertAlpha(initialWord);
     }
 
+    //Getters below
     public String getInitialWord() {
         return initialWord;
     }
-
     public String getAlphaWord() {
         return alphaWord;
     }
@@ -27,8 +32,8 @@ public class Word {
     /**
      * Method to sort the initialWord into an alpha word
      * in alphabetical order
-     * @param initialWord
-     * @return
+     * @param initialWord, the word that will be converted into alphabetical order
+     * @return the initialWord in alphabetical order
      */
     private String convertAlpha(String initialWord){
         char[] a = initialWord.toCharArray();

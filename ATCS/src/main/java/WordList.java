@@ -10,7 +10,6 @@ import java.util.Objects;
  * @version 11-14-22
  */
 public class WordList {
-
     private String fileName;
     private int charLimit;
     private final ArrayList<String> al = new ArrayList<>();
@@ -27,8 +26,8 @@ public class WordList {
      * and will then construct a list of words from that file
      * with only words less than or equal to that charLimit
      *
-     * @param fileName
-     * @param charLimit
+     * @param fileName the name of the file that will be used for the WordList
+     * @param charLimit the limit of the amount of characters in the WordList
      * @throws IOException
      */
     public WordList(String fileName, int charLimit) throws IOException {
@@ -56,8 +55,8 @@ public class WordList {
     /**
      * Method to add a word of choice to the file
      *
-     * @param addedWord
-     * @return
+     * @param addedWord, the word you are going to add to the file
+     * @return the list of words with the new added word
      */
     public ArrayList<String> addWord(String addedWord){
         pruneWords();

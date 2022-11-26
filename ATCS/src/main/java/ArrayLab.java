@@ -57,6 +57,10 @@ public class ArrayLab {
             return maxValue;
         }
 
+    /**
+     * Some test cases
+     * @param args
+     */
     public static void main(String[] args) {
         ArrayLab a = new ArrayLab();
         int[] test1 = new int[] {2,4,5,7};

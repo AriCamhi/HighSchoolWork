@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Objects;
 import java.util.Random;
@@ -11,26 +12,40 @@ import java.util.Random;
  */
 public class FortuneCookie {
     private ArrayList<Integer> luckyNumbers;
-    private String fortune;
+    private String fortunePhrase;
 
     /**
      * Empty Constructor
      */
-    public FortuneCookie(){
-
+    public FortuneCookie() throws IOException {
+        generateFortunePhrase();
+        generateLuckyNumbers();
     }
 
+    /**
+     * Constructor basically just for testing
+     * @param luckyNumbers
+     */
     public FortuneCookie(ArrayList<Integer> luckyNumbers){
         this.luckyNumbers = luckyNumbers;
+        fortunePhrase = "Today is your lucky day!";
     }
 
-    public FortuneCookie(ArrayList<Integer> luckyNumbers, String fortune){
+    /**
+     * Constructor with already preset variables
+     * @param luckyNumbers
+     * @param fortunePhrase
+     * @throws IOException
+     */
+    public FortuneCookie(ArrayList<Integer> luckyNumbers, String fortunePhrase) throws IOException {
         this.luckyNumbers = luckyNumbers;
-        this.fortune = fortune;
+        this.fortunePhrase = fortunePhrase;
+        generateLuckyNumbers();
+        generateFortunePhrase();
     }
 
-    public FortuneCookie(String fortune){
-        this.fortune = fortune;
+    public FortuneCookie(String fortunePhrase){
+        this.fortunePhrase = fortunePhrase;
     }
 
     /**
@@ -43,10 +58,19 @@ public class FortuneCookie {
         return luckyNumbers.toString();
     }
 
+    /**
+     * Getter for the phrase of the fortune
+     * @return fortune
+     */
+    public String getFortunePhrase(){
+        return fortunePhrase;
+    }
+
     @Override
     public String toString() {
         return "FortuneCookie{" +
                 "luckyNumbers=" + luckyNumbers +
+                ", fortunePhrase='" + fortunePhrase + '\'' +
                 '}';
     }
 
@@ -55,7 +79,24 @@ public class FortuneCookie {
         if (this == o) return true;
         if (!(o instanceof FortuneCookie)) return false;
         FortuneCookie that = (FortuneCookie) o;
-        return Objects.equals(getLuckyNumbers(), that.getLuckyNumbers());
+        return Objects.equals(getLuckyNumbers(), that.getLuckyNumbers()) && Objects.equals(getFortunePhrase(), that.getFortunePhrase());
+    }
+
+
+    /**
+     * Generates the fortune phrase of the FortuneCookie
+     * @throws IOException
+     */
+    public void generateFortunePhrase() throws IOException {
+        CreateArrayFromFile c = new CreateArrayFromFile("/Users/aricamhi/IdeaProjects/HighSchoolWork/ATCS/src/main/resources/fortunes.txt");
+        Random r = new Random();
+        int j = r.nextInt(c.getSize());
+        String[] arr;
+        arr = c.getFile();
+        if(arr[j].equals("")){
+            j--;
+        }
+        fortunePhrase = arr[j];
     }
 
     /**
@@ -93,12 +134,17 @@ public class FortuneCookie {
         luckyNumbers = al;
     }
 
+
     /**
      * Quick testing to see if methods work
      */
-    public static void main (String[] args){
-        FortuneCookie fc = new FortuneCookie("live in prosperity");
+    public static void main (String[] args) throws IOException {
+        FortuneCookie fc = new FortuneCookie();
         fc.generateLuckyNumbers();
         System.out.println(fc.getLuckyNumbers());
+        fc.generateFortunePhrase();
+        System.out.println(fc.getFortunePhrase());
+        FortuneCookie fc2 = new FortuneCookie();
+        System.out.println(fc2.toString());
     }
 }

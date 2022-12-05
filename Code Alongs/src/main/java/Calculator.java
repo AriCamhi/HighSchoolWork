@@ -22,15 +22,7 @@ public class Calculator{
      * @return 1 if positive, 0 if 0, -1 if negative
      */
     public int sign(int n){
-        if ( n > 0 ) {
-            return 1;
-        }
-        else if ( n == 0 ) {
-            return 0;
-        }
-        else {
-            return - 1;
-        }
+        return Integer.compare(n, 0);
     }
 
     /**
@@ -103,7 +95,7 @@ public class Calculator{
      * @param a 3 double variables
      * @return String 
      */
-    public String weirdEquation(int a, int b, int c){
+    public String radicant(int a, int b, int c){
         if (Math. pow(b, 2) - 4 * a * c > 0) {
             return "Two Real Roots";
         }

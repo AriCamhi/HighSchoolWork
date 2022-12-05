@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Stuff">
-      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/Fortune.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/FortuneCookie.java" afterDir="false" />
+    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Some changes to Fortune Cookie Lab">
+      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/FCArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/CreateArrayFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/CreateArrayFromFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/Fortune.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/Fortune.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/FortuneCookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/FortuneCookie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/Hangman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code Alongs/src/main/java/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code Alongs/src/main/java/Calculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,12 +43,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2EMWgTapB3SFmEYyFmZKjIVILPX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/arijc/IdeaProjects/HighSchoolWork/ATCS/src/main/java&quot;,
@@ -56,7 +64,7 @@
       <recent name="C:\Users\arijc\IdeaProjects\HighSchoolWork\ATCS\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FortuneCookie">
+  <component name="RunManager" selected="Application.HangmanGUI">
     <configuration name="AnagramUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnagramUI" />
       <module name="ATCS" />
@@ -65,8 +73,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ArrayListBasics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayListBasics" />
+    <configuration name="FCArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FCArrayList" />
+      <module name="ATCS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fortune" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fortune" />
       <module name="ATCS" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -80,17 +95,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="HangmanGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HangmanGUI" />
       <module name="ATCS" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WordList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WordList" />
-      <module name="ATCS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ATCS/src/main/resources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,19 +116,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.FCArrayList" />
+      <item itemvalue="Application.Fortune" />
+      <item itemvalue="Application.HangmanGUI" />
       <item itemvalue="Application.FortuneCookie" />
-      <item itemvalue="Application.ArrayListBasics" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.AnagramUI" />
-      <item itemvalue="Application.WordList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HangmanGUI" />
+        <item itemvalue="Application.Fortune" />
+        <item itemvalue="Application.FCArrayList" />
         <item itemvalue="Application.FortuneCookie" />
         <item itemvalue="Application.AnagramUI" />
-        <item itemvalue="Application.ArrayListBasics" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.WordList" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +218,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669775992362</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Some changes to Fortune Cookie Lab">
+      <created>1669841173224</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1669841173224</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Some changes to Fortune Cookie Lab">
+      <created>1669841262857</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1669841262857</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,6 +247,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Some changes" />
     <MESSAGE value="Lab 2 Finished" />
     <MESSAGE value="Small tweaks to tester" />
@@ -233,7 +255,18 @@
     <MESSAGE value="Finished Fractions" />
     <MESSAGE value="Finished Anagram details" />
     <MESSAGE value="Stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stuff" />
+    <MESSAGE value="Some changes to Fortune Cookie Lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some changes to Fortune Cookie Lab" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

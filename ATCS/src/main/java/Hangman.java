@@ -86,6 +86,7 @@ public class Hangman {
                     }
                 }
                 else if(attemptCounter == 0){
+                    System.out.println("The correct word was: " + hangWord);
                     System.out.println("Sadly, you lost... Would you like to play again? (yes/no)");
                     response = sc.next();
                     if (response.equalsIgnoreCase("yes")){

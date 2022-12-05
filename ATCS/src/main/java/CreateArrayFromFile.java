@@ -9,8 +9,8 @@ import java.util.*;
  * @version 11-7-22
  */
 public class CreateArrayFromFile {
-    private String fileName;
-    private String[] file;
+    private final String fileName;
+    private final String[] file;
 
     public CreateArrayFromFile(String fileName) throws IOException {
         this.fileName = fileName;
@@ -43,6 +43,10 @@ public class CreateArrayFromFile {
 
     public String[] getFile() {
         return file;
+    }
+
+    public int getSize(){
+        return file.length;
     }
 
     public static void main(String[] args) throws IOException {

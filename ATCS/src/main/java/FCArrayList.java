@@ -48,7 +48,17 @@ public class FCArrayList {
     }
 
     /**
-     * Lets the user peel at the fortune in the first position
+     * Lets the user peek at the fortune given the index
+     * @param index where the user wants to look
+     * @return toString of fortune at nth index
+     */
+    public String peekI(int index){
+        FortuneCookie fc = cookieList.get(index);
+        return fc.toString();
+    }
+
+    /**
+     * Lets the user peek at the fortune in the first position
      * but then also removes that FortuneCookie from the cookieList
      * @return the toString of fortune at 0th index
      */

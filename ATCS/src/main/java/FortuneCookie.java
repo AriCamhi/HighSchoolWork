@@ -24,7 +24,7 @@ public class FortuneCookie {
 
     /**
      * Constructor basically just for testing
-     * @param luckyNumbers
+     * @param luckyNumbers of FortuneCookie
      */
     public FortuneCookie(ArrayList<Integer> luckyNumbers){
         this.luckyNumbers = luckyNumbers;
@@ -33,8 +33,8 @@ public class FortuneCookie {
 
     /**
      * Constructor with already preset variables
-     * @param luckyNumbers
-     * @param fortunePhrase
+     * @param luckyNumbers of FortuneCookie
+     * @param fortunePhrase of FortuneCookie
      * @throws IOException
      */
     public FortuneCookie(ArrayList<Integer> luckyNumbers, String fortunePhrase) throws IOException {
@@ -88,7 +88,7 @@ public class FortuneCookie {
      * @throws IOException
      */
     public void generateFortunePhrase() throws IOException {
-        CreateArrayFromFile c = new CreateArrayFromFile("/Users/aricamhi/IdeaProjects/HighSchoolWork/ATCS/src/main/resources/fortunes.txt");
+        CreateArrayFromFile c = new CreateArrayFromFile("fortunes.txt");
         Random r = new Random();
         int j = r.nextInt(c.getSize());
         String[] arr;
@@ -145,6 +145,6 @@ public class FortuneCookie {
         fc.generateFortunePhrase();
         System.out.println(fc.getFortunePhrase());
         FortuneCookie fc2 = new FortuneCookie();
-        System.out.println(fc2.toString());
+        System.out.println(fc2);
     }
 }

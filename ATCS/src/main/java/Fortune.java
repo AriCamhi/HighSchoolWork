@@ -41,17 +41,18 @@ public class Fortune {
             }
             else if(response.equals("peekI")){
                 System.out.println("Index you would like to peek at: ");
-                System.out.println(fca.getFortune(Integer.parseInt(sc.next())));
+                int j = Integer.parseInt(sc.next());
+                System.out.println("FortuneCookie at the " + j + " position: " + fca.peekI(j));
             }
             else if(response.equals("poll0")){
-                fca.poll();
+                System.out.println("You are removing this FortuneCookie: " + fca.poll());
             }
             else if(response.equals("remove")){
                 System.out.println("Index you would like to remove: ");
                 fca.remove(Integer.parseInt(sc.next()));
             }
             else if(response.equals("size")){
-                System.out.println(fca.size());
+                System.out.println("The size is: " + fca.size());
             }
             else if(response.equals("print")){
                 System.out.println(fca);

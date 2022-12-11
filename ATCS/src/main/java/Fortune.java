@@ -2,7 +2,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 /**
- * Fortune Class for teh Fortune Cookie Lab
+ * Fortune Class for the Fortune Cookie Lab
  * in ATCS
  *
  * @author Ari Camhi

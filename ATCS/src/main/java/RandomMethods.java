@@ -324,5 +324,34 @@ public String reverseStringAgain(String s){
         return total;
     }
 
+    /**
+     * Method to sort array without using Arrays.sort
+     * @param arr
+     */
+    public void sortArray(int[] arr){
+        int temp;
+        int current;
+        int right;
+        for(int j = 0; j < arr.length; j++){
+            for (int i = 0; i < arr.length - 1; i++) {
+                current = i;
+                right = i + 1;
+                if (arr[current] > arr[right]) {
+                    temp = arr[current];
+                    arr[current] = arr[right];
+                    arr[right] = temp;
+                }
+            }
+        }
+        System.out.println(Arrays.toString(arr));
+    }
+
+    public static void main (String[] args){
+        RandomMethods r = new RandomMethods();
+        int[] arr = new int[] {4,1,5,7,9,4,3};
+        int[] arr2 = new int[] {491,9812,33,33,33,190,8322};
+        r.sortArray(arr2);
+    }
+
 }
 

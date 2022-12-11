@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Finished Anagram">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/FCArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/FCArrayList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/Fortune.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/Fortune.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/FortuneCookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/FortuneCookie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/RandomMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/RandomMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +35,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://$USER_HOME$/.jdks/openjdk-15.0.2/lib/src.zip!/java.base/java/io/FileNotFoundException.java" root0="SKIP_INSPECTION" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -47,28 +43,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/arijc/IdeaProjects/HighSchoolWork/ATCS/src/main/java",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/arijc/IdeaProjects/HighSchoolWork/ATCS/src/main/java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\arijc\IdeaProjects\HighSchoolWork\ATCS\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Fortune">
-    <configuration name="AnagramUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnagramUI" />
-      <module name="ATCS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ATCS/src/main/resources" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RandomMethods">
     <configuration name="FCArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FCArrayList" />
       <module name="ATCS" />
@@ -93,10 +81,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WordList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WordList" />
+    <configuration name="Hangman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hangman" />
       <module name="ATCS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ATCS/src/main/resources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RandomMethods" />
+      <module name="ATCS" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,19 +109,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.RandomMethods" />
+      <item itemvalue="Application.Hangman" />
       <item itemvalue="Application.FCArrayList" />
       <item itemvalue="Application.FortuneCookie" />
       <item itemvalue="Application.Fortune" />
-      <item itemvalue="Application.AnagramUI" />
-      <item itemvalue="Application.WordList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RandomMethods" />
         <item itemvalue="Application.Fortune" />
+        <item itemvalue="Application.Hangman" />
         <item itemvalue="Application.FCArrayList" />
         <item itemvalue="Application.FortuneCookie" />
-        <item itemvalue="Application.AnagramUI" />
-        <item itemvalue="Application.WordList" />
       </list>
     </recent_temporary>
   </component>

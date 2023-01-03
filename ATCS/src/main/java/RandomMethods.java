@@ -346,11 +346,30 @@ public String reverseStringAgain(String s){
         System.out.println(Arrays.toString(arr));
     }
 
+    public int[] twoSum(int[] nums, int target) {
+        int one = 0;
+        int two = 0;
+        for(int i = 0; i <= nums.length; i++){
+            for(int j = 1; j <= nums.length; j++){
+                if(nums[i] + nums[j] == target){
+                    one = i;
+                    two = j;
+                    break;
+                }
+            }
+        }
+        int[] arr = new int[] {one, two};
+        return arr;
+    }
+
+
+
     public static void main (String[] args){
         RandomMethods r = new RandomMethods();
         int[] arr = new int[] {4,1,5,7,9,4,3};
         int[] arr2 = new int[] {491,9812,33,33,33,190,8322};
         r.sortArray(arr2);
+        r.twoSum(arr, 8);
     }
 
 }

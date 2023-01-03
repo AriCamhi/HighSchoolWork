@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Finished Anagram">
+    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Learned BubbleSort Fully">
+      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/ArrayStax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/Mushroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/MushroomArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/MushroomMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/Stax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ATCS/src/main/resources/mushrooms.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/Fortune.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/Fortune.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/RandomMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/RandomMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -39,12 +46,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2EMWgTapB3SFmEYyFmZKjIVILPX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/arijc/IdeaProjects/HighSchoolWork/ATCS/src/main/java&quot;,
@@ -56,9 +67,9 @@
       <recent name="C:\Users\arijc\IdeaProjects\HighSchoolWork\ATCS\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RandomMethods">
-    <configuration name="FCArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FCArrayList" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="AnagramUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AnagramUI" />
       <module name="ATCS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ATCS/src/main/resources" />
       <method v="2">
@@ -73,17 +84,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FortuneCookie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FortuneCookie" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ATCS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ATCS/src/main/resources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hangman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hangman" />
+    <configuration name="MushroomMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MushroomMain" />
       <module name="ATCS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ATCS/src/main/resources" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,19 +120,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.AnagramUI" />
+      <item itemvalue="Application.MushroomMain" />
       <item itemvalue="Application.RandomMethods" />
-      <item itemvalue="Application.Hangman" />
-      <item itemvalue="Application.FCArrayList" />
-      <item itemvalue="Application.FortuneCookie" />
       <item itemvalue="Application.Fortune" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.AnagramUI" />
+        <item itemvalue="Application.MushroomMain" />
         <item itemvalue="Application.RandomMethods" />
         <item itemvalue="Application.Fortune" />
-        <item itemvalue="Application.Hangman" />
-        <item itemvalue="Application.FCArrayList" />
-        <item itemvalue="Application.FortuneCookie" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668657388905</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Learned BubbleSort Fully">
+      <created>1670775537616</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670775537616</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -219,13 +237,26 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Some changes" />
     <MESSAGE value="Lab 2 Finished" />
     <MESSAGE value="Small tweaks to tester" />
     <MESSAGE value="Finished Hangman" />
     <MESSAGE value="Finished Fractions" />
     <MESSAGE value="Finished Anagram" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Anagram" />
+    <MESSAGE value="Learned BubbleSort Fully" />
+    <option name="LAST_COMMIT_MESSAGE" value="Learned BubbleSort Fully" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ATCS/src/main/java/RandomMethods.java</url>
+          <line>351</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

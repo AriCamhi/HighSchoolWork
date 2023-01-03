@@ -1,4 +1,5 @@
 import java.text.DecimalFormat;
+import java.util.Stack;
 
 /**
  * @author Ari
@@ -64,6 +65,20 @@ public class Main {
         double[] arr1 = new double[]{1,4.2,8,3,9,11};
         Main m = new Main();
         m.findMaxPosForEach(arr);
+
+
+
+        String str = "The dog ate my homework.";
+        char[] charArr = str.toCharArray();
+        int size = charArr.length;
+        Stack stack = new Stack();
+        for(int i = 0; i < size; i++){
+            stack.push(charArr[i]);
+        }
+        for(int j = 0; j < size; j++){
+            charArr[j] = (char) stack.pop();
+        }
+        System.out.println(String.valueOf(charArr));
     }
 
     public void findMax(int [] a){
@@ -108,4 +123,5 @@ public class Main {
         }
         System.out.println(count);
     }
+
 }

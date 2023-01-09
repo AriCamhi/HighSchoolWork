@@ -41,8 +41,7 @@ public class Main {
             int num = Integer.parseInt(s);
             num += num;
             System.out.println(num);
-        }
-        catch(NumberFormatException ex){
+        } catch (NumberFormatException ex) {
             System.out.println("Your string has letters.");
         }
 
@@ -60,68 +59,25 @@ public class Main {
         double amount = 2344.8456;
         System.out.printf("Date:%02d/%02d/%d Amount: %7.2f\n", month, day, yearr, amount);
 
-        int[][] test = {{1,2} , {3,4}, {5,6}};
-        int[] arr = new int[]{1,4,8,3,9,11};
-        double[] arr1 = new double[]{1,4.2,8,3,9,11};
+        int[][] test = {{1, 2}, {3, 4}, {5, 6}};
+        int[] arr = new int[]{1, 4, 8, 3, 9, 11};
+        double[] arr1 = new double[]{1, 4.2, 8, 3, 9, 11};
         Main m = new Main();
-        m.findMaxPosForEach(arr);
 
-
+        String hi = "hi";
 
         String str = "The dog ate my homework.";
         char[] charArr = str.toCharArray();
         int size = charArr.length;
         Stack stack = new Stack();
-        for(int i = 0; i < size; i++){
+        for (int i = 0; i < size; i++) {
             stack.push(charArr[i]);
         }
-        for(int j = 0; j < size; j++){
+        for (int j = 0; j < size; j++) {
             charArr[j] = (char) stack.pop();
         }
         System.out.println(String.valueOf(charArr));
-    }
 
-    public void findMax(int [] a){
-        int currentMax = a[0];
-        for(int i = 1; i < a.length; i++){
-            if(a[i] > currentMax){
-                currentMax = a[i];
-            }
-        }
-        System.out.println(currentMax);
+        int[] arr5 = new int[]{1, 4, 8, 3, 9, 11};
     }
-
-    public void findMaxPos(double [] a){
-        int pos = 0;
-        for(int i = 1; i < a.length; i++){
-            if(a[i] > pos){
-                pos = i;
-            }
-        }
-        System.out.println(pos);
-    }
-
-    public void findMaxForEach(int [] a){
-        int max = a[0];
-        for(int i : a){
-            if(i > max){
-                max = i;
-            }
-        }
-        System.out.println(max);
-    }
-
-    public void findMaxPosForEach(int [] a){
-        int max = 0;
-        int pos = 0;
-        int count = 0;
-        for(int i : a){
-            if(i > max){
-                max = i;
-            }
-            count++;
-        }
-        System.out.println(count);
-    }
-
 }

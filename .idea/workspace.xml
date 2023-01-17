@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Lots of changes">
-      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/ArrayQue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/Que.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/Expression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/ValidBracket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/Validity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ATCS/src/test/java/BracketTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/RandomMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/RandomMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,40 +64,37 @@
       <recent name="C:\Users\arijc\IdeaProjects\HighSchoolWork\ATCS\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="AnagramUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AnagramUI" />
-      <module name="ATCS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ATCS/src/main/resources" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Fortune" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Fortune" />
-      <module name="ATCS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ATCS/src/main/resources" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+  <component name="RunManager" selected="Application.Expression">
+    <configuration name="Expression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Expression" />
       <module name="ATCS" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MushroomMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MushroomMain" />
+    <configuration name="Hangman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hangman" />
       <module name="ATCS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ATCS/src/main/resources" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HangmanGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HangmanGUI" />
+      <module name="ATCS" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="RandomMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RandomMethods" />
+      <module name="ATCS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Storyboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Storyboard" />
       <module name="ATCS" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -116,19 +114,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.AnagramUI" />
-      <item itemvalue="Application.MushroomMain" />
+      <item itemvalue="Application.Expression" />
+      <item itemvalue="Application.Hangman" />
+      <item itemvalue="Application.HangmanGUI" />
+      <item itemvalue="Application.Storyboard" />
       <item itemvalue="Application.RandomMethods" />
-      <item itemvalue="Application.Fortune" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.AnagramUI" />
-        <item itemvalue="Application.MushroomMain" />
+        <item itemvalue="Application.Expression" />
+        <item itemvalue="Application.HangmanGUI" />
+        <item itemvalue="Application.Hangman" />
+        <item itemvalue="Application.Storyboard" />
         <item itemvalue="Application.RandomMethods" />
-        <item itemvalue="Application.Fortune" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672772699806</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Lots of changes">
+      <created>1673303823567</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1673303823568</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

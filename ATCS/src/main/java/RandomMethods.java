@@ -328,7 +328,7 @@ public String reverseStringAgain(String s){
      * Method to sort array without using Arrays.sort
      * @param arr
      */
-    public void sortArray(int[] arr){
+    public void bubbleSort(int[] arr){
         int temp;
         int current;
         int right;
@@ -437,13 +437,57 @@ public String reverseStringAgain(String s){
         return -1;
     }
 
+    public void selectionSort(int[] arr){
+        int min = 0;
+        int temp;
+        for(int i = 0; i < arr.length - 1; i++){
+            for(int j = i; j < arr.length; j++) {
+                if (arr[j] <= arr[min]) {
+                    min = j;
+                }
+            }
+            temp = arr[i];
+            arr[i] = arr[min];
+            arr[min] = temp;
+        }
+        System.out.println(Arrays.toString(arr));
+    }
+
+    public void insertionSort(int[] arr){
+        int temp;
+        for(int i = 1; i < arr.length; i++){
+            for(int j = i; j > 0; j--){
+                if(arr[j] < arr[j - 1]){
+                        temp = arr[j];
+                        arr[j] = arr[j - 1];
+                        arr[j - 1] = temp;
+                        continue;
+                }
+                break;
+            }
+        }
+        System.out.println(Arrays.toString(arr));
+    }
+
+    public void smallestNum(int[] arr){
+        int temp = 0;
+        for(int i = 1; i < arr.length; i++){
+            if(arr[i] < arr[temp]){
+                temp = i;
+            }
+        }
+        System.out.println(arr[temp]);
+    }
+
 
     public static void main (String[] args){
         RandomMethods r = new RandomMethods();
-        int[] arr = new int[] {4,1,5,7,9,4,3};
-        int[] arr2 = new int[] {491,9812,33,33,33,190,8322};
-        r.sortArray(arr2);
-        r.twoSum(arr, 8);
+        int[] arr = new int[] {3,5,1,34,5,6,7,1};
+//        int[] arr2 = new int[] {491,9812,33,33,33,190,8322};
+//        r.sortArray(arr2);
+//        r.twoSum(arr, 8);
+        r.selectionSort(arr);
+        r.insertionSort(arr);
     }
 
 }

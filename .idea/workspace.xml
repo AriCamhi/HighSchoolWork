@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Lots of changes">
-      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/Expression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/ValidBracket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/Validity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATCS/src/test/java/BracketTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/RandomMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/RandomMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/test/java/RandomTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/test/java/RandomTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,16 +61,9 @@
       <recent name="C:\Users\arijc\IdeaProjects\HighSchoolWork\ATCS\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Expression">
+  <component name="RunManager" selected="JUnit.RandomTester.testFactorial">
     <configuration name="Expression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Expression" />
-      <module name="ATCS" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Hangman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hangman" />
       <module name="ATCS" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,9 +83,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Storyboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Storyboard" />
+    <configuration name="RandomTester.testFactorial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ATCS" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RandomTester" />
+      <option name="METHOD_NAME" value="testFactorial" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomTester.testingPower" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ATCS" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RandomTester" />
+      <option name="METHOD_NAME" value="testingPower" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,18 +118,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.Expression" />
-      <item itemvalue="Application.Hangman" />
       <item itemvalue="Application.HangmanGUI" />
-      <item itemvalue="Application.Storyboard" />
       <item itemvalue="Application.RandomMethods" />
+      <item itemvalue="JUnit.RandomTester.testFactorial" />
+      <item itemvalue="JUnit.RandomTester.testingPower" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RandomTester.testFactorial" />
+        <item itemvalue="JUnit.RandomTester.testingPower" />
+        <item itemvalue="Application.RandomMethods" />
         <item itemvalue="Application.Expression" />
         <item itemvalue="Application.HangmanGUI" />
-        <item itemvalue="Application.Hangman" />
-        <item itemvalue="Application.Storyboard" />
-        <item itemvalue="Application.RandomMethods" />
       </list>
     </recent_temporary>
   </component>
@@ -230,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673303823568</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Lots of changes">
+      <created>1673995487447</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1673995487447</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

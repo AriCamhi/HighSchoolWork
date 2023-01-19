@@ -480,6 +480,19 @@ public String reverseStringAgain(String s){
     }
 
 
+    /**
+     * Method that determines the value of y = b^x
+     * @param base
+     * @param exp
+     * @return
+     */
+    public int power(int base, int exp){
+        if(exp > 0){
+            return base * base * power(base, exp - 1);
+        }
+        return 0;
+    }
+
     public static void main (String[] args){
         RandomMethods r = new RandomMethods();
         int[] arr = new int[] {3,5,1,34,5,6,7,1};
@@ -488,6 +501,7 @@ public String reverseStringAgain(String s){
 //        r.twoSum(arr, 8);
         r.selectionSort(arr);
         r.insertionSort(arr);
+        r.power(5,3);
     }
 
 }

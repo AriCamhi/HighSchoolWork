@@ -33,7 +33,7 @@ public class RandomTester {
 
     @Test
     public void testingIsPrime(){
-        assert(f.isPrime(73) == true);
+        assert(f.isPrime(73));
     }
 
     @Test
@@ -93,7 +93,11 @@ public class RandomTester {
     public void testingCombination(){
         assert(f.combinations(6, 3) == 20);
     }
-    
+
+    @Test
+    public void testingPower(){
+        assert(f.power(5,3)==125);
+    }
     
 }
 

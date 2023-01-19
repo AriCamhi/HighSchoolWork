@@ -45,7 +45,7 @@ public class CreateArrayFromFile {
         return file;
     }
 
-    public int getSize(){
+    public int getSize() {
         return file.length;
     }
 

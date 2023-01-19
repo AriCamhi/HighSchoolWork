@@ -24,16 +24,18 @@ public class FortuneCookie {
 
     /**
      * Constructor basically just for testing
+     *
      * @param luckyNumbers of FortuneCookie
      */
-    public FortuneCookie(ArrayList<Integer> luckyNumbers){
+    public FortuneCookie(ArrayList<Integer> luckyNumbers) {
         this.luckyNumbers = luckyNumbers;
         fortunePhrase = "Today is your lucky day!";
     }
 
     /**
      * Constructor with already preset variables
-     * @param luckyNumbers of FortuneCookie
+     *
+     * @param luckyNumbers  of FortuneCookie
      * @param fortunePhrase of FortuneCookie
      * @throws IOException
      */
@@ -44,7 +46,7 @@ public class FortuneCookie {
         generateFortunePhrase();
     }
 
-    public FortuneCookie(String fortunePhrase){
+    public FortuneCookie(String fortunePhrase) {
         this.fortunePhrase = fortunePhrase;
     }
 
@@ -52,17 +54,19 @@ public class FortuneCookie {
      * Getter in the form of a String...
      * Converting the ArrayList to a String as specified
      * in Lab
+     *
      * @return luckyNumbers in String form
      */
-    public String getLuckyNumbers(){
+    public String getLuckyNumbers() {
         return luckyNumbers.toString();
     }
 
     /**
      * Getter for the phrase of the fortune
+     *
      * @return fortune
      */
-    public String getFortunePhrase(){
+    public String getFortunePhrase() {
         return fortunePhrase;
     }
 
@@ -85,6 +89,7 @@ public class FortuneCookie {
 
     /**
      * Generates the fortune phrase of the FortuneCookie
+     *
      * @throws IOException
      */
     public void generateFortunePhrase() throws IOException {
@@ -93,7 +98,7 @@ public class FortuneCookie {
         int j = r.nextInt(c.getSize());
         String[] arr;
         arr = c.getFile();
-        if(arr[j].equals("")){
+        if (arr[j].equals("")) {
             j--;
         }
         fortunePhrase = arr[j];
@@ -102,33 +107,32 @@ public class FortuneCookie {
     /**
      * Basic compareTo method to compare two
      * FortuneCookie objects
+     *
      * @param other FortuneCookie
      * @return 0 if equal, -1 if not equal
      */
-    public int compareTo(FortuneCookie other){
+    public int compareTo(FortuneCookie other) {
         FortuneCookie f1 = new FortuneCookie(luckyNumbers);
-        if(f1.equals(other)){
+        if (f1.equals(other)) {
             return 0;
-        }
-        else
+        } else
             return -1;
     }
 
     /**
      * Fills in the lucky numbers
      */
-    public void generateLuckyNumbers(){
+    public void generateLuckyNumbers() {
         Random r = new Random();
         int temp;
         //Making new ArrayList because of some NullPointerException error
         ArrayList<Integer> al = new ArrayList<>(6);
         al.add(r.nextInt(100));
-        for(int i = 1; i < 6; i ++){
+        for (int i = 1; i < 6; i++) {
             temp = r.nextInt(100);
-            if(al.contains(temp)){
+            if (al.contains(temp)) {
                 i--;
-            }
-            else
+            } else
                 al.add(temp);
         }
         luckyNumbers = al;
@@ -138,7 +142,7 @@ public class FortuneCookie {
     /**
      * Quick testing to see if methods work
      */
-    public static void main (String[] args) throws IOException {
+    public static void main(String[] args) throws IOException {
         FortuneCookie fc = new FortuneCookie();
         fc.generateLuckyNumbers();
         System.out.println(fc.getLuckyNumbers());

@@ -4,15 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Lots of changes">
-      <change afterPath="$PROJECT_DIR$/ATCS/src/main/resources/BracketTesting1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATCS/src/main/resources/BracketTesting2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATCS/src/main/resources/BracketTesting3.txt" afterDir="false" />
+    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Validity Lab finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/AnagramUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/AnagramUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/ArrayLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/ArrayLab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/ArrayListBasics.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/ArrayListBasics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/ArrayQue.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/ArrayQue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/ArrayStax.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/ArrayStax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/Coins.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/Coins.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/CreateArrayFromFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/CreateArrayFromFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/DrawShapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/DrawShapes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/Expression.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/Expression.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/FCArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/FCArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/FirstLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/FirstLab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/Fortune.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/Fortune.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/FortuneCookie.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/FortuneCookie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/Fraction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/Hangman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/HangmanGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/HangmanGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/HangmanGUIFANCY.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/HangmanGUIFANCY.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/LipogramAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/LipogramAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/Mushroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/Mushroom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/MushroomArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/MushroomArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/MushroomMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/MushroomMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/PatientZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/PatientZero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/Polynomial.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/Polynomial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/Que.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/Que.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/RandomMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/RandomMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/ScanPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/ScanPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/SecondLab.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/SecondLab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/Stax.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/Stax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/Storyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/Storyboard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/ValidBracket.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/ValidBracket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/Validity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/Validity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/WordList.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/WordList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ATCS/src/test/java/BracketTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/test/java/BracketTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/test/java/FirstLabTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/test/java/FirstLabTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/test/java/FractionTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/test/java/FractionTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/test/java/RandomTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/test/java/RandomTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/test/java/SecondLabTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/test/java/SecondLabTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +89,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "C:/Users/arijc/IdeaProjects/HighSchoolWork/ATCS/src/main/resources",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "preferences.sourceCode"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -69,7 +100,7 @@
       <recent name="C:\Users\arijc\IdeaProjects\HighSchoolWork\ATCS\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BracketTester">
+  <component name="RunManager" selected="JUnit.RandomTester.testingPower">
     <configuration name="BracketTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ATCS" />
       <option name="PACKAGE_NAME" value="" />
@@ -109,11 +140,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BracketTester.testingValidExpression" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RandomTester.testingPower" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ATCS" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BracketTester" />
-      <option name="METHOD_NAME" value="testingValidExpression" />
+      <option name="MAIN_CLASS_NAME" value="RandomTester" />
+      <option name="METHOD_NAME" value="testingPower" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,15 +168,15 @@
       <item itemvalue="JUnit.BracketTester.testingValidBracket" />
       <item itemvalue="JUnit.BracketTester.testingValidBracket2" />
       <item itemvalue="JUnit.BracketTester.testingValidBracket3" />
-      <item itemvalue="JUnit.BracketTester.testingValidExpression" />
+      <item itemvalue="JUnit.RandomTester.testingPower" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RandomTester.testingPower" />
         <item itemvalue="JUnit.BracketTester" />
         <item itemvalue="JUnit.BracketTester.testingValidBracket2" />
         <item itemvalue="JUnit.BracketTester.testingValidBracket3" />
         <item itemvalue="JUnit.BracketTester.testingValidBracket" />
-        <item itemvalue="JUnit.BracketTester.testingValidExpression" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673995487447</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Validity Lab finished">
+      <created>1674097559740</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1674097559740</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -280,7 +318,8 @@
     <MESSAGE value="Finished Anagram" />
     <MESSAGE value="Learned BubbleSort Fully" />
     <MESSAGE value="Lots of changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lots of changes" />
+    <MESSAGE value="Validity Lab finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Validity Lab finished" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

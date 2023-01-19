@@ -10,11 +10,12 @@ import java.nio.file.Path;
  * @author Ari Camhi
  * @version 1-10-23
  */
-public class ValidBracket implements Validity{
+public class ValidBracket implements Validity {
     private Path p;
     private String opener;
     private String closer;
-    public ValidBracket(Path p, String opener, String closer){
+
+    public ValidBracket(Path p, String opener, String closer) {
         this.p = p;
         this.opener = opener;
         this.closer = closer;
@@ -23,7 +24,7 @@ public class ValidBracket implements Validity{
     @Override
     public boolean isValidFile() throws IOException {
         String contents = Files.readString(p);
-        Expression e = new Expression(contents,getOpening(),getClosing());
+        Expression e = new Expression(contents, getOpening(), getClosing());
         return e.validExpression();
     }
 

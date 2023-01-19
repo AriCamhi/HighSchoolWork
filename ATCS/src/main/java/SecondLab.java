@@ -26,8 +26,7 @@ public class SecondLab {
                 for (int nickelCount = 0; cents >= n * nickelCount; nickelCount++) {
                     for (int pennyCount = 0; cents >= p * pennyCount; pennyCount++) {
                         if ((quarterCount * q) + (pennyCount * p) + (nickelCount * n) + (dimeCount * d) == cents) {
-                            System.out.println("Quarters: " + quarterCount + " Dimes: " + dimeCount + " Nickels: " + nickelCount
-                                    + " Pennies: " + pennyCount);
+                            System.out.println("Quarters: " + quarterCount + " Dimes: " + dimeCount + " Nickels: " + nickelCount + " Pennies: " + pennyCount);
                         }
                     }
                 }

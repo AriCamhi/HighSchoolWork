@@ -18,7 +18,7 @@ public class Fortune {
         Scanner sc = new Scanner(System.in);
         boolean playAgain = true;
         FCArrayList fca = new FCArrayList();
-        while(playAgain){
+        while (playAgain) {
             System.out.println("What would you like to do...");
             System.out.println("""
                     add(given index) \s
@@ -31,33 +31,26 @@ public class Fortune {
                     or quit program... \s
                     Select (add . peek0 . peekI . poll0 . remove . size . print . quit .""");
             String response = sc.next();
-            if(response.equals("add")){
+            if (response.equals("add")) {
                 System.out.println("Index to add fortune in: ");
                 FortuneCookie fc = new FortuneCookie();
                 fca.add(Integer.parseInt(sc.next()), fc);
-            }
-            else if(response.equals("peek0")){
+            } else if (response.equals("peek0")) {
                 System.out.println("FortuneCookie at the 0th position : " + fca.peek());
-            }
-            else if(response.equals("peekI")){
+            } else if (response.equals("peekI")) {
                 System.out.println("Index you would like to peek at: ");
                 int j = Integer.parseInt(sc.next());
                 System.out.println("FortuneCookie at the " + j + " position: " + fca.peekI(j));
-            }
-            else if(response.equals("poll0")){
+            } else if (response.equals("poll0")) {
                 System.out.println("You are removing this FortuneCookie: " + fca.poll());
-            }
-            else if(response.equals("remove")){
+            } else if (response.equals("remove")) {
                 System.out.println("Index you would like to remove: ");
                 fca.remove(Integer.parseInt(sc.next()));
-            }
-            else if(response.equals("size")){
+            } else if (response.equals("size")) {
                 System.out.println("The size is: " + fca.size());
-            }
-            else if(response.equals("print")){
+            } else if (response.equals("print")) {
                 System.out.println(fca);
-            }
-            else if(response.equals("quit")){
+            } else if (response.equals("quit")) {
                 playAgain = false;
             }
         }

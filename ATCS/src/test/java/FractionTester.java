@@ -11,40 +11,43 @@ public class FractionTester {
 
     Fraction f = new Fraction();
     Fraction f1 = new Fraction(0.25);
-    Fraction f2 = new Fraction(5,8);
+    Fraction f2 = new Fraction(5, 8);
     Fraction f3 = new Fraction(1.4);
-    Fraction f4 = new Fraction(1,4);
+    Fraction f4 = new Fraction(1, 4);
 
     //Non-static tests below
     @Test
-    public void testingGetters(){
-        assert f1.getNum()==1;
-        assert f1.getDenom()==4;
+    public void testingGetters() {
+        assert f1.getNum() == 1;
+        assert f1.getDenom() == 4;
     }
+
     @Test
-    public void testingDecimalValue(){
-        assert f2.getDecimalValue()==0.625;
-        assert f3.getDecimalValue()==1.4;
+    public void testingDecimalValue() {
+        assert f2.getDecimalValue() == 0.625;
+        assert f3.getDecimalValue() == 1.4;
     }
+
     @Test
-    public void testingEquality(){
+    public void testingEquality() {
         testEquality(f1, f1, true);
         testEquality(f2, f3, false);
         testEquality(f3, f2, false);
     }
 
-    private void testEquality(Fraction f1, Fraction f2, boolean expected){
-        Assertions.assertEquals(f1.equals(f2),expected);
+    private void testEquality(Fraction f1, Fraction f2, boolean expected) {
+        Assertions.assertEquals(f1.equals(f2), expected);
         System.out.println(String.format("%s = %s is %s", f1, f2, expected));
     }
+
     @Test
-    public void testingFractionPrinter(){
+    public void testingFractionPrinter() {
         f1.printFraction(f1);
         f2.printFraction(f2);
     }
 
     @Test
-    public void testingComparisons(){
+    public void testingComparisons() {
         testComparisons(f1, f1, 0);
         testComparisons(f2, f3, -1);
         testComparisons(f3, f2, 1);
@@ -60,11 +63,13 @@ public class FractionTester {
         System.out.print(String.format("New fraction added from: %s + %s = ", f1, f2));
         System.out.println("" + f1.add(f2));
     }
+
     @Test
     public void testNonStaticMultiplication() {
         System.out.print(String.format("New fraction multiplied from: %s * %s = ", f1, f2));
         System.out.println("" + f1.multiply(f2));
     }
+
     @Test
     public void testNonStaticDivision() {
         System.out.print(String.format("New fraction divided from: %s */* %s = ", f1, f2));
@@ -74,7 +79,7 @@ public class FractionTester {
 
     //Static tests below
     @Test
-    public void testingStaticAddition(){
+    public void testingStaticAddition() {
         testStaticAdd(f1, f2, new Fraction(7, 8));
         testStaticAdd(f3, f4, new Fraction(33, 20));
     }
@@ -86,7 +91,7 @@ public class FractionTester {
     }
 
     @Test
-    public void testingStaticMultiplication(){
+    public void testingStaticMultiplication() {
         testStaticMultiply(f2, f1, new Fraction(5, 32));
         testStaticMultiply(f3, f2, new Fraction(7, 8));
     }
@@ -98,7 +103,7 @@ public class FractionTester {
     }
 
     @Test
-    public void testingStaticDivision(){
+    public void testingStaticDivision() {
         testStaticDivide(f2, f1, new Fraction(5, 2));
         testStaticDivide(f3, f2, new Fraction(56, 25));
     }

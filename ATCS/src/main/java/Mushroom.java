@@ -27,7 +27,7 @@ public class Mushroom {
 
     char[] mush;
 
-    public Mushroom(String mushAL) throws IOException{
+    public Mushroom(String mushAL) throws IOException {
         edible = mushAL.charAt(0);
         cap_shape = mushAL.charAt(2);
         cap_surface = mushAL.charAt(4);
@@ -52,46 +52,57 @@ public class Mushroom {
         population = mushAL.charAt(42);
         habitat = mushAL.charAt(44);
 
-        mush = new char[] {edible,cap_shape,cap_color,bruises,odor,gill_attachment,gill_spacing,gill_size
-                ,gill_color,stalk_shape,stalk_root,stalk_surface_above_ring,stalk_surface_below_ring,
-                stalk_color_above_ring,stalk_color_below_ring,veil_type,veil_color,ring_number,ring_type,
-                spore_print_color,population,habitat};
+        mush = new char[]{edible, cap_shape, cap_color, bruises, odor, gill_attachment, gill_spacing, gill_size
+                , gill_color, stalk_shape, stalk_root, stalk_surface_above_ring, stalk_surface_below_ring,
+                stalk_color_above_ring, stalk_color_below_ring, veil_type, veil_color, ring_number, ring_type,
+                spore_print_color, population, habitat};
     }
 
     //Getters
     public char getEdible() {
         return edible;
     }
+
     public char getCapShape() {
         return cap_shape;
     }
+
     public char getCapSurface() {
         return cap_surface;
     }
+
     public char getCapColor() {
         return cap_color;
     }
+
     public char getBruises() {
         return bruises;
     }
+
     public char getOdor() {
         return odor;
     }
+
     public char getGillAttachment() {
         return gill_attachment;
     }
+
     public char getGillSpacing() {
         return gill_spacing;
     }
+
     public char getGillSize() {
         return gill_size;
     }
+
     public char get_color() {
         return gill_color;
     }
+
     public char getStalkShape() {
         return stalk_shape;
     }
+
     public char getStalkRoot() {
         return stalk_root;
     }
@@ -149,7 +160,7 @@ public class Mushroom {
         output += "Cap color: " + cap_color;
         output += "Bruises: " + cap_surface;
         output += "Oder: " + odor;
-        output += "Gill Attachments: " + gill_attachment ;
+        output += "Gill Attachments: " + gill_attachment;
         output += "Gill Spacing: " + gill_spacing;
         output += "Gill Size: " + gill_size;
         output += "Gill Color: " + gill_color;

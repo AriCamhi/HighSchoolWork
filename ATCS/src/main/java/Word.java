@@ -25,6 +25,7 @@ public class Word {
     public String getInitialWord() {
         return initialWord;
     }
+
     public String getAlphaWord() {
         return alphaWord;
     }
@@ -32,10 +33,11 @@ public class Word {
     /**
      * Method to sort the initialWord into an alpha word
      * in alphabetical order
+     *
      * @param initialWord, the word that will be converted into alphabetical order
      * @return the initialWord in alphabetical order
      */
-    private String convertAlpha(String initialWord){
+    private String convertAlpha(String initialWord) {
         char[] a = initialWord.toCharArray();
         Arrays.sort(a);
         return String.valueOf(a);
@@ -62,7 +64,7 @@ public class Word {
     /**
      * Some testing
      */
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Word w = new Word("cear");
         Word a = new Word("race");
         System.out.println(w.convertAlpha("brain"));

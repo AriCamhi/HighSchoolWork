@@ -7,12 +7,12 @@ import java.util.Scanner;
  * @version 10-13-22
  */
 public class ScanPractice {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         ScanPractice sp = new ScanPractice();
         sp.scanPrac();
     }
 
-    public void scanPrac(){
+    public void scanPrac() {
         Scanner scan = new Scanner(System.in);
         System.out.println("Type something in");
         String str = scan.next();

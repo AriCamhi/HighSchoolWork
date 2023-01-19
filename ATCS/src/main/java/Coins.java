@@ -54,6 +54,7 @@ public class Coins {
     /**
      * Method that finds the optimal amount of change with the least
      * amount of coins possible
+     *
      * @param cents of the given coin
      * @return total amount of coins needed to represent the number of cents
      */
@@ -90,6 +91,7 @@ public class Coins {
     /**
      * A toString method to print out the optimal change for
      * a given coin.
+     *
      * @return string representation of the coin
      */
     public String toString() {
@@ -104,6 +106,7 @@ public class Coins {
      * Method to compare two coin objects, print out
      * 0 if they are equal, 1 if the first object has more coins,
      * and -1 if the first coin has less coins than the second
+     *
      * @param c2, a second coin object to compare the first one to
      */
     public void compareTo(Coins c2) {
@@ -125,14 +128,13 @@ public class Coins {
      *
      * @param c2, a second coin object to compare the first one to
      */
-    public void equals(Coins c2){
+    public void equals(Coins c2) {
         Coins c1 = new Coins(cents);
         String firstCoinString = c1.toString();
         String secondCoinString = c2.toString();
-        if(firstCoinString.compareTo(secondCoinString) == 0){
+        if (firstCoinString.compareTo(secondCoinString) == 0) {
             System.out.println("True");
-        }
-        else{
+        } else {
             System.out.println("False");
         }
     }

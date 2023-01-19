@@ -18,6 +18,7 @@ public class AnagramUI {
      * to the user for putting in the charLimit on the dictionary they are going to use for scanning
      * and also the file that the anagrams will be found from. Will then ask for any String
      * to be inputted and generate the anagrams of said word.
+     *
      * @throws IOException
      */
     public void AnagramUI() throws IOException {

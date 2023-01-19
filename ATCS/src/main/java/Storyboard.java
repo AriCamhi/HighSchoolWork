@@ -119,8 +119,8 @@ public class Storyboard {
 
             JPanel panel = new JPanel();
             frame.add(panel);
-            JLabel label = new JLabel("Alien comes down to earth and rewards you with an owl..." +
-                    " do you accept?");
+            JLabel label = new JLabel("Alien comes down to earth and rewards you with an owl..." + " " +
+                    "do you accept?");
             panel.add(label);
             JButton yes = new JButton("Yes");
             JButton no = new JButton("No");
@@ -199,8 +199,8 @@ public class Storyboard {
 
             JPanel panel = new JPanel();
             frame.add(panel);
-            JLabel label = new JLabel("The owl bites your friend instead because you did not accept... Your friend " +
-                    " turns into an owl");
+            JLabel label = new JLabel("The owl bites your friend instead because you did not accept... " +
+                    "Your friend " + " turns into an owl");
             JLabel question = new JLabel("Do you want to try and help your friend or run away?");
             panel.add(label);
             panel.add(question);

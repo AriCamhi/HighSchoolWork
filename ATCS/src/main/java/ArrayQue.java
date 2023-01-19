@@ -1,5 +1,5 @@
 @SuppressWarnings("unchecked")
-public class ArrayQue<E> implements Que{
+public class ArrayQue<E> implements Que {
 
     private int size;
     private E[] que;
@@ -9,9 +9,9 @@ public class ArrayQue<E> implements Que{
         size = 0;
     }
 
-    public void doubleSize(){
-        E [] x = (E[]) new Object[que.length * 2];
-        for(int i = 0; i < que.length; i ++){
+    public void doubleSize() {
+        E[] x = (E[]) new Object[que.length * 2];
+        for (int i = 0; i < que.length; i++) {
             x[i] = que[i];
         }
         que = x;
@@ -19,7 +19,7 @@ public class ArrayQue<E> implements Que{
 
     @Override
     public boolean push(Object ex) {
-        if(size == que.length){
+        if (size == que.length) {
             doubleSize();
         }
         que[size] = (E) ex;
@@ -41,7 +41,7 @@ public class ArrayQue<E> implements Que{
     public Object poll() {
         Object obj = que[0];
         Object[] arr = new Object[size];
-        for(int i = 0; i < size - 1; i++){
+        for (int i = 0; i < size - 1; i++) {
             arr[i] = que[i + 1];
         }
         que = (E[]) arr;

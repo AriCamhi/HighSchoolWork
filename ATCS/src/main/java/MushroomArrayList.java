@@ -2,12 +2,14 @@ import java.util.ArrayList;
 import java.io.File;
 import java.util.Scanner;
 import java.io.IOException;
+
 public class MushroomArrayList {
     String filename = "mushrooms.txt";
     ArrayList<String> mushrooms;
     ArrayList<Mushroom> mushroomsList;
+
     //Constructor
-    public MushroomArrayList() throws IOException{
+    public MushroomArrayList() throws IOException {
         mushrooms = new ArrayList<String>();
         mushroomsList = new ArrayList<Mushroom>();
         fillArray();
@@ -18,8 +20,8 @@ public class MushroomArrayList {
      */
     private void fillArray() throws IOException {
         File input = new File(filename);
-        Scanner words = new Scanner (input);
-        while(words.hasNextLine()) {
+        Scanner words = new Scanner(input);
+        while (words.hasNextLine()) {
             mushrooms.add(words.nextLine());
         }
         words.close();
@@ -30,7 +32,7 @@ public class MushroomArrayList {
             }
         }
 
-        for (int i = 0; i < mushrooms.size();i++) {
+        for (int i = 0; i < mushrooms.size(); i++) {
             Mushroom m = new Mushroom(mushrooms.get(i));
             mushroomsList.add(m);
         }

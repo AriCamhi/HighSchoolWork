@@ -9,7 +9,10 @@ import java.io.IOException;
  */
 public interface Validity {
     boolean isValidFile() throws IOException;
+
     void printFile() throws IOException;
+
     String getOpening();
+
     String getClosing();
 }

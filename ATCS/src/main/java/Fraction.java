@@ -15,24 +15,26 @@ public class Fraction {
     /**
      * Empty Constructor
      */
-    public Fraction(){
+    public Fraction() {
 
     }
 
     /**
      * Fraction with just a numerator
+     *
      * @param num, the numerator
      */
-    public Fraction(int num){
+    public Fraction(int num) {
         this.num = num;
     }
 
     /**
      * Fraction with numerator and denominator
-     * @param num, the numerator
+     *
+     * @param num,   the numerator
      * @param denom, the denominator
      */
-    public Fraction(int num, int denom){
+    public Fraction(int num, int denom) {
         this.num = num;
         this.denom = denom;
     }
@@ -53,7 +55,7 @@ public class Fraction {
         }
 
         int num = (int) Math.round(d);
-        int j = gcf(num,denom);
+        int j = gcf(num, denom);
         num = num / j;
         denom = denom / j;
         this.num = num;
@@ -63,14 +65,12 @@ public class Fraction {
     /**
      * Returns the greatest common factor of two positive integers
      *
-     * @param num, the numerator
+     * @param num,   the numerator
      * @param denom, the denominator
      * @return the greatest common factor
      */
-    private static int gcf(int num, int denom)
-    {
-        if (num <= 0 || denom <= 0)
-        {
+    private static int gcf(int num, int denom) {
+        if (num <= 0 || denom <= 0) {
             throw new IllegalArgumentException(
                     "gcf precondition failed: " + num + ", " + denom);
         }
@@ -108,9 +108,10 @@ public class Fraction {
 
     /**
      * Gets the decimal value of Fraction
+     *
      * @return decimal value
      */
-    public double getDecimalValue(){
+    public double getDecimalValue() {
         return (double) getNum() / getDenom();
     }
 
@@ -129,7 +130,7 @@ public class Fraction {
         f2num *= f1denom;
         int newDenom = f1denom * f2denom;
         int newNum = f1num + f2num;
-        int gcf = gcf(newNum,newDenom);
+        int gcf = gcf(newNum, newDenom);
         newNum = newNum / gcf;
         newDenom = newDenom / gcf;
         this.num = newNum;
@@ -143,14 +144,14 @@ public class Fraction {
      * @param other Fraction
      * @return altered original fraction
      */
-    public Fraction multiply(Fraction other){
+    public Fraction multiply(Fraction other) {
         int f1num = this.getNum();
         int f1denom = this.getDenom();
         int f2num = other.getNum();
         int f2denom = other.getDenom();
         int newNum = f1num * f2num;
         int newDenom = f1denom * f2denom;
-        int gcf = gcf(newNum,newDenom);
+        int gcf = gcf(newNum, newDenom);
         newNum = newNum / gcf;
         newDenom = newDenom / gcf;
         return new Fraction(newNum, newDenom);
@@ -162,14 +163,14 @@ public class Fraction {
      * @param other Fraction
      * @return altered original fraction
      */
-    public Fraction divide(Fraction other){
+    public Fraction divide(Fraction other) {
         int f1num = this.getNum();
         int f1denom = this.getDenom();
         int f2num = other.getNum();
         int f2denom = other.getDenom();
         int newNum = f1num * f2denom;
         int newDenom = f1denom * f2num;
-        int gcf = gcf(newNum,newDenom);
+        int gcf = gcf(newNum, newDenom);
         newNum = newNum / gcf;
         newDenom = newDenom / gcf;
         return new Fraction(newNum, newDenom);
@@ -180,7 +181,7 @@ public class Fraction {
      *
      * @param f1 fraction to be printed
      */
-    public void printFraction(Fraction f1){
+    public void printFraction(Fraction f1) {
         System.out.println("Fraction in x/y form: " + f1.toString());
     }
 
@@ -196,7 +197,6 @@ public class Fraction {
     }
 
 
-
     //Static methods below
 
     /**
@@ -206,7 +206,7 @@ public class Fraction {
      * @param f2 a fraction object
      * @return new fraction
      */
-    public static Fraction add(Fraction f1, Fraction f2){
+    public static Fraction add(Fraction f1, Fraction f2) {
         int f1num = f1.getNum();
         int f1denom = f1.getDenom();
         int f2num = f2.getNum();
@@ -215,7 +215,7 @@ public class Fraction {
         f2num *= f1denom;
         int newDenom = f1denom * f2denom;
         int newNum = f1num + f2num;
-        int gcf = gcf(newNum,newDenom);
+        int gcf = gcf(newNum, newDenom);
         newNum = newNum / gcf;
         newDenom = newDenom / gcf;
 
@@ -229,14 +229,14 @@ public class Fraction {
      * @param f2 a fraction object
      * @return new fraction
      */
-    public static Fraction multiply(Fraction f1, Fraction f2){
+    public static Fraction multiply(Fraction f1, Fraction f2) {
         int f1num = f1.getNum();
         int f1denom = f1.getDenom();
         int f2num = f2.getNum();
         int f2denom = f2.getDenom();
         int newNum = f1num * f2num;
         int newDenom = f1denom * f2denom;
-        int gcf = gcf(newNum,newDenom);
+        int gcf = gcf(newNum, newDenom);
         newNum = newNum / gcf;
         newDenom = newDenom / gcf;
         return new Fraction(newNum, newDenom);
@@ -249,14 +249,14 @@ public class Fraction {
      * @param f2 a fraction object
      * @return new fraction
      */
-    public static Fraction divide(Fraction f1, Fraction f2){
+    public static Fraction divide(Fraction f1, Fraction f2) {
         int f1num = f1.getNum();
         int f1denom = f1.getDenom();
         int f2num = f2.getNum();
         int f2denom = f2.getDenom();
         int newNum = f1num * f2denom;
         int newDenom = f1denom * f2num;
-        int gcf = gcf(newNum,newDenom);
+        int gcf = gcf(newNum, newDenom);
         newNum = newNum / gcf;
         newDenom = newDenom / gcf;
         return new Fraction(newNum, newDenom);

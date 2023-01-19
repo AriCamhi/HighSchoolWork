@@ -10,11 +10,12 @@ import java.awt.event.ActionListener;
  * @version 10-6-22
  */
 public class PatientZero {
-    public static void main(String [] args){
+    public static void main(String[] args) {
         PatientZero buttons = new PatientZero();
         buttons.go();
     }
-    public void go(){
+
+    public void go() {
         //Creates the frame
         JFrame frame = new JFrame("A day in the life.");
         frame.setVisible(true);
@@ -24,7 +25,7 @@ public class PatientZero {
         //Attach the panel to the frame
         JPanel panel = new JPanel();
         frame.add(panel);
-        panel.setLayout(new GridLayout(2,2,15,0));
+        panel.setLayout(new GridLayout(2, 2, 15, 0));
         panel.setComponentOrientation(ComponentOrientation.LEFT_TO_RIGHT);
 
         //Create labels and buttons to place on the panel
@@ -43,11 +44,12 @@ public class PatientZero {
         choice1.addActionListener(new Action1());
         choice2.addActionListener(new Action2());
     }
-    static class Action1 implements ActionListener{
-        public void actionPerformed(ActionEvent e){
+
+    static class Action1 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {
             JFrame frame = new JFrame("Choice 1");
             frame.setVisible(true);
-            frame.setSize(600,300);
+            frame.setSize(600, 300);
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
             JPanel panel = new JPanel();
@@ -57,11 +59,11 @@ public class PatientZero {
         }
     }
 
-    static class Action2 implements ActionListener{
-        public void actionPerformed(ActionEvent e){
+    static class Action2 implements ActionListener {
+        public void actionPerformed(ActionEvent e) {
             JFrame frame = new JFrame("Choice 2");
             frame.setVisible(true);
-            frame.setSize(600,300);
+            frame.setSize(600, 300);
             frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
             JPanel panel = new JPanel();

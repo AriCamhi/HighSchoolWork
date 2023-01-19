@@ -11,7 +11,7 @@ public class FirstLabTester {
     FirstLab f = new FirstLab();
 
     @Test
-    public void testingLeapYear(){
+    public void testingLeapYear() {
         assert f.leapYear(2000);
         assert f.leapYear(2004);
         assert !f.leapYear(1800);
@@ -19,16 +19,16 @@ public class FirstLabTester {
     }
 
     @Test
-    public void testingCostDistanceMethod(){
-        assert f.costDistanceMethod(7)==5.00;
-        assert f.costDistanceMethod(108)==8.00;
-        assert f.costDistanceMethod(622)==10.00;
-        assert f.costDistanceMethod(1204)==12.00;
+    public void testingCostDistanceMethod() {
+        assert f.costDistanceMethod(7) == 5.00;
+        assert f.costDistanceMethod(108) == 8.00;
+        assert f.costDistanceMethod(622) == 10.00;
+        assert f.costDistanceMethod(1204) == 12.00;
     }
 
     @Test
-    public void testingMultiplesOf3or5(){
-        assert f.multiplesOf3or5()== 9368;
+    public void testingMultiplesOf3or5() {
+        assert f.multiplesOf3or5() == 9368;
     }
 
 }

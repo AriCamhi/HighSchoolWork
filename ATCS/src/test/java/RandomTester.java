@@ -12,6 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class RandomTester {
 
     RandomMethods f = new RandomMethods();
+
     @Test
     public void testArraySortCheat() {
         assert (f.arraySortCheat(new int[]{3, 2, 1}).equals("yeah it works"));
@@ -32,72 +33,74 @@ public class RandomTester {
     }
 
     @Test
-    public void testingIsPrime(){
-        assert(f.isPrime(73));
+    public void testingIsPrime() {
+        assert (f.isPrime(73));
     }
 
     @Test
-    public void testingSimplifyRadical(){
+    public void testingSimplifyRadical() {
         RadResult result = f.simplifyRadical(50);
         assertEquals(5, result.getIntegerPart());
         assertEquals(2, result.getRadPart());
     }
 
     @Test
-    public void testingSimplifyRadical2(){
+    public void testingSimplifyRadical2() {
         RadResult result = f.simplifyRadical(72);
         assertEquals(6, result.getIntegerPart());
         assertEquals(2, result.getRadPart());
     }
 
     @Test
-    public void testingReverseString(){
-        assert(f.reverseString("hello").equalsIgnoreCase("olleh"));
-        assert(f.reverseString("HeLLooo").equalsIgnoreCase("ooollEH"));
+    public void testingReverseString() {
+        assert (f.reverseString("hello").equalsIgnoreCase("olleh"));
+        assert (f.reverseString("HeLLooo").equalsIgnoreCase("ooollEH"));
     }
 
     @Test
-    public void testingReverseStringAgain(){
-        assert(f.reverseStringAgain("Hello").equalsIgnoreCase("olleh"));
+    public void testingReverseStringAgain() {
+        assert (f.reverseStringAgain("Hello").equalsIgnoreCase("olleh"));
     }
 
     @Test
-    public void testingFactorialForLoop(){
-        assert(f.factorialForLoop(5) == 120);
+    public void testingFactorialForLoop() {
+        assert (f.factorialForLoop(5) == 120);
     }
 
     @Test
-    public void testingPrintStars(){
-        assert(f.printStars(2).equals("* \n **"));
+    public void testingPrintStars() {
+        assert (f.printStars(2).equals("* \n **"));
     }
 
     @Test
-    public void testingAddOdds(){
-        assert(f.addOdds(5 ) == 9);}
-
-    @Test
-    public void testingBasicMathAddition(){
-        assert(f.basicAdditionMethod(6) == 21);}
-
-    @Test
-    public void testingNurseryRhyme(){
-        assert(f.nurseryRhyme(2).equalsIgnoreCase("One, two buckle my shoe"));
+    public void testingAddOdds() {
+        assert (f.addOdds(5) == 9);
     }
 
     @Test
-    public void testingSwitchCases(){
-        assert(f.nurseryRhymeSwitch(3).equalsIgnoreCase("Three, four, shut the door"));
+    public void testingBasicMathAddition() {
+        assert (f.basicAdditionMethod(6) == 21);
     }
 
     @Test
-    public void testingCombination(){
-        assert(f.combinations(6, 3) == 20);
+    public void testingNurseryRhyme() {
+        assert (f.nurseryRhyme(2).equalsIgnoreCase("One, two buckle my shoe"));
     }
 
     @Test
-    public void testingPower(){
-        assert(f.power(5,3)==125);
+    public void testingSwitchCases() {
+        assert (f.nurseryRhymeSwitch(3).equalsIgnoreCase("Three, four, shut the door"));
     }
-    
+
+    @Test
+    public void testingCombination() {
+        assert (f.combinations(6, 3) == 20);
+    }
+
+    @Test
+    public void testingPower() {
+        assert (f.power(5, 3) == 125);
+    }
+
 }
 

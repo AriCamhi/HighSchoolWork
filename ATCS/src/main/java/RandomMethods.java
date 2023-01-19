@@ -14,7 +14,6 @@ public class RandomMethods {
      * Sorting an array using Arrays.Sort()
      * Just wanted to use it to see how much easier it is
      * than making my own sorting method for arrays
-     *
      */
     public String arraySortCheat(int[] arr) {
         String outputForTester = "";
@@ -105,6 +104,7 @@ public class RandomMethods {
      * Reverse a String...
      * Using string builder, isntead of += it builds string together
      * with the append command
+     *
      * @return reversedS
      */
     public String reverseString(String s) {
@@ -130,18 +130,19 @@ public class RandomMethods {
 //
 //}
 
-/**
- * Reverse a string again
- * First true code back from break
- * @return reversedString
- */
-public String reverseStringAgain(String s){
-    String reversedString = "";
-    for (int i = s.length(); i > 0; i--){
-        reversedString += s.charAt(i - 1);
+    /**
+     * Reverse a string again
+     * First true code back from break
+     *
+     * @return reversedString
+     */
+    public String reverseStringAgain(String s) {
+        String reversedString = "";
+        for (int i = s.length(); i > 0; i--) {
+            reversedString += s.charAt(i - 1);
+        }
+        return reversedString;
     }
-    return reversedString;
-}
 
     /**
      * factorial with a for loop instead of recursion
@@ -149,13 +150,13 @@ public String reverseStringAgain(String s){
      * @param n
      * @return n
      */
-    public int factorialForLoop(int n){
-    int i = n -1;
-    do {
-        n = n * i;
-        i--;
-    }while(i >= 1);
-    return n;
+    public int factorialForLoop(int n) {
+        int i = n - 1;
+        do {
+            n = n * i;
+            i--;
+        } while (i >= 1);
+        return n;
     }
 
     /**
@@ -164,7 +165,8 @@ public String reverseStringAgain(String s){
      * **
      * ***
      * ****
-     *  and so on given the parameter
+     * and so on given the parameter
+     *
      * @param n
      */
     public String printStars(int n) {
@@ -180,12 +182,12 @@ public String reverseStringAgain(String s){
 
     /**
      * Exercises for hw
-     *
+     * <p>
      * exercise 3
      */
-    public int addOdds(int n){
+    public int addOdds(int n) {
         int total = 0;
-        for(int i = 0; i < n; i++){
+        for (int i = 0; i < n; i++) {
             i++;
             total += i;
         }
@@ -194,19 +196,18 @@ public String reverseStringAgain(String s){
 
     /**
      * Exercises for hw
-     *
+     * <p>
      * exercise 5
      */
-    public int basicAdditionMethod(int n){
+    public int basicAdditionMethod(int n) {
         int total = 0;
-        if( n > 10 || n < 0 ){
+        if (n > 10 || n < 0) {
             return 0;
-        }
-        else {
-        for(int i = 0; i <= n; i++){
-            total += i;
-        }
-        return total;
+        } else {
+            for (int i = 0; i <= n; i++) {
+                total += i;
+            }
+            return total;
         }
 
     }
@@ -220,38 +221,29 @@ public String reverseStringAgain(String s){
     String fiveSix = "Five, six, pick up sticks";
     String sevenEight = "Seven, eight lay them straight";
     String nineTen = "Nine ten lets count again";
-    public String nurseryRhyme(int input){
-        if(input == 1){
+
+    public String nurseryRhyme(int input) {
+        if (input == 1) {
             return oneTwo;
-        }
-        else if(input == 2){
+        } else if (input == 2) {
             return oneTwo;
-        }
-        else if(input == 3){
+        } else if (input == 3) {
             return threeFour;
-        }
-        else if(input == 4) {
+        } else if (input == 4) {
             return threeFour;
-        }
-        else if(input == 5) {
+        } else if (input == 5) {
             return fiveSix;
-        }
-        else if(input == 6) {
+        } else if (input == 6) {
             return fiveSix;
-        }
-        else if(input == 7) {
+        } else if (input == 7) {
             return sevenEight;
-        }
-        else if(input == 8) {
+        } else if (input == 8) {
             return sevenEight;
-        }
-        else if(input == 9) {
+        } else if (input == 9) {
             return nineTen;
-        }
-        else if(input == 10) {
+        } else if (input == 10) {
             return nineTen;
-        }
-        else{
+        } else {
             return "out of range";
         }
     }
@@ -259,8 +251,8 @@ public String reverseStringAgain(String s){
     /**
      * Nursery rhyme with switch cases
      */
-    public String nurseryRhymeSwitch(int input){
-       String y = "out of range";
+    public String nurseryRhymeSwitch(int input) {
+        String y = "out of range";
         switch (input) {
             case 1, 2 -> {
                 return oneTwo;
@@ -284,12 +276,13 @@ public String reverseStringAgain(String s){
 
     /**
      * Combination method calling factorial
+     *
      * @param n
      * @param r
      * @return nCr
      */
-    public int combinations(int n, int r){
-        return factorial(n) / (factorial(r) * factorial( n - r));
+    public int combinations(int n, int r) {
+        return factorial(n) / (factorial(r) * factorial(n - r));
     }
 
     /**
@@ -299,25 +292,23 @@ public String reverseStringAgain(String s){
      * @param input
      * @return total
      */
-    public int wrongMethod(int input){
+    public int wrongMethod(int input) {
         int total = 0;
-        if (input == 3){
+        if (input == 3) {
             int i = 3;
-            while (i <= 200){
+            while (i <= 200) {
                 total += i;
                 i += 3;
             }
             System.out.println("Sum of the multiples for 3 is: " + total);
-        }
-        else if(input == 5){
+        } else if (input == 5) {
             int j = 5;
-            while (j <= 200){
+            while (j <= 200) {
                 total += j;
                 j += 5;
             }
             System.out.println("Sum of the multiples for 5 is: " + total);
-        }
-        else {
+        } else {
             String printer = "Input: " + input + " is out of range";
             System.out.println(printer);
         }
@@ -326,13 +317,14 @@ public String reverseStringAgain(String s){
 
     /**
      * Method to sort array without using Arrays.sort
+     *
      * @param arr
      */
-    public void bubbleSort(int[] arr){
+    public void bubbleSort(int[] arr) {
         int temp;
         int current;
         int right;
-        for(int j = 0; j < arr.length; j++){
+        for (int j = 0; j < arr.length; j++) {
             for (int i = 0; i < arr.length - 1; i++) {
                 current = i;
                 right = i + 1;
@@ -349,55 +341,55 @@ public String reverseStringAgain(String s){
     public int[] twoSum(int[] nums, int target) {
         int one = 0;
         int two = 0;
-        for(int i = 0; i <= nums.length; i++){
-            for(int j = 1; j <= nums.length; j++){
-                if(nums[i] + nums[j] == target){
+        for (int i = 0; i <= nums.length; i++) {
+            for (int j = 1; j <= nums.length; j++) {
+                if (nums[i] + nums[j] == target) {
                     one = i;
                     two = j;
                     break;
                 }
             }
         }
-        int[] arr = new int[] {one, two};
+        int[] arr = new int[]{one, two};
         return arr;
     }
 
-    public void findMax(int [] a){
+    public void findMax(int[] a) {
         int currentMax = a[0];
-        for(int i = 1; i < a.length; i++){
-            if(a[i] > currentMax){
+        for (int i = 1; i < a.length; i++) {
+            if (a[i] > currentMax) {
                 currentMax = a[i];
             }
         }
         System.out.println(currentMax);
     }
 
-    public void findMaxPos(double [] a){
+    public void findMaxPos(double[] a) {
         int pos = 0;
-        for(int i = 1; i < a.length; i++){
-            if(a[i] > pos){
+        for (int i = 1; i < a.length; i++) {
+            if (a[i] > pos) {
                 pos = i;
             }
         }
         System.out.println(pos);
     }
 
-    public void findMaxForEach(int [] a){
+    public void findMaxForEach(int[] a) {
         int max = a[0];
-        for(int i : a){
-            if(i > max){
+        for (int i : a) {
+            if (i > max) {
                 max = i;
             }
         }
         System.out.println(max);
     }
 
-    public void findMaxPosForEach(int [] a){
+    public void findMaxPosForEach(int[] a) {
         int max = 0;
         int pos = 0;
         int count = 0;
-        for(int i : a){
-            if(i > max){
+        for (int i : a) {
+            if (i > max) {
                 max = i;
             }
             count++;
@@ -405,9 +397,9 @@ public String reverseStringAgain(String s){
         System.out.println(count);
     }
 
-    public int search(int[] arr, int target){
-        for(int i = 0; i < arr.length; i++){
-            if(arr[i] == target){
+    public int search(int[] arr, int target) {
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] == target) {
                 return i;
             }
         }
@@ -416,32 +408,31 @@ public String reverseStringAgain(String s){
 
     /**
      * Return the index of the target element
+     *
      * @param arr
      * @param target
      * @return
      */
-    public int binarySearch(Integer[] arr, Integer target){
+    public int binarySearch(Integer[] arr, Integer target) {
         Integer beg = 0;
         Integer end = arr.length - 1;
-        while(beg <= end){
+        while (beg <= end) {
             Integer mid = (beg + end) / 2;
-            if(arr[mid].compareTo(target) == 0){
+            if (arr[mid].compareTo(target) == 0) {
                 return arr[mid];
-            }
-            else if(arr[mid].compareTo(target) > 0){
+            } else if (arr[mid].compareTo(target) > 0) {
                 end = mid - 1;
-            }
-            else
+            } else
                 beg = mid + 1;
         }
         return -1;
     }
 
-    public void selectionSort(int[] arr){
+    public void selectionSort(int[] arr) {
         int min = 0;
         int temp;
-        for(int i = 0; i < arr.length - 1; i++){
-            for(int j = i; j < arr.length; j++) {
+        for (int i = 0; i < arr.length - 1; i++) {
+            for (int j = i; j < arr.length; j++) {
                 if (arr[j] <= arr[min]) {
                     min = j;
                 }
@@ -453,15 +444,15 @@ public String reverseStringAgain(String s){
         System.out.println(Arrays.toString(arr));
     }
 
-    public void insertionSort(int[] arr){
+    public void insertionSort(int[] arr) {
         int temp;
-        for(int i = 1; i < arr.length; i++){
-            for(int j = i; j > 0; j--){
-                if(arr[j] < arr[j - 1]){
-                        temp = arr[j];
-                        arr[j] = arr[j - 1];
-                        arr[j - 1] = temp;
-                        continue;
+        for (int i = 1; i < arr.length; i++) {
+            for (int j = i; j > 0; j--) {
+                if (arr[j] < arr[j - 1]) {
+                    temp = arr[j];
+                    arr[j] = arr[j - 1];
+                    arr[j - 1] = temp;
+                    continue;
                 }
                 break;
             }
@@ -469,10 +460,10 @@ public String reverseStringAgain(String s){
         System.out.println(Arrays.toString(arr));
     }
 
-    public void smallestNum(int[] arr){
+    public void smallestNum(int[] arr) {
         int temp = 0;
-        for(int i = 1; i < arr.length; i++){
-            if(arr[i] < arr[temp]){
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] < arr[temp]) {
                 temp = i;
             }
         }
@@ -482,26 +473,37 @@ public String reverseStringAgain(String s){
 
     /**
      * Method that determines the value of y = b^x
+     *
      * @param base
      * @param exp
      * @return
      */
-    public int power(int base, int exp){
-        if(exp > 0){
-            return base * base * power(base, exp - 1);
+    public int power(int base, int exp) {
+        if (exp != 0) {
+            return base * power(base, exp - 1);
         }
-        return 0;
+        return 1;
     }
 
-    public static void main (String[] args){
+    public void countdown(int n) {
+        if (n == 0) {
+            System.out.println("Finished");
+        } else {
+            System.out.println(n);
+            countdown(n - 1);
+        }
+    }
+
+
+    public static void main(String[] args) {
         RandomMethods r = new RandomMethods();
-        int[] arr = new int[] {3,5,1,34,5,6,7,1};
+        int[] arr = new int[]{3, 5, 1, 34, 5, 6, 7, 1};
 //        int[] arr2 = new int[] {491,9812,33,33,33,190,8322};
 //        r.sortArray(arr2);
 //        r.twoSum(arr, 8);
         r.selectionSort(arr);
         r.insertionSort(arr);
-        r.power(5,3);
+        r.power(5, 3);
     }
 
 }

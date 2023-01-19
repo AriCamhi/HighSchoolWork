@@ -15,8 +15,8 @@ public class BracketTester {
     Expression e = new Expression("2x(5 + 9) + (3)", "(", ")");
 
     @Test
-    public void testingValidExpression(){
-        assert(e.validExpression());
+    public void testingValidExpression() {
+        assert (e.validExpression());
     }
 
     @Test

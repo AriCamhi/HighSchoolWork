@@ -10,19 +10,21 @@ public class Expression {
     private final String myExpression;
     private final String OPENER;
     private final String CLOSER;
+
     public Expression(String expression, String opener, String closer) {
         myExpression = expression;
         OPENER = opener;
         CLOSER = closer;
     }
+
     public boolean validExpression() {
-        Stack <Object> s = new Stack<>();
+        Stack<Object> s = new Stack<>();
         String[] arr = myExpression.split("(?!^)");
         for (String value : arr) {
             if (value.equals(OPENER)) {
                 s.push(value);
             } else if (value.equals(CLOSER)) {
-                if(!s.isEmpty())
+                if (!s.isEmpty())
                     s.pop();
                 else
                     return false;

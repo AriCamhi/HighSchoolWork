@@ -9,9 +9,10 @@ public class Polynomial {
 
     /**
      * Empty constructor
+     *
      * @param a
      */
-    public Polynomial(double[] a){
+    public Polynomial(double[] a) {
     }
 
 //    public int degree(){

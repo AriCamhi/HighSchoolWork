@@ -39,7 +39,7 @@ public class Hangman {
             String[] strSplit = hangWord.split("");
             ArrayList<String> hwArrli = new ArrayList<String>(Arrays.asList(strSplit));
             //Instead of clearing terminal, hits return 100 times
-            for (int i=0; i < 100; ++i)
+            for (int i = 0; i < 100; ++i)
                 System.out.println();
             System.out.flush();
             //Changes String currentStatus into a StringBuilder
@@ -58,8 +58,8 @@ public class Hangman {
                 }
                 if (hwArrli.contains(guess)) {
                     System.out.println("Congrats, the word contains that letter");
-                    for(int i = 0; i < hwArrli.size(); i++){
-                        if(Objects.equals(hwArrli.get(i), guess)){
+                    for (int i = 0; i < hwArrli.size(); i++) {
+                        if (Objects.equals(hwArrli.get(i), guess)) {
                             String c = hwArrli.get(i);
                             char j = c.charAt(0);
                             currentStatus.setCharAt(i, j);
@@ -67,8 +67,7 @@ public class Hangman {
                     }
                     System.out.println("Here is your current status: " + currentStatus);
                     String s = hwArrli.get(hwArrli.indexOf(guess));
-                }
-                else {
+                } else {
                     hangmanGUI.decrementGuess();
                     System.out.println("Your guess was wrong unfortunately");
                     wrongGuesses.append(guess).append(" ");
@@ -78,23 +77,22 @@ public class Hangman {
                 }
             }
             playAgain = false;
-            if (!currentStatus.toString().contains("_")){
-                    System.out.println("Congrats you won!! Would you like to play again? (yes/no)");
-                    response = sc.next();
-                    if (response.equalsIgnoreCase("yes")){
-                        playAgain = true;
-                    }
+            if (!currentStatus.toString().contains("_")) {
+                System.out.println("Congrats you won!! Would you like to play again? (yes/no)");
+                response = sc.next();
+                if (response.equalsIgnoreCase("yes")) {
+                    playAgain = true;
                 }
-                else if(attemptCounter == 0){
-                    System.out.println("The correct word was: " + hangWord);
-                    System.out.println("Sadly, you lost... Would you like to play again? (yes/no)");
-                    response = sc.next();
-                    if (response.equalsIgnoreCase("yes")){
-                        playAgain = true;
-                    }
+            } else if (attemptCounter == 0) {
+                System.out.println("The correct word was: " + hangWord);
+                System.out.println("Sadly, you lost... Would you like to play again? (yes/no)");
+                response = sc.next();
+                if (response.equalsIgnoreCase("yes")) {
+                    playAgain = true;
                 }
             }
+        }
         System.out.println("Program has closed :(");
         sc.close();
-        }
     }
+}

@@ -12,7 +12,7 @@ public class ArrayListBasics {
     private int[] arr;
     private int count;
 
-    public ArrayListBasics(int[] arr){
+    public ArrayListBasics(int[] arr) {
         this.arr = arr;
     }
 
@@ -28,7 +28,7 @@ public class ArrayListBasics {
             arrli.add(i);
         }
         System.out.println(arrli);
-        arrli.add(4,9);
+        arrli.add(4, 9);
         arrli.remove(3);
         System.out.println(arrli);
 
@@ -36,9 +36,9 @@ public class ArrayListBasics {
             System.out.println(integer + " ");
         }
 
-        int[] arr = new int[]{3,5,8,2,5,6};
+        int[] arr = new int[]{3, 5, 8, 2, 5, 6};
         ArrayListBasics alb = new ArrayListBasics(arr);
-        alb.insert(4,2);
+        alb.insert(4, 2);
         ArrayList<String> al = new ArrayList<>();
         al.add("I");
         al.add("feel");
@@ -51,8 +51,8 @@ public class ArrayListBasics {
         al.add("to");
         al.add("work");
         String s = "like";
-        for(int i = 0; i < al.size(); i++){
-            if(al.get(i).equals(s)){
+        for (int i = 0; i < al.size(); i++) {
+            if (al.get(i).equals(s)) {
                 al.remove(i);
                 --i;
             }
@@ -63,19 +63,20 @@ public class ArrayListBasics {
     /**
      * Method that inserts an element into a given index
      * of an array.
+     *
      * @param elem
      * @param index
      */
-    public void insert(int elem, int index){
+    public void insert(int elem, int index) {
         int length = arr.length;
-        if(arr[length - 1] != 0){
+        if (arr[length - 1] != 0) {
             int[] arr2 = new int[arr.length * 2];
-            for(int i = 0; i < arr.length; i++){
+            for (int i = 0; i < arr.length; i++) {
                 arr2[i] = arr[i];
             }
             arr = arr2;
         }
-        for(int j = length - 1; j >= index; j--){
+        for (int j = length - 1; j >= index; j--) {
             arr[j + 1] = arr[j];
         }
         arr[index] = elem;

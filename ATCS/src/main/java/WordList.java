@@ -18,7 +18,7 @@ public class WordList {
      * Empty Constructor
      */
     public WordList() throws IOException {
-        this("",0);
+        this("", 0);
     }
 
     /**
@@ -26,7 +26,7 @@ public class WordList {
      * and will then construct a list of words from that file
      * with only words less than or equal to that charLimit
      *
-     * @param fileName the name of the file that will be used for the WordList
+     * @param fileName  the name of the file that will be used for the WordList
      * @param charLimit the limit of the amount of characters in the WordList
      * @throws IOException
      */
@@ -42,9 +42,9 @@ public class WordList {
     /**
      * Method to remove words above the charLimit
      */
-    private void pruneWords(){
-        for(int i = 0; i < al.size(); i++){
-            if(al.get(i).length() > charLimit){
+    private void pruneWords() {
+        for (int i = 0; i < al.size(); i++) {
+            if (al.get(i).length() > charLimit) {
                 al.remove(i);
                 i--;
             }
@@ -58,7 +58,7 @@ public class WordList {
      * @param addedWord, the word you are going to add to the file
      * @return the list of words with the new added word
      */
-    public ArrayList<String> addWord(String addedWord){
+    public ArrayList<String> addWord(String addedWord) {
         pruneWords();
         al.add(addedWord);
         return al;
@@ -88,7 +88,7 @@ public class WordList {
     /**
      * Some testing for the methods
      */
-    public static void main(String[] args) throws IOException{
+    public static void main(String[] args) throws IOException {
         WordList wl = new WordList("src/main/resources/dictionary.txt", 4);
         Word w = new Word("tar");
         WordList wl2 = new WordList("src/main/resources/small-words.txt", 4);

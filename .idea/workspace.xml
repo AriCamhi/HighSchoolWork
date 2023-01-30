@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Basics of recursion...">
-      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/RecursionArea.java" afterDir="false" />
+    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Validity Lab finished">
+      <change afterPath="$PROJECT_DIR$/ATCS/src/test/java/RecursionTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ATCS/ATCS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/ATCS.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/RandomMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/RandomMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATCS/src/test/java/BracketTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/test/java/BracketTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/RecursionArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/RecursionArea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/resources/fortunes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/resources/fortunes.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,61 +49,74 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/arijc/IdeaProjects/HighSchoolWork/ATCS/src/main/java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/arijc/IdeaProjects/HighSchoolWork/ATCS/src/main/resources",
+    "settings.editor.selected.configurable": "preferences.sourceCode"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\arijc\IdeaProjects\HighSchoolWork\ATCS\src\main\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\arijc\IdeaProjects\HighSchoolWork\ATCS\src\test" />
       <recent name="C:\Users\arijc\IdeaProjects\HighSchoolWork\ATCS\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RandomMethods">
-    <configuration name="Expression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Expression" />
-      <module name="ATCS" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HangmanGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HangmanGUI" />
-      <module name="ATCS" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RandomMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RandomMethods" />
-      <module name="ATCS" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RandomTester.testFactorial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RecursionTester.testPolygonArea4">
+    <configuration name="RecursionTester.testPolygonArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ATCS" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RandomTester" />
-      <option name="METHOD_NAME" value="testFactorial" />
+      <option name="MAIN_CLASS_NAME" value="RecursionTester" />
+      <option name="METHOD_NAME" value="testPolygonArea" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomTester.testingPower" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RecursionTester.testPolygonArea1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ATCS" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RandomTester" />
-      <option name="METHOD_NAME" value="testingPower" />
+      <option name="MAIN_CLASS_NAME" value="RecursionTester" />
+      <option name="METHOD_NAME" value="testPolygonArea1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecursionTester.testPolygonArea2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ATCS" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RecursionTester" />
+      <option name="METHOD_NAME" value="testPolygonArea2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecursionTester.testPolygonArea3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ATCS" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RecursionTester" />
+      <option name="METHOD_NAME" value="testPolygonArea3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecursionTester.testPolygonArea4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ATCS" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RecursionTester" />
+      <option name="METHOD_NAME" value="testPolygonArea4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,19 +136,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Expression" />
-      <item itemvalue="Application.HangmanGUI" />
-      <item itemvalue="Application.RandomMethods" />
-      <item itemvalue="JUnit.RandomTester.testFactorial" />
-      <item itemvalue="JUnit.RandomTester.testingPower" />
+      <item itemvalue="JUnit.RecursionTester.testPolygonArea" />
+      <item itemvalue="JUnit.RecursionTester.testPolygonArea1" />
+      <item itemvalue="JUnit.RecursionTester.testPolygonArea2" />
+      <item itemvalue="JUnit.RecursionTester.testPolygonArea3" />
+      <item itemvalue="JUnit.RecursionTester.testPolygonArea4" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RandomMethods" />
-        <item itemvalue="JUnit.RandomTester.testingPower" />
-        <item itemvalue="JUnit.RandomTester.testFactorial" />
-        <item itemvalue="Application.Expression" />
-        <item itemvalue="Application.HangmanGUI" />
+        <item itemvalue="JUnit.RecursionTester.testPolygonArea4" />
+        <item itemvalue="JUnit.RecursionTester.testPolygonArea3" />
+        <item itemvalue="JUnit.RecursionTester.testPolygonArea2" />
+        <item itemvalue="JUnit.RecursionTester.testPolygonArea1" />
+        <item itemvalue="JUnit.RecursionTester.testPolygonArea" />
       </list>
     </recent_temporary>
   </component>
@@ -246,12 +259,12 @@
       <option name="project" value="LOCAL" />
       <updated>1673995487447</updated>
     </task>
-    <task id="LOCAL-00015" summary="Basics of recursion...">
-      <created>1674093492936</created>
+    <task id="LOCAL-00015" summary="Validity Lab finished">
+      <created>1674097559740</created>
       <option name="number" value="00015" />
       <option name="presentableId" value="LOCAL-00015" />
       <option name="project" value="LOCAL" />
-      <updated>1674093492936</updated>
+      <updated>1674097559740</updated>
     </task>
     <option name="localTasksCounter" value="16" />
     <servers />
@@ -277,8 +290,8 @@
     <MESSAGE value="Finished Anagram" />
     <MESSAGE value="Learned BubbleSort Fully" />
     <MESSAGE value="Lots of changes" />
-    <MESSAGE value="Basics of recursion..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Basics of recursion..." />
+    <MESSAGE value="Validity Lab finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Validity Lab finished" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,4 +1,4 @@
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 import java.io.IOException;
 import java.nio.file.Path;

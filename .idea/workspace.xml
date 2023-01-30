@@ -71,13 +71,12 @@
       <recent name="C:\Users\arijc\IdeaProjects\HighSchoolWork\ATCS\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RecursionTester.testPolygonArea4">
-    <configuration name="RecursionTester.testPolygonArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RecursionTester">
+    <configuration name="RecursionTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ATCS" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RecursionTester" />
-      <option name="METHOD_NAME" value="testPolygonArea" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,7 +135,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.RecursionTester.testPolygonArea" />
+      <item itemvalue="JUnit.RecursionTester" />
       <item itemvalue="JUnit.RecursionTester.testPolygonArea1" />
       <item itemvalue="JUnit.RecursionTester.testPolygonArea2" />
       <item itemvalue="JUnit.RecursionTester.testPolygonArea3" />
@@ -144,11 +143,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RecursionTester" />
+        <item itemvalue="JUnit.RecursionTester.testPolygonArea2" />
         <item itemvalue="JUnit.RecursionTester.testPolygonArea4" />
         <item itemvalue="JUnit.RecursionTester.testPolygonArea3" />
-        <item itemvalue="JUnit.RecursionTester.testPolygonArea2" />
         <item itemvalue="JUnit.RecursionTester.testPolygonArea1" />
-        <item itemvalue="JUnit.RecursionTester.testPolygonArea" />
       </list>
     </recent_temporary>
   </component>

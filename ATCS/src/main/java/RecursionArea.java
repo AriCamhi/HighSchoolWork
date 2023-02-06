@@ -18,7 +18,7 @@ public class RecursionArea {
     /**
      * Helper Method to calculate the area of a triangle after it is split up.
      *
-     * @param x1 - coordinate
+     * @param x1 - coordinate   
      * @param y1 - coordinate
      * @param x2 - coordinate
      * @param y2 - coordinate
@@ -55,8 +55,6 @@ public class RecursionArea {
             return 0;
         } else {
             ArrayList<Double> pg = new ArrayList<Double>(p.subList(0, p.size() - 2));
-//            System.out.println(triangleArea((Double) p.get(0), (Double) p.get(1), (Double) p.get(p.size() - 2), (Double) p.get(p.size() - 1),
-//                    (Double) p.get(p.size() - 4), (Double) p.get(p.size() - 3)) + polygonArea(pg));
             return triangleArea((Double) p.get(0), (Double) p.get(1), (Double) p.get(p.size() - 2), (Double) p.get(p.size() - 1),
                     (Double) p.get(p.size() - 4), (Double) p.get(p.size() - 3)) + polygonArea(pg);
         }

@@ -42,6 +42,7 @@ public class Main{
 //            System.out.println(output);
 //
 //        }
+        long john = 5;
 
 
         StringBuilder stars = new StringBuilder();

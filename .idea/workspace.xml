@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Validity Lab finished">
-      <change afterPath="$PROJECT_DIR$/ATCS/src/test/java/RecursionTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/SortGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ATCS/ATCS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/ATCS.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/RecursionArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/RecursionArea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATCS/src/main/resources/fortunes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/resources/fortunes.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/test/java/RecursionTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/test/java/RecursionTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code Alongs/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code Alongs/src/main/java/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,19 +50,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/arijc/IdeaProjects/HighSchoolWork/ATCS/src/main/resources",
-    "settings.editor.selected.configurable": "preferences.sourceCode"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/arijc/IdeaProjects/HighSchoolWork/ATCS/src/main/resources&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\arijc\IdeaProjects\HighSchoolWork\ATCS\src\main\resources" />
@@ -71,7 +72,21 @@
       <recent name="C:\Users\arijc\IdeaProjects\HighSchoolWork\ATCS\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RecursionTester">
+  <component name="RunManager" selected="Application.RecursionTester">
+    <configuration name="AnagramUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AnagramUI" />
+      <module name="ATCS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecursionTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RecursionTester" />
+      <module name="ATCS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RecursionTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ATCS" />
       <option name="PACKAGE_NAME" value="" />
@@ -91,31 +106,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursionTester.testPolygonArea2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RecursionTester.testTriangleArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ATCS" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RecursionTester" />
-      <option name="METHOD_NAME" value="testPolygonArea2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RecursionTester.testPolygonArea3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ATCS" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RecursionTester" />
-      <option name="METHOD_NAME" value="testPolygonArea3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RecursionTester.testPolygonArea4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ATCS" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RecursionTester" />
-      <option name="METHOD_NAME" value="testPolygonArea4" />
+      <option name="METHOD_NAME" value="testTriangleArea" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -135,18 +130,18 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.AnagramUI" />
+      <item itemvalue="Application.RecursionTester" />
+      <item itemvalue="JUnit.RecursionTester.testTriangleArea" />
       <item itemvalue="JUnit.RecursionTester" />
       <item itemvalue="JUnit.RecursionTester.testPolygonArea1" />
-      <item itemvalue="JUnit.RecursionTester.testPolygonArea2" />
-      <item itemvalue="JUnit.RecursionTester.testPolygonArea3" />
-      <item itemvalue="JUnit.RecursionTester.testPolygonArea4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RecursionTester" />
+        <item itemvalue="Application.AnagramUI" />
         <item itemvalue="JUnit.RecursionTester" />
-        <item itemvalue="JUnit.RecursionTester.testPolygonArea2" />
-        <item itemvalue="JUnit.RecursionTester.testPolygonArea4" />
-        <item itemvalue="JUnit.RecursionTester.testPolygonArea3" />
+        <item itemvalue="JUnit.RecursionTester.testTriangleArea" />
         <item itemvalue="JUnit.RecursionTester.testPolygonArea1" />
       </list>
     </recent_temporary>

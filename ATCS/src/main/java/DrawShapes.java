@@ -15,7 +15,6 @@ public class DrawShapes extends JFrame {
         setSize(400, 400);
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
         paint(getGraphics());
     }
 
@@ -37,5 +36,9 @@ public class DrawShapes extends JFrame {
         g.drawLine(203, 175, 243, 155);
         //Second Arm
         g.drawLine(203, 175, 163, 155);
+        JLabel label = new JLabel("hello");
+        label.setLocation(50,50);
+        label.setVisible(true);
+        super.add(label);
     }
 }

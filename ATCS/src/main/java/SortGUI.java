@@ -11,19 +11,56 @@ import java.util.Arrays;
  * @version 2-3-23
  */
 public class SortGUI extends JFrame {
+    //Class level array...
     private int[] arr = new int[]{105, 78, 35, 48, 142, 24, 55};
 
+    JPanel panel = new JPanel() {
+
+        @Override
+        public Dimension getPreferredSize() {
+            return new Dimension(700, 700);
+        }
+
+        @Override
+        public void paintComponent(Graphics g) {
+            super.paintComponent(g);
+            //Resets frame to white
+            g.setColor(Color.WHITE);
+            g.fillRect(0, 0, 1000, 1000);
+            for (int i = 0; i < arr.length; i++) {
+                //Creating baseline
+                g.setColor(Color.RED);
+                g.drawLine(0, 500, 600, 500);
+                //Color randomizer
+                float hue = (float) Math.random();
+                int rgb = Color.HSBtoRGB(hue, 0.5F, 0.5F);
+                Color color = new Color(rgb);
+                g.setColor(color);
+                //Bar graph creation
+                int x = i * (600 / arr.length);
+                int y = 500 - arr[i];
+                g.fillRect(x, y, 600 / arr.length, arr[i]);
+                g.drawString("" + arr[i], ((600 / arr.length) / 2) + x, y - 20);
+            }
+        }
+    };
+
+    /**
+     * Constructor for the frame to put GUI on
+     */
     public SortGUI() {
-        super("SortGUI");
-        setSize(600, 600);
+        super("Insertion Sort");
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        paint(getGraphics());
+        Container c = getContentPane();
+        c.add(panel, BorderLayout.CENTER);
+        pack();
+        insertionSort();
     }
 
 
     /**
-     * Actual method for insertion sort, no GUIs
+     * Actual method for insertion sort, GUI is called in method
      */
     public void insertionSort() {
         int temp;
@@ -47,27 +84,8 @@ public class SortGUI extends JFrame {
     }
 
 
-    public void paint(Graphics g) {
-        //Resets frame to white
-        g.setColor(Color.white);
-        g.fillRect(0, 0, 1000, 1000);
-        for (int i = 0; i < arr.length; i++) {
-            //Creating baseline
-            g.setColor(Color.red);
-            g.drawLine(0, 500, 600, 500);
-            //Color randomizer
-            float hue = (float) Math.random();
-            int rgb = Color.HSBtoRGB(hue, 0.5F, 0.5F);
-            Color color = new Color(rgb);
-            g.setColor(color);
-            //Bar graph creation
-            g.fillRect(i * (600 / arr.length), 500 - arr[i], 600 / arr.length, arr[i]);
-        }
-    }
-
     public static void main(String[] args) {
-        SortGUI sg = new SortGUI();
-        sg.insertionSort();
+        new SortGUI();
     }
 
 }

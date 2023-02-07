@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Validity Lab finished">
-      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/SortGUI.java" afterDir="false" />
+    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="RecursionArea.java lab finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATCS/ATCS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/ATCS.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/RecursionArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/RecursionArea.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATCS/src/test/java/RecursionTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/test/java/RecursionTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code Alongs/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Code Alongs/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/DrawShapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/DrawShapes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/RandomMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/RandomMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/SortGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/SortGUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,9 +70,23 @@
       <recent name="C:\Users\arijc\IdeaProjects\HighSchoolWork\ATCS\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RecursionTester">
+  <component name="RunManager" selected="Application.SortGUI">
     <configuration name="AnagramUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnagramUI" />
+      <module name="ATCS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HangmanGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HangmanGUI" />
+      <module name="ATCS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RandomMethods" />
       <module name="ATCS" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -87,31 +99,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursionTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SortGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortGUI" />
       <module name="ATCS" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RecursionTester" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RecursionTester.testPolygonArea1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ATCS" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RecursionTester" />
-      <option name="METHOD_NAME" value="testPolygonArea1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RecursionTester.testTriangleArea" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ATCS" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RecursionTester" />
-      <option name="METHOD_NAME" value="testTriangleArea" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,18 +121,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.AnagramUI" />
+      <item itemvalue="Application.HangmanGUI" />
+      <item itemvalue="Application.RandomMethods" />
       <item itemvalue="Application.RecursionTester" />
-      <item itemvalue="JUnit.RecursionTester.testTriangleArea" />
-      <item itemvalue="JUnit.RecursionTester" />
-      <item itemvalue="JUnit.RecursionTester.testPolygonArea1" />
+      <item itemvalue="Application.SortGUI" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortGUI" />
+        <item itemvalue="Application.HangmanGUI" />
+        <item itemvalue="Application.RandomMethods" />
         <item itemvalue="Application.RecursionTester" />
         <item itemvalue="Application.AnagramUI" />
-        <item itemvalue="JUnit.RecursionTester" />
-        <item itemvalue="JUnit.RecursionTester.testTriangleArea" />
-        <item itemvalue="JUnit.RecursionTester.testPolygonArea1" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674097559740</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="RecursionArea.java lab finished">
+      <created>1675653283411</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1675653283412</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -285,7 +282,8 @@
     <MESSAGE value="Learned BubbleSort Fully" />
     <MESSAGE value="Lots of changes" />
     <MESSAGE value="Validity Lab finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Validity Lab finished" />
+    <MESSAGE value="RecursionArea.java lab finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="RecursionArea.java lab finished" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

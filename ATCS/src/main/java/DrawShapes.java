@@ -38,13 +38,4 @@ public class DrawShapes extends JFrame {
         //Second Arm
         g.drawLine(203, 175, 163, 155);
     }
-
-    public void houseHW(Graphics g) {
-        g.setColor(Color.red);
-        g.fillRect(50, 50, 300, 300);
-        g.setColor(Color.blue);
-        g.fillRect(100, 100, 200, 200);
-    }
-
-
 }

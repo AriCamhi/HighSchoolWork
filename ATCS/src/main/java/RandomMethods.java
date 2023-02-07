@@ -550,16 +550,15 @@ public class RandomMethods {
     }
 
 
-
     public static void main(String[] args) {
         RandomMethods r = new RandomMethods();
         int[] arr = new int[]{3, 5, 1, 34, 5, 6, 7, 1};
 //        int[] arr2 = new int[] {491,9812,33,33,33,190,8322};
 //        r.sortArray(arr2);
 //        r.twoSum(arr, 8);
-        r.selectionSort(arr);
+        //r.selectionSort(arr);
         r.insertionSort(arr);
-        r.power(5, 3);
+        //r.power(5, 3);
     }
 
 }

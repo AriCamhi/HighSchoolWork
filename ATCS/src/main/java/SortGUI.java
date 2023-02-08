@@ -12,13 +12,12 @@ import java.util.Arrays;
  */
 public class SortGUI extends JFrame {
     //Class level array...
-    private int[] arr = new int[]{105, 78, 35, 48, 142, 24, 55};
-
+    private int[] arr = new int[]{105, 78, 35, 48, 142, 24, 55, 220, 8};
     JPanel panel = new JPanel() {
 
         @Override
         public Dimension getPreferredSize() {
-            return new Dimension(700, 700);
+            return new Dimension(600, 700);
         }
 
         @Override

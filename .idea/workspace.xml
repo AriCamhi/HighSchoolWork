@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="RecursionArea.java lab finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/DrawShapes.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/DrawShapes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/RandomMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/RandomMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/SortGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/SortGUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,9 +128,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.SortGUI" />
+        <item itemvalue="Application.RandomMethods" />
         <item itemvalue="Application.DrawShapes" />
         <item itemvalue="Application.HangmanGUI" />
-        <item itemvalue="Application.RandomMethods" />
         <item itemvalue="Application.RecursionTester" />
       </list>
     </recent_temporary>

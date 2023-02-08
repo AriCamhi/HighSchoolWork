@@ -97,6 +97,7 @@ public class RandomMethods {
                 break;
             }
         }
+        System.out.println(integerPart + "Rad" + radicalPart);
         return new RadResult(integerPart, radicalPart);
     }
 
@@ -549,16 +550,46 @@ public class RandomMethods {
         }
     }
 
+    public static void oddEvenSort(int[] arr) {
+        boolean isSorted = false; // Initially array is unsorted
+        while (!isSorted) {
+            isSorted = true;
+            int temp = 0;
+            // Perform Bubble sort on odd indexed element
+            for (int i = 1; i <= arr.length - 2; i = i + 2) {
+                if (arr[i] > arr[i + 1]) {
+                    temp = arr[i];
+                    arr[i] = arr[i + 1];
+                    arr[i + 1] = temp;
+                    isSorted = false;
+                }
+            }
+            // Perform Bubble sort on even indexed element
+            for (int i = 0; i <= arr.length - 2; i = i + 2) {
+                if (arr[i] > arr[i + 1]) {
+                    temp = arr[i];
+                    arr[i] = arr[i + 1];
+                    arr[i + 1] = temp;
+                    isSorted = false;
+                }
+            }
+        }
+        System.out.println(Arrays.toString(arr));
+    }
+
 
     public static void main(String[] args) {
         RandomMethods r = new RandomMethods();
         int[] arr = new int[]{3, 5, 1, 34, 5, 6, 7, 1};
-//        int[] arr2 = new int[] {491,9812,33,33,33,190,8322};
-//        r.sortArray(arr2);
-//        r.twoSum(arr, 8);
+        //int[] arr2 = new int[] {491,9812,33,33,33,190,8322};
+        //r.sortArray(arr2);
+        //r.twoSum(arr, 8);
         //r.selectionSort(arr);
-        r.insertionSort(arr);
+        //r.insertionSort(arr);
         //r.power(5, 3);
+        //oddEvenSort(arr);
+        //r.simplifyRadical(50);
+
     }
 
 }

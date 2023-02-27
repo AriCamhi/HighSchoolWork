@@ -578,6 +578,8 @@ public class RandomMethods {
     }
 
 
+
+
     public static void main(String[] args) {
         RandomMethods r = new RandomMethods();
         int[] arr = new int[]{3, 5, 1, 34, 5, 6, 7, 1};
@@ -589,7 +591,6 @@ public class RandomMethods {
         //r.power(5, 3);
         //oddEvenSort(arr);
         //r.simplifyRadical(50);
-
     }
 
 }

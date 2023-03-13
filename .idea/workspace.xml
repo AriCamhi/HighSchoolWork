@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Few touches">
-      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/RadixSort.java" afterDir="false" />
+    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Finished RadixSort">
+      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/HotelLab/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/HotelLab/EmployeeSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/HotelLab/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/HotelLab/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/RandomMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/RandomMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/RadixSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/RadixSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,10 +72,16 @@
       <recent name="C:\Users\arijc\IdeaProjects\HighSchoolWork\ATCS\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RadixSort">
-    <configuration name="DrawShapes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DrawShapes" />
+  <component name="RunManager" selected="Application.EmployeeSystem">
+    <configuration name="EmployeeSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HotelLab.EmployeeSystem" />
       <module name="ATCS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="HotelLab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,19 +131,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.EmployeeSystem" />
       <item itemvalue="Application.RadixSort" />
-      <item itemvalue="Application.DrawShapes" />
       <item itemvalue="Application.RandomMethods" />
       <item itemvalue="Application.SortGUI" />
       <item itemvalue="JUnit.RandomTester.testingIsPrime" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EmployeeSystem" />
         <item itemvalue="Application.RadixSort" />
         <item itemvalue="Application.SortGUI" />
         <item itemvalue="JUnit.RandomTester.testingIsPrime" />
         <item itemvalue="Application.RandomMethods" />
-        <item itemvalue="Application.DrawShapes" />
       </list>
     </recent_temporary>
   </component>
@@ -266,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675881882221</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Finished RadixSort">
+      <created>1677470980429</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1677470980429</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -293,7 +309,8 @@
     <MESSAGE value="Validity Lab finished" />
     <MESSAGE value="RecursionArea.java lab finished" />
     <MESSAGE value="Few touches" />
-    <option name="LAST_COMMIT_MESSAGE" value="Few touches" />
+    <MESSAGE value="Finished RadixSort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished RadixSort" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

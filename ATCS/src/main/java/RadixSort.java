@@ -81,6 +81,7 @@ public class RadixSort {
         return temp;
     }
 
+
     //Testing below
     public static void main(String[] args) {
         ArrayList<Integer> arr = new ArrayList<>();
@@ -90,7 +91,8 @@ public class RadixSort {
         arr.add(5004);
         arr.add(12);
         arr.add(5);
+        System.out.println("Before: " + arr);
         RadixSort r = new RadixSort(arr);
-        System.out.println(r.radixSort());
+        System.out.println("After: " + r.radixSort());
     }
 }

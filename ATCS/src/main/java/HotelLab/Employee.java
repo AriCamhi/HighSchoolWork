@@ -18,18 +18,12 @@ public class Employee extends Person {
      * Empty Constructor
      */
     public Employee() {
-        super();
-        this.salary = 0;
-        this.empsManager = null;
+        Random r = new Random();
+        setSalary(r.nextInt(100000));
+        setId("e" + getNextID());
+        setAge(r.nextInt(65 - 21) + 21);
     }
 
-    /**
-     * Overloaded Constructor
-     */
-    public Employee(int salary, Manager empsManager) {
-        this.salary = salary;
-        this.empsManager = empsManager;
-    }
 
     public void setSalary(int salary) {
         this.salary = salary;
@@ -51,18 +45,10 @@ public class Employee extends Person {
     public String toString() {
         return "Employee{" +
                 "salary=" + getSalary() +
-                ", empsManager=" + getEmpsManager() +
+                ", empsManager=" + getEmpsManager().getName() +
                 ", name='" + getName() + '\'' +
                 ", age=" + getAge() +
                 ", id='" + getId() + '\'' +
                 '}';
-    }
-
-    public void generateEmployee(){
-        Employee e = new Employee();
-        Random r = new Random();
-        e.setSalary(r.nextInt(100000));
-        e.setAge(r.nextInt(90-21) + 21);
-        e.setId("e" + r.nextInt(99999));
     }
 }

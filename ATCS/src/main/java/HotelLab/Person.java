@@ -8,24 +8,20 @@ package HotelLab;
  * @version 3-8-23
  */
 public class Person {
-    protected String name;
-    protected int age;
-    protected String id;
+    private String name;
+    private int age;
+    private String id;
+
+    private static int nextID = 0;
+
+    protected static int getNextID() {
+        return nextID++;
+    }
 
     /**
      * Empty Constructor
      */
     public Person() {
-
-    }
-
-    /**
-     * Overloaded Constructor
-     */
-    public Person(String name, int age, String id) {
-        this.name = name;
-        this.age = age;
-        this.id = id;
     }
 
     public void setName(String name) {

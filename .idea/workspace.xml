@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Finished RadixSort">
+    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Progress for the Hotel Lab">
+      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/BinaryArithmetic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATCS/ATCS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/ATCS.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/HotelLab/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/HotelLab/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/HotelLab/EmployeeSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/HotelLab/EmployeeSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/HotelLab/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/HotelLab/Manager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/HotelLab/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/HotelLab/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/Hangman.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,19 +47,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/arijc/IdeaProjects/HighSchoolWork/ATCS/src/main/resources",
-    "settings.editor.selected.configurable": "settings.sync"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/arijc/IdeaProjects/HighSchoolWork/ATCS/src/main/resources&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\arijc\IdeaProjects\HighSchoolWork\ATCS\src\main\resources" />
@@ -72,7 +69,14 @@
       <recent name="C:\Users\arijc\IdeaProjects\HighSchoolWork\ATCS\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EmployeeSystem">
+  <component name="RunManager" selected="Application.BinaryArithmetic">
+    <configuration name="BinaryArithmetic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinaryArithmetic" />
+      <module name="ATCS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EmployeeSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HotelLab.EmployeeSystem" />
       <module name="ATCS" />
@@ -86,15 +90,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadixSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RadixSort" />
+    <configuration name="Hangman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hangman" />
       <module name="ATCS" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RandomMethods" />
+    <configuration name="RadixSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RadixSort" />
       <module name="ATCS" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,16 +107,6 @@
     <configuration name="SortGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SortGUI" />
       <module name="ATCS" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RandomTester.testingIsPrime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ATCS" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RandomTester" />
-      <option name="METHOD_NAME" value="testingIsPrime" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,19 +125,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.BinaryArithmetic" />
+      <item itemvalue="Application.Hangman" />
       <item itemvalue="Application.EmployeeSystem" />
       <item itemvalue="Application.RadixSort" />
-      <item itemvalue="Application.RandomMethods" />
       <item itemvalue="Application.SortGUI" />
-      <item itemvalue="JUnit.RandomTester.testingIsPrime" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryArithmetic" />
+        <item itemvalue="Application.Hangman" />
         <item itemvalue="Application.EmployeeSystem" />
         <item itemvalue="Application.RadixSort" />
         <item itemvalue="Application.SortGUI" />
-        <item itemvalue="JUnit.RandomTester.testingIsPrime" />
-        <item itemvalue="Application.RandomMethods" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677470980429</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Progress for the Hotel Lab">
+      <created>1678734718243</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1678734718243</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -310,7 +311,8 @@
     <MESSAGE value="RecursionArea.java lab finished" />
     <MESSAGE value="Few touches" />
     <MESSAGE value="Finished RadixSort" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished RadixSort" />
+    <MESSAGE value="Progress for the Hotel Lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Progress for the Hotel Lab" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

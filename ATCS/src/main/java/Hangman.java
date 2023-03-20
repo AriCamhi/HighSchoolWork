@@ -12,7 +12,8 @@ import java.util.Scanner;
 public class Hangman {
     public static void main(String[] args) {
         Hangman hm = new Hangman();
-        //hm.hangmanUI();
+        HangmanGUI hmg = new HangmanGUI();
+        hm.hangmanUI(hmg);
     }
 
     private String hangWord;

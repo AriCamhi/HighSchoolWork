@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Progress for the Hotel Lab">
-      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/BinaryArithmetic.java" afterDir="false" />
+    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Finished HotelLab">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/Hangman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/BinaryArithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/BinaryArithmetic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/arijc/IdeaProjects/HighSchoolWork/ATCS/src/main/resources&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -90,13 +89,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hangman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hangman" />
-      <module name="ATCS" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RadixSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RadixSort" />
       <module name="ATCS" />
@@ -107,6 +99,16 @@
     <configuration name="SortGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SortGUI" />
       <module name="ATCS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomTester.testingIsPrime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ATCS" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RandomTester" />
+      <option name="METHOD_NAME" value="testingIsPrime" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,18 +128,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.BinaryArithmetic" />
-      <item itemvalue="Application.Hangman" />
       <item itemvalue="Application.EmployeeSystem" />
       <item itemvalue="Application.RadixSort" />
       <item itemvalue="Application.SortGUI" />
+      <item itemvalue="JUnit.RandomTester.testingIsPrime" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.BinaryArithmetic" />
-        <item itemvalue="Application.Hangman" />
         <item itemvalue="Application.EmployeeSystem" />
         <item itemvalue="Application.RadixSort" />
         <item itemvalue="Application.SortGUI" />
+        <item itemvalue="JUnit.RandomTester.testingIsPrime" />
       </list>
     </recent_temporary>
   </component>
@@ -276,12 +278,12 @@
       <option name="project" value="LOCAL" />
       <updated>1677470980429</updated>
     </task>
-    <task id="LOCAL-00019" summary="Progress for the Hotel Lab">
-      <created>1678734718243</created>
+    <task id="LOCAL-00019" summary="Finished HotelLab">
+      <created>1678762743861</created>
       <option name="number" value="00019" />
       <option name="presentableId" value="LOCAL-00019" />
       <option name="project" value="LOCAL" />
-      <updated>1678734718243</updated>
+      <updated>1678762743861</updated>
     </task>
     <option name="localTasksCounter" value="20" />
     <servers />
@@ -311,8 +313,19 @@
     <MESSAGE value="RecursionArea.java lab finished" />
     <MESSAGE value="Few touches" />
     <MESSAGE value="Finished RadixSort" />
-    <MESSAGE value="Progress for the Hotel Lab" />
-    <option name="LAST_COMMIT_MESSAGE" value="Progress for the Hotel Lab" />
+    <MESSAGE value="Finished HotelLab" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished HotelLab" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ATCS/src/main/java/BinaryArithmetic.java</url>
+          <line>83</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -72,20 +72,22 @@ public class BinaryArithmetic {
         }
     }
 
-//    /**
-//     * Method to multiply two binary numbers
-//     *
-//     * @param num1 - binary number1
-//     * @param num2 - binary number1
-//     * @return - product of the two numbers in binary format
-//     */
-//    public int multiplyByAdding(int num1, int num2){
-//        int numericalVal = findNumericalValue(num2);
-//        int total = 0;
-//        for(int i = 0; i < numericalVal; i++){
-//            addBinaryNumbers(num1,num1);
-//        }
-//    }
+    /**
+     * Method to multiply two binary numbers
+     *
+     * @param num1 - binary number1
+     * @param num2 - binary number1
+     * @return - product of the two numbers in binary format
+     */
+    public int multiplyByAdding(int num1, int num2, int numericalVal){
+        int total = num1;
+        if(numericalVal == 0){
+            return total;
+        }
+        else{
+            return multiplyByAdding(num1,total,findNumericalValue(num2) - 1);
+        }
+    }
 
     /**
      * Helper method that takes in binary number and returns
@@ -122,6 +124,6 @@ public class BinaryArithmetic {
         ba.increment(1111110);
         System.out.println(ba.addBinaryNumbers(1011,111));
         //System.out.println(ba.helperForAddition(7,1011));
-        //ba.multiplyByAdding(1011,11001);
+        ba.multiplyByAdding(110110,101, 101);
     }
 }

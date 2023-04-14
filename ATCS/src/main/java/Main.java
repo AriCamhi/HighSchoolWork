@@ -1,4 +1,5 @@
 import java.text.DecimalFormat;
+import java.util.Random;
 import java.util.Stack;
 
 /**
@@ -79,5 +80,7 @@ public class Main {
         System.out.println(String.valueOf(charArr));
 
         int[] arr5 = new int[]{1, 4, 8, 3, 9, 11};
+
+        Random r = new Random();
     }
 }

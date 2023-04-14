@@ -53,21 +53,20 @@ public class BinaryArithmetic {
      * @return - number in binary form
      */
     public int addBinaryNumbers(int num1, int num2) {
-        return binaryIncrementLoop(findNumericalValue(num2),num1);
+        return binaryIncrementLoop(findNumericalValue(num2), num1);
     }
 
     /**
      * Recursion method to help with the addition
      *
      * @param numericalValue - value of num2 from addBinaryNumbers()
-     * @param num - binary number from addBinaryNumbers()
+     * @param num            - binary number from addBinaryNumbers()
      * @return - finalValue
      */
-    public int binaryIncrementLoop(int numericalValue, int num){
-        if(numericalValue == 0){
+    public int binaryIncrementLoop(int numericalValue, int num) {
+        if (numericalValue == 0) {
             return num;
-        }
-        else{
+        } else {
             return binaryIncrementLoop(numericalValue - 1, increment(num));
         }
     }
@@ -79,14 +78,12 @@ public class BinaryArithmetic {
      * @param num2 - binary number1
      * @return - product of the two numbers in binary format
      */
-    public int multiplyByAdding(int num1, int num2, int numericalVal){
-        int total = num1;
-        if(numericalVal == 0){
-            return total;
+    public int multiplyByAdding(int num1, int num2) {
+        int product = 0;
+        for (int i = 0; i < (findNumericalValue(num2) / 2) + 3; i++) {
+            product = addBinaryNumbers(product, num1);
         }
-        else{
-            return multiplyByAdding(num1,total,findNumericalValue(num2) - 1);
-        }
+        return product;
     }
 
     /**
@@ -96,7 +93,7 @@ public class BinaryArithmetic {
      * @param num - binary number that will be converted
      * @return - converted number
      */
-    public int findNumericalValue(int num){
+    public int findNumericalValue(int num) {
         //Converts to ArrayList
         ArrayList<Integer> binaryNum = new ArrayList<>();
         String toConvert = Integer.toString(num);
@@ -117,13 +114,12 @@ public class BinaryArithmetic {
     }
 
 
-
     //Testing...
     public static void main(String[] args) {
         BinaryArithmetic ba = new BinaryArithmetic();
-        ba.increment(1111110);
-        System.out.println(ba.addBinaryNumbers(1011,111));
-        //System.out.println(ba.helperForAddition(7,1011));
-        ba.multiplyByAdding(110110,101, 101);
+        System.out.println(ba.increment(1111110));
+        System.out.println(ba.addBinaryNumbers(111111, 111));
+        System.out.println(ba.multiplyByAdding(11, 110));
+
     }
 }

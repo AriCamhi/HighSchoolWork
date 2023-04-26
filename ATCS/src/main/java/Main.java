@@ -82,5 +82,8 @@ public class Main {
         int[] arr5 = new int[]{1, 4, 8, 3, 9, 11};
 
         Random r = new Random();
+
+
+        System.out.println(20/0);
     }
 }

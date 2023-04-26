@@ -88,8 +88,55 @@ public class SinglyLinkedList<E> {
         return output;
     }
 
+    public E removeLast() {
+        if (nodeCount == 0)
+            throw new NoSuchElementException();
+        ListNode<E> temp = head;
+        while (temp.getNext().hasNext()) {
+            temp = temp.getNext();
+        }
+        if (nodeCount == 1) {
+            nodeCount--;
+            head = null;
+            return (E) temp.getValue();
+        }
+        E output = temp.getNext().getValue();
+        temp.setNext(null);
+        nodeCount--;
+        return output;
+    }
+
+    public E remove(int index) {
+        if (nodeCount == 0)
+            throw new NoSuchElementException();
+        ListNode<E> temp = head;
+        int counter = 0;
+        while (counter < index) {
+            counter++;
+            temp = temp.getNext();
+        }
+        E output = temp.getNext().getValue();
+        temp.setNext(temp.getNext().getNext());
+        nodeCount--;
+        return output;
+    }
+
+    public E remove(E value) {
+        if (nodeCount == 0)
+            throw new NoSuchElementException();
+        ListNode<E> temp = head;
+        while (temp.getNext().getValue() != value) {
+            temp = temp.getNext();
+        }
+        E output = temp.getNext().getValue();
+        temp.setNext(temp.getNext().getNext());
+        temp.getNext().setNext(null);
+        nodeCount--;
+        return output;
+    }
+
     public static void main(String[] args) {
-        SinglyLinkedList sll = new SinglyLinkedList();
+        SinglyLinkedList<Integer> sll = new SinglyLinkedList();
         sll.add(0, 5);
         sll.add(1, 3);
     }

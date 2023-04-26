@@ -29,7 +29,7 @@ public class AnagramUI {
             int characterLimit = Integer.parseInt(sc.next());
             System.out.println("Insert the name of the file for the dictionary to scan (dictionary/small-words)");
             String fileName = sc.next();
-            WordList wl = new WordList(fileName + ".txt", characterLimit);
+            WordList wl = new WordList("/Users/aricamhi/IdeaProjects/HighSchoolWork/ATCS/src/main/resources/dictionary.txt", characterLimit);
             System.out.println("Insert word you would like to generate the anagrams of:");
             String initialWord = sc.next();
             Word w = new Word(initialWord);

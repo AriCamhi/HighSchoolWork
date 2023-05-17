@@ -102,13 +102,4 @@ public class DoublyLinkedListWithTail<E> extends SinglyLinkedListWithTail<E> {
             return true;
         }
     }
-
-    public void sortDoublyLinkedList(DoublyLinkedListWithTail<E> list) {
-
-    }
-
-    public void swap(DoubleListNode<E> node){
-
-    }
-
 }

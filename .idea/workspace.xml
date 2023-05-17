@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Finished Library Lab and lots of additions to ListNode and SinglyLinkedList">
-      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/DoubleListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/DoublyLinkedListWithTail.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/SinglyLinkedListWithTail.java" afterDir="false" />
+    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Minor changes throughout all classes, major changes in the linked lists classes">
+      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/BinarySearchTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/TreeNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/DoublyLinkedListWithTail.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/DoublyLinkedListWithTail.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,20 +49,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/arijc/IdeaProjects/HighSchoolWork/ATCS/src/main/resources",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/arijc/IdeaProjects/HighSchoolWork/ATCS/src/main/resources&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\arijc\IdeaProjects\HighSchoolWork\ATCS\src\main\resources" />
@@ -73,16 +72,9 @@
       <recent name="C:\Users\arijc\IdeaProjects\HighSchoolWork\ATCS\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnagramUI">
+  <component name="RunManager" selected="Application.arrays2D">
     <configuration name="AnagramUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnagramUI" />
-      <module name="ATCS" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BinaryArithmetic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinaryArithmetic" />
       <module name="ATCS" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,6 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="arrays2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrays2D" />
+      <module name="ATCS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="RandomStuff" />
       <method v="2">
@@ -136,18 +135,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.AnagramUI" />
+      <item itemvalue="Application.arrays2D" />
       <item itemvalue="Application.Library" />
       <item itemvalue="Application.Book" />
       <item itemvalue="Application.SinglyLinkedList" />
-      <item itemvalue="Application.BinaryArithmetic" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.arrays2D" />
         <item itemvalue="Application.AnagramUI" />
         <item itemvalue="Application.Library" />
         <item itemvalue="Application.Book" />
         <item itemvalue="Application.SinglyLinkedList" />
-        <item itemvalue="Application.BinaryArithmetic" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681478773684</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Minor changes throughout all classes, major changes in the linked lists classes">
+      <created>1682531479340</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1682531479340</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,7 +344,8 @@
     <MESSAGE value="Progress for the Hotel Lab" />
     <MESSAGE value="Progress for the Binary Lab" />
     <MESSAGE value="Finished Library Lab and lots of additions to ListNode and SinglyLinkedList" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Library Lab and lots of additions to ListNode and SinglyLinkedList" />
+    <MESSAGE value="Minor changes throughout all classes, major changes in the linked lists classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor changes throughout all classes, major changes in the linked lists classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -54,33 +54,62 @@ public class BinarySearchTree<E> extends BinaryTree {
         if (getRoot() == null) {
             return null;
         }
+
         TreeNode temp = getRoot();
         if (temp.getValue().equals(node)) {
             return removeRoot();
         }
-        TreeNode parent = temp;
-        while (temp.hasLeft() || temp.hasRight()) {
+
+        TreeNode parent = null;
+        while (temp != null) {
             int comp = node.compareTo(temp.getValue());
             if (comp == 0) {
                 break;
             } else if (comp < 0) {
                 parent = temp;
                 temp = temp.getLeft();
-            }
-            else {
+            } else {
                 parent = temp;
                 temp = temp.getRight();
             }
         }
-        // At leaf node, or exact match
-        TreeNode removing = temp;
-        if (temp.hasRight()) {
-            while (temp.hasRight()) {
-                temp = temp.getRight();
-            }
+
+        if (temp == null) {
+            // Node not found
+            return null;
         }
 
-        return null;
+        // Case 1: Node has no children
+        if (!temp.hasLeft() && !temp.hasRight()) {
+            if (parent.getLeft() == temp) {
+                parent.setLeft(null);
+            } else {
+                parent.setRight(null);
+            }
+        }
+        // Case 2: Node has only one child
+        else if (!temp.hasLeft() || !temp.hasRight()) {
+            TreeNode child;
+            if (temp.hasLeft()) {
+                child = temp.getLeft();
+            } else {
+                child = temp.getRight();
+            }
+            if (parent.getLeft() == temp) {
+                parent.setLeft(child);
+            } else {
+                parent.setRight(child);
+            }
+        }
+        // Case 3: Node has two children
+        else {
+            TreeNode successor = findMin(temp.getRight());
+            Comparable successorValue = (Comparable) successor.getValue();
+            remove(successorValue); // Remove the successor recursively
+            temp.setValue(successorValue); // Replace the node's value with the successor's value
+        }
+
+        return temp;
     }
 
     @Override

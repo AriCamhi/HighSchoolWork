@@ -11,6 +11,9 @@ import java.util.Scanner;
 /**
  * Class that implements the calculations after given the data
  * from the web.
+ *
+ * @author Ari Camhi
+ * @version 5-19-23
  */
 public class HTMLScanning {
     public static void main(String[] args) throws ParseException {
@@ -32,6 +35,8 @@ public class HTMLScanning {
         String dateAndTime = "" + java.time.LocalDate.now();
         String increment = addOneDayCalendar(dateAndTime);
         increment += "T08:00:00";
+        //Use a day that we had a snow day previously for testing:
+        //String testerDate = "2023-03-14T08:00:00";
         try {
             connection = new URL("https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/" + zipcode + "/" + increment + "?key=MWW42ANL8BBNXBMNXMCSHB842").openConnection();
             Scanner sc = new Scanner(connection.getInputStream());
@@ -51,7 +56,23 @@ public class HTMLScanning {
         map.put("tempmin", get.getDouble("tempmin"));
         map.put("temp", get.getDouble("temp"));
         map.put("precip", get.getDouble("precip"));
+        //1 means snow, 2 means rain
 
+        var jsonArray = get.getJSONArray("preciptype");
+        //if wintry mix make 2
+        if (jsonArray.length() >= 2) {
+            map.put("preciptype", 2.0);
+        } else if (jsonArray.get(0).equals("rain")) {
+            map.put("preciptype", 1.0);
+        } else {
+            map.put("preciptype", 3.0);
+        }
+
+        if (get.get("preciptype").equals("rain")) {
+            map.put("preciptype", 2.0);
+        } else if (get.get("preciptype").equals("freezingrain")) {
+            map.put("preciptype", 1.0);
+        }
         return map;
     }
 

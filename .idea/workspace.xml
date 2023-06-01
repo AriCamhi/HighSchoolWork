@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Changes.">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SnowDayCalculator/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SnowDayCalculator/src/main/java/SnowDayCalculatorUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Finished snow day calculator. Going to do test cases later on to check since testing only returns limited chance due to no snow as of making.">
+      <change afterPath="$PROJECT_DIR$/SnowDayCalculator/src/test/java/SnowDayCalcTester.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATCS/ATCS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/ATCS.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code Alongs/package.bluej" beforeDir="false" afterPath="$PROJECT_DIR$/Code Alongs/package.bluej" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SnowDayCalculator/src/main/java/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/SnowDayCalculator/src/main/java/HTMLScanning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnowDayCalculator/src/main/java/HTMLScanning.java" beforeDir="false" afterPath="$PROJECT_DIR$/SnowDayCalculator/src/main/java/HTMLScanning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SnowDayCalculator/src/main/java/SnowDayCalculatorUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/SnowDayCalculator/src/main/java/SnowDayCalculatorUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +76,7 @@
       <recent name="C:\Users\arijc\IdeaProjects\HighSchoolWork\ATCS\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SnowDayCalculatorUI">
+  <component name="RunManager" selected="Application.HTMLScanning">
     <configuration name="AnagramUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnagramUI" />
       <module name="ATCS" />
@@ -147,8 +140,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SnowDayCalculatorUI" />
         <item itemvalue="Application.HTMLScanning" />
+        <item itemvalue="Application.SnowDayCalculatorUI" />
         <item itemvalue="Application.arrays2D" />
         <item itemvalue="Application.AnagramUI" />
         <item itemvalue="Application.Library" />
@@ -325,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684284168712</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Finished snow day calculator. Going to do test cases later on to check since testing only returns limited chance due to no snow as of making.">
+      <created>1684776367585</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1684776367585</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -358,7 +358,8 @@
     <MESSAGE value="Finished Library Lab and lots of additions to ListNode and SinglyLinkedList" />
     <MESSAGE value="Minor changes throughout all classes, major changes in the linked lists classes" />
     <MESSAGE value="Changes." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes." />
+    <MESSAGE value="Finished snow day calculator. Going to do test cases later on to check since testing only returns limited chance due to no snow as of making." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished snow day calculator. Going to do test cases later on to check since testing only returns limited chance due to no snow as of making." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -367,6 +368,11 @@
           <url>file://$PROJECT_DIR$/ATCS/src/main/java/LibraryLab/Library.java</url>
           <line>36</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/SnowDayCalculator/src/main/java/HTMLScanning.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

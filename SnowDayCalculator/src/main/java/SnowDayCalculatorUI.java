@@ -2,6 +2,14 @@ import java.text.ParseException;
 import java.util.HashMap;
 import java.util.Scanner;
 
+/**
+ * Class that implements the data given from HTMLScanning. Contains a user
+ * interface, and also the algorithm to calculate the percent chance of
+ * a snow day.
+ *
+ * @author Ari Camhi
+ * @version 5-23-23
+ */
 public class SnowDayCalculatorUI extends HTMLScanning {
 
     public static void main(String[] args) throws ParseException {
@@ -32,7 +40,7 @@ public class SnowDayCalculatorUI extends HTMLScanning {
             if (prediction(zipcode, school, prevSnowDays) <= 5) {
                 System.out.println("Limited percent chance of snow day.");
             } else {
-                System.out.println("Percent chance of snow day: " + prediction(zipcode,
+                System.out.println("Percent chance of snow day: " + (int) prediction(zipcode,
                         school, prevSnowDays) + "%");
             }
             System.out.println("Would you like to try a different zipcode? (yes/no)");
@@ -55,27 +63,36 @@ public class SnowDayCalculatorUI extends HTMLScanning {
      * @return percent chance of a snow day
      * @throws ParseException //
      */
-    public int prediction(int zipcode, String school, int prevSnowDays) throws ParseException {
+    public double prediction(int zipcode, String school, int prevSnowDays) throws ParseException {
         HashMap<String, Double> map = weatherData(zipcode);
-        int finalPrediciton = (int) (map.get("snow") * 10);
-        double PrevSnowDaysMultiplier;
+        double finalPrediciton = 1.0;
+        finalPrediciton += (map.get("snow") * 16);
         if (prevSnowDays <= 2) {
-            PrevSnowDaysMultiplier = 1.2;
+            finalPrediciton *= 1.15;
         } else if (prevSnowDays <= 5) {
-            PrevSnowDaysMultiplier = 1;
+            finalPrediciton *= 1;
         } else if (prevSnowDays <= 7) {
-            PrevSnowDaysMultiplier = 0.7;
+            finalPrediciton *= 0.7;
         } else {
-            PrevSnowDaysMultiplier = 0.6;
+            finalPrediciton *= 0.6;
         }
-        finalPrediciton *= PrevSnowDaysMultiplier;
+        if (map.get("preciptype") == 1.0 && map.get("temp") < 32) {
+            finalPrediciton *= 2;
+        } else if (map.get("preciptype") == 3.0) {
+            finalPrediciton *= 1.2;
+        } else {
+            finalPrediciton *= 1.1;
+        }
         if (school.equalsIgnoreCase("private")) {
             finalPrediciton *= 1.1;
-        } else if (school.equalsIgnoreCase("public")) {
-            finalPrediciton *= 0.9;
         }
         if (map.get("tempmin") < 32) {
             finalPrediciton *= 1.5;
+        }
+        if (map.get("temp") < 32) {
+            finalPrediciton *= 1.5;
+        } else {
+            finalPrediciton *= 0.95;
         }
 
         //If above 100, very likely but not 100 percent, sets to 97 by default

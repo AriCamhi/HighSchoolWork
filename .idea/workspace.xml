@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Finished snow day calculator. Going to do test cases later on to check since testing only returns limited chance due to no snow as of making.">
-      <change afterPath="$PROJECT_DIR$/SnowDayCalculator/src/test/java/SnowDayCalcTester.java" afterDir="false" />
+    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Almost complete with testing for snow day calculator.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SnowDayCalculator/src/main/java/HTMLScanning.java" beforeDir="false" afterPath="$PROJECT_DIR$/SnowDayCalculator/src/main/java/HTMLScanning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SnowDayCalculator/src/main/java/SnowDayCalculatorUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/SnowDayCalculator/src/main/java/SnowDayCalculatorUI.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +73,7 @@
       <recent name="C:\Users\arijc\IdeaProjects\HighSchoolWork\ATCS\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HTMLScanning">
+  <component name="RunManager" selected="Application.SnowDayCalculatorUI">
     <configuration name="AnagramUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnagramUI" />
       <module name="ATCS" />
@@ -140,8 +137,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.HTMLScanning" />
         <item itemvalue="Application.SnowDayCalculatorUI" />
+        <item itemvalue="Application.HTMLScanning" />
         <item itemvalue="Application.arrays2D" />
         <item itemvalue="Application.AnagramUI" />
         <item itemvalue="Application.Library" />
@@ -325,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684776367585</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Almost complete with testing for snow day calculator.">
+      <created>1685620922010</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1685620922010</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -359,7 +363,8 @@
     <MESSAGE value="Minor changes throughout all classes, major changes in the linked lists classes" />
     <MESSAGE value="Changes." />
     <MESSAGE value="Finished snow day calculator. Going to do test cases later on to check since testing only returns limited chance due to no snow as of making." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished snow day calculator. Going to do test cases later on to check since testing only returns limited chance due to no snow as of making." />
+    <MESSAGE value="Almost complete with testing for snow day calculator." />
+    <option name="LAST_COMMIT_MESSAGE" value="Almost complete with testing for snow day calculator." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -368,11 +373,6 @@
           <url>file://$PROJECT_DIR$/ATCS/src/main/java/LibraryLab/Library.java</url>
           <line>36</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/SnowDayCalculator/src/main/java/HTMLScanning.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

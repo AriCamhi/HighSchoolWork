@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Almost complete with testing for snow day calculator.">
+    <list default="true" id="a0b218f4-25ec-4b80-8bbd-5905b03426c3" name="Changes" comment="Complete with all of ATCS">
+      <change afterPath="$PROJECT_DIR$/ATCS/src/main/java/FullRandom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATCS/src/main/java/RandomMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/ATCS/src/main/java/RandomMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +75,7 @@
       <recent name="C:\Users\arijc\IdeaProjects\HighSchoolWork\ATCS\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SnowDayCalculatorUI">
+  <component name="RunManager" selected="Application.FullRandom">
     <configuration name="AnagramUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AnagramUI" />
       <module name="ATCS" />
@@ -81,22 +83,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HTMLScanning" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HTMLScanning" />
-      <module name="SnowDayCalculator" />
+    <configuration name="CanIReverseAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CanIReverseAString" />
+      <module name="ATCS" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LibraryLab.Library" />
+    <configuration name="FullRandom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FullRandom" />
       <module name="ATCS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LibraryLab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RandomMethods" />
+      <module name="ATCS" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,13 +107,6 @@
     <configuration name="SnowDayCalculatorUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SnowDayCalculatorUI" />
       <module name="SnowDayCalculator" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="arrays2D" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays2D" />
-      <module name="ATCS" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,19 +125,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.FullRandom" />
+      <item itemvalue="Application.RandomMethods" />
+      <item itemvalue="Application.CanIReverseAString" />
       <item itemvalue="Application.SnowDayCalculatorUI" />
-      <item itemvalue="Application.HTMLScanning" />
       <item itemvalue="Application.AnagramUI" />
-      <item itemvalue="Application.arrays2D" />
-      <item itemvalue="Application.Library" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SnowDayCalculatorUI" />
-        <item itemvalue="Application.HTMLScanning" />
-        <item itemvalue="Application.arrays2D" />
+        <item itemvalue="Application.FullRandom" />
+        <item itemvalue="Application.RandomMethods" />
         <item itemvalue="Application.AnagramUI" />
-        <item itemvalue="Application.Library" />
+        <item itemvalue="Application.CanIReverseAString" />
+        <item itemvalue="Application.SnowDayCalculatorUI" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +325,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685620922010</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Complete with all of ATCS">
+      <created>1686075176170</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1686075176170</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -364,7 +367,8 @@
     <MESSAGE value="Changes." />
     <MESSAGE value="Finished snow day calculator. Going to do test cases later on to check since testing only returns limited chance due to no snow as of making." />
     <MESSAGE value="Almost complete with testing for snow day calculator." />
-    <option name="LAST_COMMIT_MESSAGE" value="Almost complete with testing for snow day calculator." />
+    <MESSAGE value="Complete with all of ATCS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Complete with all of ATCS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -373,6 +377,11 @@
           <url>file://$PROJECT_DIR$/ATCS/src/main/java/LibraryLab/Library.java</url>
           <line>36</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ATCS/src/main/java/RandomMethods.java</url>
+          <line>327</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

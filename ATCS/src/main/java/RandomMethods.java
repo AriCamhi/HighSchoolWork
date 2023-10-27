@@ -321,7 +321,7 @@ public class RandomMethods {
      *
      * @param arr
      */
-    public void bubbleSort(int[] arr) {
+    public int[] bubbleSort(int[] arr) {
         int temp;
         int current;
         int right;
@@ -336,7 +336,7 @@ public class RandomMethods {
                 }
             }
         }
-        System.out.println(Arrays.toString(arr));
+        return arr;
     }
 
     public int[] twoSum(int[] nums, int target) {
@@ -591,6 +591,7 @@ public class RandomMethods {
         //r.power(5, 3);
         //oddEvenSort(arr);
         //r.simplifyRadical(50);
+        System.out.println(Arrays.toString(r.bubbleSort(arr)));
     }
 
 }
